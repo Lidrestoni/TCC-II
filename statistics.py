@@ -8,16 +8,16 @@ def makeStatistics(pt):
 	n = 0
 	rssi = 0
 	snr = 0
-	for i in range(3, len(ptsplit))[::11]:
+	for i in range(3, len(ptsplit))[::8]:
 		#ptsplit[i+3].split(')')[0] /id do pacote
-		rssi = rssi+float(ptsplit[i+5])
-		snr = snr+float(ptsplit[i+10])
+		rssi = rssi+float(ptsplit[i+4])
+		snr = snr+float(ptsplit[i+7])
 		n = n+1
 	rssi = rssi/n
 	snr = snr/n
 	return rssi, snr
 
-path = '20*'
+path = 'testes/20*'
 files = glob.glob(path)
 totSnr = 0
 totRssi = 0
