@@ -17,6 +17,7 @@ unsigned int counter = 0;
 SSD1306 display(0x3c, 21, 22);
 String packSize = "--";
 String packet ;
+unsigned int TxPower;
 
  
 
@@ -45,7 +46,7 @@ void setup() {
   display.init();
   display.flipScreenVertically();  
   display.setFont(ArialMT_Plain_10);
-   
+  TxPower = LoRa.returnTxPower();
   delay(1500);
 }
 
@@ -56,13 +57,17 @@ void loop() {
   
   display.drawString(0, 0, "Sending packet: ");
   display.drawString(90, 0, String(counter));
+  display.drawString(0, 15, "Tx Power: ");
+  display.drawString(60, 15, String(TxPower));
   Serial.println(String(counter));
   display.display();
 
   // send packet
   LoRa.beginPacket();
-  LoRa.print("hello ");
+  LoRa.print("oi ");
   LoRa.print(counter);
+  LoRa.print(" ");
+  LoRa.print(TxPower);
   LoRa.endPacket();
 
   counter++;
