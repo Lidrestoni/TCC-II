@@ -3,21 +3,30 @@ import errno
 import os
 
 def makeStatistics(pt):
-	ptsplit = pt.split()
-	data = ptsplit[0]
-	baud = ptsplit[1]
+	ptsplit = pt.splitlines()
+	lin = ptsplit[0].split(" ")
+	data = lin[0]
+	baud = lin[1]
+	distance = lin[2]
 	n = 0
 	rssi = 0
 	snr = 0
 	pktId = 0
-	for i in range(3, len(ptsplit))[::9]:
-		pktId = ptsplit[i+2]
-		rssi = rssi+float(ptsplit[i+5])
-		snr = snr+float(ptsplit[i+8])
-		n = n+1
+	tx = -1
+	for i in range(1, len(ptsplit)):
+		try:
+			lin = ptsplit[i].split(" ")
+			pktId = lin[2]
+			rssi = rssi+float(lin[5])
+			snr = snr+float(lin[8])
+			n = n+1
+			if(tx<0):
+				tx = lin[3].split(")")[0]
+		except:
+			continue
 	rssi = rssi/n
 	snr = snr/n
-	return rssi, snr, pktId, n, ptsplit[6].split(')')[0], ptsplit[2]
+	return rssi, snr, pktId, n, tx, distance
 
 testes = []
 path = 'testes/20*'

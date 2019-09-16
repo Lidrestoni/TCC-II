@@ -20,7 +20,7 @@ with open(fileName, "w") as f:
 		dis = input()
 		f.write(hoje[7:-1]+" 115200 "+dis+"\n")
 		while True:
-			with serial.Serial('/dev/ttyUSB0', 115200) as ser:
+			with serial.Serial('/dev/ttyUSB0', 115200, timeout = None) as ser:
 				x = ser.readline()
 				try:
 					f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x.decode().replace("\n", "").replace("\r", "")+"\n")
