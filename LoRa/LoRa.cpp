@@ -66,11 +66,6 @@ LoRaClass::LoRaClass() :
   setTimeout(0);
 }
 
-void LoRaClass::resetTxPower(unsigned int x)
-{
-	setTxPower(x);	
-}
-
 int LoRaClass::begin(long frequency, unsigned int TxP)
 {
 #ifdef ARDUINO_SAMD_MKRWAN1300

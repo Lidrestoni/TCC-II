@@ -33,7 +33,6 @@ public:
   int begin(long frequency, unsigned int TxP);
   void end();
 
-  void resetTxPower(unsigned int x);
   int beginPacket(int implicitHeader = false);
   int endPacket();
 
@@ -63,6 +62,7 @@ public:
   void setTxPower(int level, int outputPin = PA_OUTPUT_PA_BOOST_PIN);
   void setFrequency(long frequency);
   void setSpreadingFactor(int sf);
+  int getSpreadingFactor();
   void setSignalBandwidth(long sbw);
   void setCodingRate4(int denominator);
   void setPreambleLength(long length);
@@ -88,7 +88,6 @@ private:
 
   void handleDio0Rise();
 
-  int getSpreadingFactor();
   long getSignalBandwidth();
 
   void setLdoFlag();

@@ -9,9 +9,11 @@
 #define RST     14   // GPIO14 -- SX1278's RESET
 #define DI0     26   // GPIO26 -- SX1278's IRQ(Interrupt Request)
 
-#define maxCounter 600
+#define maxCounter 6
 #define minTxPower 2
-#define maxTxPower 17
+#define maxTxPower 4
+#define minSf 6
+#define maxSf 12
 unsigned int counter = 0;
 
 SSD1306 display(0x3c, 21, 22);
@@ -19,10 +21,20 @@ String packSize = "--";
 String packet ;
 unsigned int TxPower = minTxPower;
 
+
 void raiseTxPower(){
   TxPower++;
   if(TxPower<=maxTxPower)
-    LoRa.resetTxPower(TxPower);  
+    LoRa.setTxPower(TxPower);  
+}
+void raiseSpreadingFactor(){
+  unsigned int sf = LoRa.getSpreadingFactor();
+  if(sf+1<=maxSf)
+    LoRa.setSpreadingFactor(sf);
+  else{
+    LoRa.setSpreadingFactor(minSf);
+    counter = -1;  
+  }
 }
 
 void setup() {
@@ -37,13 +49,13 @@ void setup() {
   while (!Serial);
   Serial.println();
   Serial.println("LoRa Sender Test");
-  
   SPI.begin(SCK,MISO,MOSI,SS);
   LoRa.setPins(SS,RST,DI0);
   if (!LoRa.begin(915E6, TxPower)) {
     Serial.println("Starting LoRa failed!");
     while (1);
   }
+  LoRa.setSpreadingFactor(minSf);
   Serial.println("init ok");
   display.init();
   display.flipScreenVertically();  
@@ -71,9 +83,8 @@ void loop() {
     else{
       raiseTxPower();
       if(TxPower>maxTxPower){
-        display.drawString(0, 0, "Maximum TxPower of "+String(maxTxPower+1));
-        display.drawString(0, 15, " has been reached!");
-        display.display();
+        raiseSpreadingFactor();
+        TxPower = minTxPower;
       }
       else{
         counter = -1;
@@ -85,12 +96,15 @@ void loop() {
    display.drawString(90, 0, String(counter));
    display.drawString(0, 15, "Tx Power: ");
    display.drawString(60, 15, String(TxPower));
+   display.drawString(0, 30, "Spreading Factor: ");
+   display.drawString(90, 30, String(LoRa.getSpreadingFactor()));
    Serial.println(String(counter));
    display.display();
 
    // send packet
    LoRa.beginPacket();
-   LoRa.print("oi ");
+   LoRa.print(LoRa.getSpreadingFactor());
+   LoRa.print(" ");
    LoRa.print(counter);
    LoRa.print(" ");
    LoRa.print(TxPower);

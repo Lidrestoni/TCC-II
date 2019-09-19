@@ -41,7 +41,8 @@ void cbk(int packetSize) {
     display.drawString(0 , 20 , "Received "+ packSize + " bytes");
     display.drawStringMaxWidth(0 , 36 , 128, packet);
     display.drawString(0, 0, rssi); 
-    display.drawString(0, 10, snr); 
+    display.drawString(0, 10, snr);
+    display.drawString(0, 30, String(LoRa.getSpreadingFactor())); 
     Serial.println(packet+")RSSI: "+rssi+ " SNR: "+snr);
   }   
   display.display();
