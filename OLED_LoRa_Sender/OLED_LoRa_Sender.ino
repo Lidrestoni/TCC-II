@@ -21,6 +21,11 @@ String packSize = "--";
 String packet ;
 unsigned int TxPower = minTxPower;
 
+void startSFandTXPat(unsigned int sf, unsigned int txp){
+  LoRa.setSpreadingFactor(sf);
+  LoRa.setTxPower(txp);
+  TxPower = txp;
+}
 
 void raiseTxPower(){
   TxPower++;
@@ -31,10 +36,9 @@ void raiseSpreadingFactor(){
   unsigned int sf = LoRa.getSpreadingFactor()+1;
   if(sf<=maxSf)
     LoRa.setSpreadingFactor(sf);
-  else{
+  else
     LoRa.setSpreadingFactor(minSf);
-    counter = -1;  
-  }
+  counter = -1;  
 }
 
 void setup() {
@@ -55,7 +59,7 @@ void setup() {
     Serial.println("Starting LoRa failed!");
     while (1);
   }
-  //LoRa.setSpreadingFactor(minSf);
+  startSFandTXPat(8,2);
   Serial.println("init ok");
   display.init();
   display.flipScreenVertically();  

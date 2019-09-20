@@ -18,7 +18,7 @@ while(True):
 		continue
 while(testEnd==True):
 	files = glob.glob(hoje+"*")
-	files.sort()
+	files.sort(key= lambda x: int(x.split("_")[1]))
 	n="0"
 	if files:
 		n=files[len(files)-1][len(hoje):]
@@ -33,11 +33,14 @@ while(testEnd==True):
 			f.write(hoje[7:-1]+" 115200 "+dis+"\n")
 			while True:
 				with serial.Serial('/dev/ttyUSB0', 115200, timeout = None) as ser:
-					x = ser.readline()
-					x = x.decode().replace("\n", "").replace("\r", "")
+					try:
+						x = ser.readline()
+						x = x.decode().replace("\n", "").replace("\r", "")
+					except:
+						continue
 					if(x[0]=='E' and x[1]=='N' and x[2]=='D'):
 						if(voidMessage==False):
-							print("\nArquivo '"+fileName+"' foi salvo com sucesso!")
+							print("\nArquivo '"+fileName+"' foi salvo com sucesso!\nAguardando novo teste...")
 							testEnd = True
 							f.close()
 							break
@@ -51,6 +54,7 @@ while(testEnd==True):
 			if(voidMessage==True):
 				os.remove(fileName)
 				print("Erro inesperado! O arquivo "+fileName+" foi excluído!")
-				raise
 			else:
-				print("\nArquivo '"+fileName+"' foi salvo com sucesso!")
+				print("\nArquivo '"+fileName+"' foi salvo com sucesso!\n Fim dos Testes!")
+			raise
+

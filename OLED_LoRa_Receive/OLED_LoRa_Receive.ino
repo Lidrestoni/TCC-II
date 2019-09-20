@@ -71,6 +71,7 @@ void setup() {
     Serial.println("Starting LoRa failed!");
     while (1);
   }
+  LoRa.setSpreadingFactor(7);
   LoRa.receive();
   Serial.println("init ok");
   display.init();
