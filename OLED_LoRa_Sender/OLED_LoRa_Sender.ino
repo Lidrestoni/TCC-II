@@ -9,12 +9,12 @@
 #define RST     14   // GPIO14 -- SX1278's RESET
 #define DI0     26   // GPIO26 -- SX1278's IRQ(Interrupt Request)
 
-#define maxCounter 6
+#define maxCounter 500
 #define minTxPower 2
-#define maxTxPower 4
-#define minSf 6
+#define maxTxPower 17
+#define minSf 7
 #define maxSf 12
-unsigned int counter = 0;
+int counter = 0;
 
 SSD1306 display(0x3c, 21, 22);
 String packSize = "--";
@@ -28,8 +28,8 @@ void raiseTxPower(){
     LoRa.setTxPower(TxPower);  
 }
 void raiseSpreadingFactor(){
-  unsigned int sf = LoRa.getSpreadingFactor();
-  if(sf+1<=maxSf)
+  unsigned int sf = LoRa.getSpreadingFactor()+1;
+  if(sf<=maxSf)
     LoRa.setSpreadingFactor(sf);
   else{
     LoRa.setSpreadingFactor(minSf);
@@ -55,7 +55,7 @@ void setup() {
     Serial.println("Starting LoRa failed!");
     while (1);
   }
-  LoRa.setSpreadingFactor(minSf);
+  //LoRa.setSpreadingFactor(minSf);
   Serial.println("init ok");
   display.init();
   display.flipScreenVertically();  
@@ -68,8 +68,24 @@ void loop() {
   display.clear();
   display.setTextAlignment(TEXT_ALIGN_LEFT);
   display.setFont(ArialMT_Plain_10);
+  int sf = LoRa.getSpreadingFactor();
+  sf = sf+1>maxSf? minSf : sf+1;
   
-  if(counter>maxCounter){
+  if(counter<-1){
+      display.drawString(0, 0, "Changing Spreading Factor");
+      display.drawString(0,15, " to "+String(sf));
+      display.display();
+
+      // send packet
+      LoRa.beginPacket();
+      LoRa.print("ENS"+String(sf));
+      LoRa.endPacket(); 
+  }
+  else if(counter==-1){
+    raiseSpreadingFactor();
+    TxPower = minTxPower;
+  }
+  else if(counter>maxCounter){
     if(counter<maxCounter+7){
       display.drawString(0, 0, "Tests with TxPower "+String(TxPower));
       display.drawString(0, 15," have ended!");
@@ -82,13 +98,10 @@ void loop() {
     }
     else{
       raiseTxPower();
-      if(TxPower>maxTxPower){
-        raiseSpreadingFactor();
-        TxPower = minTxPower;
-      }
-      else{
-        counter = -1;
-      }  
+      if(TxPower>maxTxPower)
+        counter = -7;
+      else
+        counter = -1; 
     }
   }
   else{

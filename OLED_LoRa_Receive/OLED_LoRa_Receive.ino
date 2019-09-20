@@ -13,7 +13,7 @@ String rssi = "RSSI --";
 String snr = "SNR --";
 String packSize = "--";
 String packet ;
-String TxPower ;
+String aux ;
 
 void cbk(int packetSize) {
   packet ="";
@@ -26,23 +26,30 @@ void cbk(int packetSize) {
   display.setTextAlignment(TEXT_ALIGN_LEFT);
   display.setFont(ArialMT_Plain_10);
     
-  if(packet[0]=='E'&&packet[1]=='N'&&packet[2]=='D'){
-    TxPower = packet[3];
-    if(packetSize>3){
-      TxPower+=packet[4];
+  if(packet[0]=='E'&&packet[1]=='N'){
+    aux = packet[3];
+    if(packetSize>3)
+      aux+=packet[4];
+    if(packet[2]=='D'){
+      display.drawString(0, 0, "Tests with TxPower "+String(aux));
+      display.drawString(0, 15," have ended!");
     }
-    display.drawString(0, 0, "Tests with TxPower "+String(TxPower));
-    display.drawString(0, 15," have ended!");
+    else{
+      display.drawString(0, 0, "Changing Spreading Factor");
+      display.drawString(0, 15," to "+String(aux));
+      LoRa.setSpreadingFactor(aux.toInt());
+    }
+    
     Serial.println(packet);
   }
   else{
     rssi = "RSSI " + String(LoRa.packetRssi(), DEC) ;
     snr = "SNR " + String(LoRa.packetSnr(),DEC);
-    display.drawString(0 , 20 , "Received "+ packSize + " bytes");
-    display.drawStringMaxWidth(0 , 36 , 128, packet);
+    display.drawString(0 , 30 , "Received "+ packSize + " bytes");
+    display.drawStringMaxWidth(0 , 46 , 128, packet);
     display.drawString(0, 0, rssi); 
     display.drawString(0, 10, snr);
-    display.drawString(0, 30, String(LoRa.getSpreadingFactor())); 
+    display.drawString(0, 20, "SF: "+String(LoRa.getSpreadingFactor())); 
     Serial.println(packet+")RSSI: "+rssi+ " SNR: "+snr);
   }   
   display.display();
@@ -75,6 +82,8 @@ void setup() {
 
 void loop() {
   int packetSize = LoRa.parsePacket();
-  if (packetSize) { cbk(packetSize);  }
+  if (packetSize) {
+    cbk(packetSize);
+  }
   delay(10);
 }
