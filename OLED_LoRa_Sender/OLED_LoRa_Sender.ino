@@ -1,81 +1,17 @@
-#include <LoRa.h>  
-#include "SSD1306.h" 
-
-
-#define SCK     5    // GPIO5  -- SX1278's SCK
-#define MISO    19   // GPIO19 -- SX1278's MISnO
-#define MOSI    27   // GPIO27 -- SX1278's MOSI
-#define SS      18   // GPIO18 -- SX1278's CS
-#define RST     14   // GPIO14 -- SX1278's RESET
-#define DI0     26   // GPIO26 -- SX1278's IRQ(Interrupt Request)
-
-#define maxCounter 500
-#define minTxPower 2
-#define maxTxPower 17
-#define minSf 7
-#define maxSf 12
-int counter = 0;
-
-SSD1306 display(0x3c, 21, 22);
-String packSize = "--";
-String packet ;
-unsigned int TxPower = minTxPower;
-
-void startSFandTXPat(unsigned int sf, unsigned int txp){
-  LoRa.setSpreadingFactor(sf);
-  LoRa.setTxPower(txp);
-  TxPower = txp;
-}
-
-void raiseTxPower(){
-  TxPower++;
-  if(TxPower<=maxTxPower)
-    LoRa.setTxPower(TxPower);  
-}
-void raiseSpreadingFactor(){
-  unsigned int sf = LoRa.getSpreadingFactor()+1;
-  if(sf<=maxSf)
-    LoRa.setSpreadingFactor(sf);
-  else
-    LoRa.setSpreadingFactor(minSf);
-  counter = -1;  
-}
+#include "functions.h"
 
 void setup() {
   pinMode(16,OUTPUT);
   pinMode(2,OUTPUT);
-  
-  digitalWrite(16, LOW);    // set GPIO16 low to reset OLED
-  delay(50); 
-  digitalWrite(16, HIGH); // while OLED is running, must set GPIO16 in high
-  
-  Serial.begin(115200);
-  while (!Serial);
-  Serial.println();
-  Serial.println("LoRa Sender Test");
-  SPI.begin(SCK,MISO,MOSI,SS);
-  LoRa.setPins(SS,RST,DI0);
-  if (!LoRa.begin(915E6, TxPower)) {
-    Serial.println("Starting LoRa failed!");
-    while (1);
-  }
-  startSFandTXPat(8,2);
-  Serial.println("init ok");
-  display.init();
-  display.flipScreenVertically();  
-  display.setFont(ArialMT_Plain_10);
-  
-  delay(1500);
+  generalSetup("Sender");
 }
 
 void loop() {
-  display.clear();
-  display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(ArialMT_Plain_10);
+  clearDisplay();
   int sf = LoRa.getSpreadingFactor();
   sf = sf+1>maxSf? minSf : sf+1;
   
-  if(counter<-1){
+  if(raiseSF->waiting()){
       display.drawString(0, 0, "Changing Spreading Factor");
       display.drawString(0,15, " to "+String(sf));
       display.display();
@@ -84,13 +20,13 @@ void loop() {
       LoRa.beginPacket();
       LoRa.print("ENS"+String(sf));
       LoRa.endPacket(); 
+      raiseSF->tickTack();
+      if(!raiseSF->waiting())
+        setTxPowerTo(TxPower+1,0);
+        
   }
-  else if(counter==-1){
-    raiseSpreadingFactor();
-    TxPower = minTxPower;
-  }
-  else if(counter>maxCounter){
-    if(counter<maxCounter+7){
+  else if(counter>nPackets){
+    if(counter<nPackets+endOfTestsDelay){
       display.drawString(0, 0, "Tests with TxPower "+String(TxPower));
       display.drawString(0, 15," have ended!");
       display.display();
@@ -100,13 +36,8 @@ void loop() {
       LoRa.print("END"+String(TxPower));
       LoRa.endPacket();
     }
-    else{
-      raiseTxPower();
-      if(TxPower>maxTxPower)
-        counter = -7;
-      else
-        counter = -1; 
-    }
+    else
+      setTxPowerTo(TxPower+1,endOfTestsDelay); 
   }
   else{
    display.drawString(0, 0, "Sending packet: ");
@@ -120,11 +51,12 @@ void loop() {
 
    // send packet
    LoRa.beginPacket();
-   LoRa.print(LoRa.getSpreadingFactor());
+   LoRa.print(validMessage);
+   /*LoRa.print(LoRa.getSpreadingFactor());
    LoRa.print(" ");
    LoRa.print(counter);
-   LoRa.print(" ");
-   LoRa.print(TxPower);
+   LoRa.print(" ");r
+   LoRa.print(TxPower);*/
    LoRa.endPacket();
   }
   

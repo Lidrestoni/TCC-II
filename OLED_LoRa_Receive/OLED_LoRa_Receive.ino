@@ -1,19 +1,9 @@
-#include <LoRa.h>
-#include "SSD1306.h" 
+#include "functions.h"
 
-#define SCK     5    // GPIO5  -- SX1278's SCK
-#define MISO    19   // GPIO19 -- SX1278's MISO
-#define MOSI    27   // GPIO27 -- SX1278's MOSI
-#define SS      18   // GPIO18 -- SX1278's CS
-#define RST     14   // GPIO14 -- SX1278's RESET
-#define DI0     26   // GPIO26 -- SX1278's IRQ(Interrupt Request)
-
-SSD1306 display(0x3c, 21, 22);
 String rssi = "RSSI --";
 String snr = "SNR --";
-String packSize = "--";
-String packet ;
 String aux ;
+String cTxp = String(initTxPower);
 
 void cbk(int packetSize) {
   packet ="";
@@ -21,10 +11,8 @@ void cbk(int packetSize) {
   for (int i = 0; i < packetSize; i++) { 
     packet += (char) LoRa.read(); 
   }
-  
-  display.clear();
-  display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(ArialMT_Plain_10);
+   
+  clearDisplay();
     
   if(packet[0]=='E'&&packet[1]=='N'){
     aux = packet[3];
@@ -33,52 +21,35 @@ void cbk(int packetSize) {
     if(packet[2]=='D'){
       display.drawString(0, 0, "Tests with TxPower "+String(aux));
       display.drawString(0, 15," have ended!");
+      cTxp = String(aux.toInt()+1);
     }
     else{
       display.drawString(0, 0, "Changing Spreading Factor");
       display.drawString(0, 15," to "+String(aux));
       LoRa.setSpreadingFactor(aux.toInt());
+      cTxp = String(minTxPower);
     }
     
     Serial.println(packet);
   }
-  else{
+  else if(validMessage.equals(packet)){
     rssi = "RSSI " + String(LoRa.packetRssi(), DEC) ;
     snr = "SNR " + String(LoRa.packetSnr(),DEC);
-    display.drawString(0 , 30 , "Received "+ packSize + " bytes");
-    display.drawStringMaxWidth(0 , 46 , 128, packet);
     display.drawString(0, 0, rssi); 
     display.drawString(0, 10, snr);
-    display.drawString(0, 20, "SF: "+String(LoRa.getSpreadingFactor())); 
-    Serial.println(packet+")RSSI: "+rssi+ " SNR: "+snr);
+    display.drawString(0, 20, "SF: "+String(LoRa.getSpreadingFactor()));
+    display.drawString(0, 30, "TxPower: "+cTxp); 
+    display.drawString(0, 40, "Received "+ packSize + " bytes");
+    Serial.println(rssi+" "+snr);
   }   
+  else
+    display.drawString(0 , 0 , "Broken package!");
   display.display();
 }
 
 void setup() {
   pinMode(16,OUTPUT);
-  digitalWrite(16, LOW);    // set GPIO16 low to reset OLED
-  delay(50); 
-  digitalWrite(16, HIGH); // while OLED is running, must set GPIO16 in high、
-  
-  Serial.begin(115200);
-  while (!Serial);
-  Serial.println();
-  Serial.println("LoRa Receiver Callback");
-  SPI.begin(SCK,MISO,MOSI,SS);
-  LoRa.setPins(SS,RST,DI0);  
-  if (!LoRa.begin(915E6,1)) {
-    Serial.println("Starting LoRa failed!");
-    while (1);
-  }
-  LoRa.setSpreadingFactor(7);
-  LoRa.receive();
-  Serial.println("init ok");
-  display.init();
-  display.flipScreenVertically();  
-  display.setFont(ArialMT_Plain_10);
-   
-  delay(1500);
+  generalSetup("Receiver");
 }
 
 void loop() {

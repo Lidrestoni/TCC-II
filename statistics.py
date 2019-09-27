@@ -8,11 +8,16 @@ def makeVStatistics(ptsplit, rssi, snr, n):
 	for i in range(1, len(ptsplit)):
 		try:
 			lin = ptsplit[i].split(" ")
-			vRssi = vRssi+ (float(lin[5])-float(rssi))**2
-			vSnr = vSnr+ (float(lin[8])-float(snr))**2
+			vRssi = vRssi+ (float(lin[2])-float(rssi))**2
+			vSnr = vSnr+ (float(lin[4])-float(snr))**2
 		except:
 			continue
-	return vRssi/int(n), vSnr/int(n)	
+	try:
+		vRssi/=int(n)
+		vSnr/=int(n)
+	except:
+		vRssi=vSnr=0
+	return vRssi, vSnr	
 
 def makeStatistics(pt):
 	ptsplit = pt.splitlines()
@@ -20,29 +25,27 @@ def makeStatistics(pt):
 	data = lin[0]
 	baud = lin[1]
 	distance = lin[2]
+	sf = lin[3]
+	tx = lin[4]
+	nPackets = lin[5]
 	n = 0
 	rssi = 0
 	snr = 0
-	pktId = 0
-	tx = -1
-	sf = -1
 	for i in range(1, len(ptsplit)):
 		try:
 			lin = ptsplit[i].split(" ")
-			pktId = lin[2] if lin[2].isdigit() else pktId
-			rssi = rssi+float(lin[5])
-			snr = snr+float(lin[8])
+			rssi = rssi+float(lin[2])
+			snr = snr+float(lin[4])
 			n = n+1
-			if(tx<0):
-				tx = lin[3].split(")")[0]
-			if(sf<0):
-				sf = lin[1]
 		except:
 			continue
-	rssi = rssi/n
-	snr = snr/n
+	try:
+		rssi = rssi/n
+		snr = snr/n
+	except:
+		rssi = snr = 0
 	vRssi, vSnr = makeVStatistics(ptsplit, rssi, snr, n)
-	return rssi, snr, pktId, n, tx,sf, distance, vRssi, vSnr
+	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr
 
 testes = []
 path = 'testes/20*'
@@ -51,7 +54,7 @@ Snr = 0
 vSnr = 0
 Rssi = 0
 vRssi = 0
-lastId = 0
+recvPackets = 0
 nPackets = 0
 TxP = 0
 dstc = 0
@@ -63,11 +66,11 @@ for name in files:
 		if(len(plaintext)<1000):
 			os.remove(name)
 			continue
-		Rssi,Snr,lastId,nPackets, TxP,SF, dstc, vRssi, vSnr = makeStatistics(plaintext)
+		Rssi,Snr,recvPackets,nPackets, TxP,SF, dstc, vRssi, vSnr = makeStatistics(plaintext)
 	except IOError as erro:
 		if erro.errno != errno.EISDIR:
 			raise
-	testes.append([TxP, dstc, Rssi, Snr, nPackets, lastId, vRssi, vSnr, SF])
+	testes.append([TxP, dstc, Rssi, Snr, recvPackets, nPackets, vRssi, vSnr, SF])
 	
 i = n = 0
 testes.sort(key= lambda x:(int(x[8]),int(x[0]),float(x[1])), reverse=True)
