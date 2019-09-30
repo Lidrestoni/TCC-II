@@ -10,11 +10,19 @@ with open("constants.h") as f:
 	plaintext = f.read()
 for a in plaintext.splitlines():
 	b = a.split(' ', 4)
-	constants[str(b[2])] = (int if b[2]=="int" else str)(b[4][:-2])
-
+	constants[str(b[2])] = (int if b[1]=="int" else str)(b[4][:-2])
 SF = constants["initSf"]
 TxPower = constants["initTxPower"]
 hoje = "testes/"+date.today().strftime("%Y-%m-%d_")
+
+def getNextTxPower(sf, txp):
+	txp+=1
+	if(txp>constants["maxTxPower"]):
+		txp = constants["minTxPower"]
+		sf+=1
+		if(sf>constants["maxSf"]):
+			sf = constants["minSf"]
+	return sf, txp
 
 voidMessage = True
 testEnd = True
@@ -54,16 +62,13 @@ while(testEnd==True):
 								aux = x[3]
 								if(len(x)>4):
 									aux+=x[4]
-								TxPower = int(aux)
+								SF,TxPower = getNextTxPower(SF, int(aux))
 								print("\nArquivo '"+fileName+"' foi salvo com sucesso!\nAguardando novo teste...")
 								testEnd = True
 								f.close()
 								break
 						elif(x[2]=='S'):
-							aux = x[3]
-							if(len(x)>4):
-								aux+=x[4]
-							SF = int(aux)
+							continue
 					else:
 						voidMessage = False
 						try:

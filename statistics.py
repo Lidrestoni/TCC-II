@@ -73,7 +73,7 @@ for name in files:
 	testes.append([TxP, dstc, Rssi, Snr, recvPackets, nPackets, vRssi, vSnr, SF])
 	
 i = n = 0
-testes.sort(key= lambda x:(int(x[8]),int(x[0]),float(x[1])), reverse=True)
+testes.sort(key= lambda x:(float(x[1]),int(x[8]),int(x[0])), reverse=True)
 while i<len(testes)-n:
 	if(i+1<len(testes)-n):
 		if(testes[i][0]==testes[i+1][0] and testes[i][1]==testes[i+1][1]and testes[i][8]==testes[i+1][8]):
@@ -88,15 +88,35 @@ while i<len(testes)-n:
 	else:
 		i = i+1
 n=0
+auxDist = -1.0
+auxSf = -1
+auxTxp = -1
 for lt in testes:
 	n = n+1
+	if(auxDist!=lt[1]):
+		print("\n\n\n\n\n\n\n\n-------------------------------------------")
+		print("-------------------------------------------")
+		print("             || Distance: "+str(lt[1])+" cms ||")
+		print("-------------------------------------------")
+		print("-------------------------------------------")
+		auxDist = lt[1]
+		auxSf=-1
+		auxTxp=-1
+	if(auxSf!=lt[8]):
+		print("\n\n\n------------------------------")
+		print("     |Spreading Factor "+str(lt[8])+"|")
+		print("------------------------------")
+		auxSf=lt[8]
+	if(auxTxp!=lt[0]):
+		print("_____________________")
+		print("Tx Power: "+str(lt[0]))
+		print("_____________________")
+		auxTxp=lt[0]
+		
 	print("Teste nº "+str(n))
-	print("Spreading Factor "+str(lt[8]))
-	print("Tx Power: "+str(lt[0]))
-	print("Distance: "+str(lt[1])+" cms")
 	print("Total RSSI: "+ str(lt[2]))
 	print("Standard deviation of RSSI: "+str(math.sqrt(float(lt[6]))))
 	print("Total SNR: "+ str(lt[3]))
 	print("Standard deviation of SNR: "+str(math.sqrt(float(lt[7]))))
-	print("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)")
-	print("---------------------")
+	print("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)\n")
+	

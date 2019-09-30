@@ -25,7 +25,7 @@ void loop() {
         setTxPowerTo(TxPower+1,0);
         
   }
-  else if(counter>nPackets){
+  else if(counter>=nPackets){
     if(counter<nPackets+endOfTestsDelay){
       display.drawString(0, 0, "Tests with TxPower "+String(TxPower));
       display.drawString(0, 15," have ended!");
@@ -41,22 +41,17 @@ void loop() {
   }
   else{
    display.drawString(0, 0, "Sending packet: ");
-   display.drawString(90, 0, String(counter));
+   display.drawString(90, 0, String(counter+1));
    display.drawString(0, 15, "Tx Power: ");
    display.drawString(60, 15, String(TxPower));
    display.drawString(0, 30, "Spreading Factor: ");
    display.drawString(90, 30, String(LoRa.getSpreadingFactor()));
-   Serial.println(String(counter));
+   Serial.println(String(counter+1));
    display.display();
 
    // send packet
    LoRa.beginPacket();
    LoRa.print(validMessage);
-   /*LoRa.print(LoRa.getSpreadingFactor());
-   LoRa.print(" ");
-   LoRa.print(counter);
-   LoRa.print(" ");r
-   LoRa.print(TxPower);*/
    LoRa.endPacket();
   }
   
