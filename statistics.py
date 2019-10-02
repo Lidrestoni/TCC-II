@@ -2,6 +2,7 @@ import glob
 import errno
 import os
 import math
+import matplotlib.pyplot as plt
 
 def makeVStatistics(ptsplit, rssi, snr, n):
 	vRssi = vSnr = 0
@@ -120,3 +121,11 @@ for lt in testes:
 	print("Standard deviation of SNR: "+str(math.sqrt(float(lt[7]))))
 	print("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)\n")
 	
+filePath = "../TCC-II-figures/"
+files = glob.glob(filePath+"*")
+fileN = len(files)+1
+
+plt.plot([item[0] for item in testes],[item[2] for item in testes])
+plt.ylabel("Rótulo")
+plt.savefig(filePath+str(fileN)+".png")
+fileN+=1

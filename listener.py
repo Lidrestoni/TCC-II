@@ -56,25 +56,27 @@ while(testEnd==True):
 						x = x.decode().replace("\n", "").replace("\r", "")
 					except:
 						continue
-					if(x[0]=='E' and x[1]=='N'):
-						if(x[2]=='D'):
-							if(voidMessage==False):
-								aux = x[3]
-								if(len(x)>4):
-									aux+=x[4]
-								SF,TxPower = getNextTxPower(SF, int(aux))
-								print("\nArquivo '"+fileName+"' foi salvo com sucesso!\nAguardando novo teste...")
-								testEnd = True
-								f.close()
-								break
-						elif(x[2]=='S'):
-							continue
-					else:
-						voidMessage = False
-						try:
-							f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x+"\n")
-						except:
-							continue
+						
+					if(len[x]>5):
+						if(x[0]=='E' and x[1]=='N'):
+							if(x[2]=='D'):
+								if(voidMessage==False):
+									aux = x[3]
+									if(len(x)>4):
+										aux+=x[4]
+									SF,TxPower = getNextTxPower(SF, int(aux))
+									print("\nArquivo '"+fileName+"' foi salvo com sucesso!\nAguardando novo teste...")
+									testEnd = True
+									f.close()
+									break
+							elif(x[2]=='S'):
+								continue
+						else:
+							voidMessage = False
+							try:
+								f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x+"\n")
+							except:
+								continue
 		except:
 			if(voidMessage==True):
 				os.remove(fileName)
