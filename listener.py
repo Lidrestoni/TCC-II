@@ -15,6 +15,9 @@ SF = constants["initSf"]
 TxPower = constants["initTxPower"]
 hoje = "testes/"+date.today().strftime("%Y-%m-%d_")
 
+def writeToLog(msg):
+	with open("log", "a") as f:
+		f.write(date.today().strftime("%Y-%m-%d_")+"|"+datetime.now().strftime("%H:%M:%S.%f")+"  ---->  "+msg+"\n")
 def getNextTxPower(sf, txp):
 	txp+=1
 	if(txp>constants["maxTxPower"]):
@@ -44,7 +47,9 @@ while(testEnd==True):
 	voidMessage = True
 	testEnd = False
 	with open(fileName, "w") as f:
+		rcvPackages = 0
 		print("O arquivo '"+fileName+"' foi criado com sucesso! Gravando resultados ...")
+		writeToLog("Arquivo "+fileName+" criado")
 		print("SF: "+str(SF)+", TxPower: "+str(TxPower))
 	
 		try:
@@ -57,7 +62,7 @@ while(testEnd==True):
 					except:
 						continue
 						
-					if(len[x]>5):
+					if(len(x)>3):
 						if(x[0]=='E' and x[1]=='N'):
 							if(x[2]=='D'):
 								if(voidMessage==False):
@@ -66,6 +71,7 @@ while(testEnd==True):
 										aux+=x[4]
 									SF,TxPower = getNextTxPower(SF, int(aux))
 									print("\nArquivo '"+fileName+"' foi salvo com sucesso!\nAguardando novo teste...")
+									writeToLog(str(rcvPackages)+" pacotes salvos no arquivo "+fileName)
 									testEnd = True
 									f.close()
 									break
@@ -75,12 +81,15 @@ while(testEnd==True):
 							voidMessage = False
 							try:
 								f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x+"\n")
+								rcvPackages+=1
 							except:
 								continue
-		except:
+		except Exception as e:
 			if(voidMessage==True):
 				os.remove(fileName)
 				print("Erro inesperado! O arquivo "+fileName+" foi excluído!")
+				writeToLog(str(e))
+				writeToLog("Arquivo "+fileName+" excluído. "+str(rcvPackages)+" pacotes haviam sido recebidos")
 			else:
 				print("\nArquivo '"+fileName+"' foi salvo com sucesso!\n Fim dos Testes!")
 			raise

@@ -74,7 +74,7 @@ for name in files:
 	testes.append([TxP, dstc, Rssi, Snr, recvPackets, nPackets, vRssi, vSnr, SF])
 	
 i = n = 0
-testes.sort(key= lambda x:(float(x[1]),int(x[8]),int(x[0])), reverse=True)
+testes.sort(key= lambda x:(float(x[1]),int(x[8]),int(x[0])))
 while i<len(testes)-n:
 	if(i+1<len(testes)-n):
 		if(testes[i][0]==testes[i+1][0] and testes[i][1]==testes[i+1][1]and testes[i][8]==testes[i+1][8]):
@@ -125,7 +125,22 @@ filePath = "../TCC-II-figures/"
 files = glob.glob(filePath+"*")
 fileN = len(files)+1
 
-plt.plot([item[0] for item in testes],[item[2] for item in testes])
-plt.ylabel("Rótulo")
-plt.savefig(filePath+str(fileN)+".png")
-fileN+=1
+nDistances = set(item[1] for item in testes)
+SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'c', 'm', 'y']
+
+for x in nDistances:
+	plt.clf()
+	for xsf in range(7,13):
+		eixoX = []
+		eixoY = []
+		for item in testes:
+			if(item[1]==str(x) and item[8]==str(xsf)):
+				eixoX.append(item[0])
+				eixoY.append(item[2])
+		plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf))
+	plt.ylabel("Received Signal Strength Indicator")
+	plt.xlabel("Transmission Power")
+	plt.title("Distance: "+str(x)+" cms")
+	plt.legend()
+	plt.savefig(filePath+str(fileN)+".png")
+	fileN+=1
