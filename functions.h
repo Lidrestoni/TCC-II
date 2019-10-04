@@ -34,7 +34,6 @@ SSD1306 display(0x3c, 21, 22);
 String packSize = "--";
 String packet ;
 unsigned int TxPower = minTxPower;
-int counter = 0;
 
 void startSFandTXPat(unsigned int sf, unsigned int txp){
 	LoRa.setSpreadingFactor(sf);
@@ -48,7 +47,6 @@ void raiseSpreadingFactor(){
 		LoRa.setSpreadingFactor(sf);
 	else
 		LoRa.setSpreadingFactor(minSf);
-	counter = -1;  
 }
 
 void setTxPowerTo(unsigned int n, unsigned int delay){
@@ -65,7 +63,6 @@ void setTxPowerTo(unsigned int n, unsigned int delay){
 				LoRa.setTxPower(TxPower);
 				TxPower = n;
 			}
-			counter = -1;
 		}
 }
 

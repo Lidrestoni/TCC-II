@@ -1,0 +1,516 @@
+2019-10-02_|19:20:13.270764  ---->  Arquivo testes/2019-10-02_4 criado
+2019-10-02_|19:49:47.572293  ---->  497 pacotes salvos no arquivo testes/2019-10-02_4
+2019-10-02_|19:49:47.580104  ---->  Arquivo testes/2019-10-02_5 criado
+2019-10-02_|20:19:08.007149  ---->  499 pacotes salvos no arquivo testes/2019-10-02_5
+2019-10-02_|20:19:08.014949  ---->  Arquivo testes/2019-10-02_6 criado
+2019-10-02_|20:48:28.447025  ---->  496 pacotes salvos no arquivo testes/2019-10-02_6
+2019-10-02_|20:48:28.454956  ---->  Arquivo testes/2019-10-02_7 criado
+2019-10-02_|21:24:03.427568  ---->  Arquivo testes/2019-10-02_7 criado
+2019-10-02_|21:24:19.908528  ---->  Não foi possível abrir os ttyUSBs
+
+2019-10-02_|21:29:04.353911  ---->  Arquivo testes/2019-10-02_8 criado
+2019-10-02_|21:29:04.354787  ---->  Não foi possível abrir os ttyUSBs
+2019-10-02_|21:29:04.355006  ---->  0 pacotes salvos no arquivo testes/2019-10-02_8
+2019-10-02_|21:29:04.355353  ---->  [Errno 2] could not open port /dev/ttyUSB1: [Errno 2] No such file or directory: '/dev/ttyUSB1'
+2019-10-02_|21:29:04.355561  ---->  Arquivo testes/2019-10-02_8 excluído. 0 pacotes haviam sido recebidos
+2019-10-02_|21:30:29.073116  ---->  Arquivo testes/2019-10-02_8 criado
+2019-10-02_|21:30:36.124734  ---->  Não foi possível abrir os ttyUSBs
+2019-10-02_|21:30:36.125047  ---->  2 pacotes salvos no arquivo testes/2019-10-02_8
+2019-10-02_|21:41:09.211009  ---->  Arquivo testes/2019-10-02_7 criado
+2019-10-02_|21:41:40.021465  ---->  Não foi possível abrir os ttyUSBs
+2019-10-02_|21:41:40.021765  ---->  0 pacotes salvos no arquivo testes/2019-10-02_7
+2019-10-02_|21:41:40.022231  ---->  [Errno 2] could not open port /dev/ttyUSB1: [Errno 2] No such file or directory: '/dev/ttyUSB1'
+2019-10-02_|21:41:40.022502  ---->  Arquivo testes/2019-10-02_7 excluído. 0 pacotes haviam sido recebidos
+2019-10-02_|21:42:10.988543  ---->  Arquivo testes/2019-10-02_7 criado
+2019-10-02_|22:13:50.432988  ---->  497 pacotes salvos no arquivo testes/2019-10-02_7
+2019-10-02_|22:13:50.440710  ---->  Arquivo testes/2019-10-02_8 criado
+2019-10-02_|22:43:10.864838  ---->  499 pacotes salvos no arquivo testes/2019-10-02_8
+2019-10-02_|22:43:10.872590  ---->  Arquivo testes/2019-10-02_9 criado
+2019-10-02_|23:12:31.312706  ---->  497 pacotes salvos no arquivo testes/2019-10-02_9
+2019-10-02_|23:12:31.342919  ---->  Arquivo testes/2019-10-02_10 criado
+2019-10-02_|23:41:51.747633  ---->  472 pacotes salvos no arquivo testes/2019-10-02_10
+2019-10-02_|23:41:51.755353  ---->  Arquivo testes/2019-10-02_11 criado
+2019-10-03_|00:11:12.191512  ---->  120 pacotes salvos no arquivo testes/2019-10-02_11
+2019-10-03_|00:11:12.199198  ---->  Arquivo testes/2019-10-02_12 criado
+2019-10-03_|00:40:32.632346  ---->  170 pacotes salvos no arquivo testes/2019-10-02_12
+2019-10-03_|00:40:32.640122  ---->  Arquivo testes/2019-10-02_13 criado
+2019-10-03_|01:09:53.070196  ---->  75 pacotes salvos no arquivo testes/2019-10-02_13
+2019-10-03_|01:09:53.077927  ---->  Arquivo testes/2019-10-02_14 criado
+2019-10-03_|01:39:13.516076  ---->  20 pacotes salvos no arquivo testes/2019-10-02_14
+2019-10-03_|01:39:13.523862  ---->  Arquivo testes/2019-10-02_15 criado
+2019-10-03_|02:08:33.949930  ---->  5 pacotes salvos no arquivo testes/2019-10-02_15
+2019-10-03_|02:08:33.979211  ---->  Arquivo testes/2019-10-02_16 criado
+2019-10-03_|02:37:54.390789  ---->  1 pacotes salvos no arquivo testes/2019-10-02_16
+2019-10-03_|02:37:54.398562  ---->  Arquivo testes/2019-10-02_17 criado
+2019-10-03_|03:07:14.831692  ---->  1 pacotes salvos no arquivo testes/2019-10-02_17
+2019-10-03_|03:07:14.839531  ---->  Arquivo testes/2019-10-02_18 criado
+2019-10-03_|04:19:54.111193  ---->  500 pacotes salvos no arquivo testes/2019-10-02_18
+2019-10-03_|04:19:54.119013  ---->  Arquivo testes/2019-10-02_19 criado
+2019-10-03_|05:02:58.496666  ---->  500 pacotes salvos no arquivo testes/2019-10-02_19
+2019-10-03_|05:02:58.504540  ---->  Arquivo testes/2019-10-02_20 criado
+2019-10-03_|05:46:02.876175  ---->  500 pacotes salvos no arquivo testes/2019-10-02_20
+2019-10-03_|05:46:02.884100  ---->  Arquivo testes/2019-10-02_21 criado
+2019-10-03_|06:29:07.266688  ---->  500 pacotes salvos no arquivo testes/2019-10-02_21
+2019-10-03_|06:29:07.275020  ---->  Arquivo testes/2019-10-02_22 criado
+2019-10-03_|07:12:11.648206  ---->  500 pacotes salvos no arquivo testes/2019-10-02_22
+2019-10-03_|07:12:11.656074  ---->  Arquivo testes/2019-10-02_23 criado
+2019-10-03_|07:55:16.031688  ---->  500 pacotes salvos no arquivo testes/2019-10-02_23
+2019-10-03_|07:55:16.039665  ---->  Arquivo testes/2019-10-02_24 criado
+2019-10-03_|08:38:20.417185  ---->  500 pacotes salvos no arquivo testes/2019-10-02_24
+2019-10-03_|08:38:20.425053  ---->  Arquivo testes/2019-10-02_25 criado
+2019-10-03_|09:21:24.797682  ---->  500 pacotes salvos no arquivo testes/2019-10-02_25
+2019-10-03_|09:21:24.805572  ---->  Arquivo testes/2019-10-02_26 criado
+2019-10-03_|10:04:29.259205  ---->  500 pacotes salvos no arquivo testes/2019-10-02_26
+2019-10-03_|10:04:29.267080  ---->  Arquivo testes/2019-10-02_27 criado
+2019-10-03_|10:47:33.708697  ---->  500 pacotes salvos no arquivo testes/2019-10-02_27
+2019-10-03_|10:47:33.716674  ---->  Arquivo testes/2019-10-02_28 criado
+2019-10-03_|11:30:38.170212  ---->  500 pacotes salvos no arquivo testes/2019-10-02_28
+2019-10-03_|11:30:38.178086  ---->  Arquivo testes/2019-10-02_29 criado
+2019-10-03_|12:13:42.627735  ---->  500 pacotes salvos no arquivo testes/2019-10-02_29
+2019-10-03_|12:13:42.635704  ---->  Arquivo testes/2019-10-02_30 criado
+2019-10-03_|12:56:47.101198  ---->  500 pacotes salvos no arquivo testes/2019-10-02_30
+2019-10-03_|12:56:47.109121  ---->  Arquivo testes/2019-10-02_31 criado
+2019-10-03_|13:39:51.561700  ---->  499 pacotes salvos no arquivo testes/2019-10-02_31
+2019-10-03_|13:39:51.569629  ---->  Arquivo testes/2019-10-02_32 criado
+2019-10-03_|14:22:56.023202  ---->  498 pacotes salvos no arquivo testes/2019-10-02_32
+2019-10-03_|14:22:56.031132  ---->  Arquivo testes/2019-10-02_33 criado
+2019-10-03_|14:52:41.570531  ---->  Não foi possível abrir os ttyUSBs
+2019-10-03_|14:52:41.570759  ---->  338 pacotes salvos no arquivo testes/2019-10-02_33
+2019-10-03_|18:59:29.884992  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|18:59:29.885397  ---->  SF: 11, TxPower: 6
+2019-10-03_|18:59:49.724490  ---->  O arquivo 'testes/2019-10-03_2' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|18:59:49.724827  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:02:17.111890  ---->  O arquivo 'testes/2019-10-03_3' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:02:17.112190  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:03:00.007286  ---->  O arquivo 'testes/2019-10-03_4' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:03:00.007693  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:03:14.584399  ---->  O arquivo 'testes/2019-10-03_5' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:03:14.584702  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:04:39.987256  ---->  O arquivo 'testes/2019-10-03_6' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:04:39.987564  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:05:27.435154  ---->  O arquivo 'testes/2019-10-03_7' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:05:27.435462  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:05:51.432912  ---->  O arquivo 'testes/2019-10-03_8' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:05:51.433226  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:06:32.354225  ---->  O arquivo 'testes/2019-10-03_9' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:06:32.354533  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:06:58.929916  ---->  O arquivo 'testes/2019-10-03_10' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:06:58.930122  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:07:15.903641  ---->  O arquivo 'testes/2019-10-03_11' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:07:15.903891  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:07:44.271085  ---->  O arquivo 'testes/2019-10-03_12' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:07:44.271417  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:07:50.773784  ---->  O arquivo 'testes/2019-10-03_13' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:07:50.774082  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:09:19.994536  ---->  O arquivo 'testes/2019-10-03_14' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:09:19.995331  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:09:19.997009  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:09:47.312844  ---->  O arquivo 'testes/2019-10-03_15' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:09:47.313141  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:09:47.314661  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:10:11.734915  ---->  O arquivo 'testes/2019-10-03_16' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:10:11.735224  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:12:34.033289  ---->  O arquivo 'testes/2019-10-03_17' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:12:34.033606  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:28:01.407206  ---->  O arquivo 'testes/2019-10-03_18' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:28:01.407519  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:28:01.408981  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:28:11.996521  ---->  O arquivo 'testes/2019-10-03_19' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:28:11.996717  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:28:13.563896  ---->  Exceção 1
+2019-10-03_|19:29:56.237088  ---->  O arquivo 'testes/2019-10-03_20' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:29:56.237337  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:30:10.618999  ---->  O cabo USB foi desconectado
+2019-10-03_|19:30:37.069149  ---->  O arquivo 'testes/2019-10-03_21' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:30:37.069530  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:30:40.131863  ---->  O cabo USB foi desconectado
+2019-10-03_|19:32:49.448965  ---->  O arquivo 'testes/2019-10-03_22' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:32:49.449321  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:32:49.450814  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:33:27.092751  ---->  O arquivo 'testes/2019-10-03_23' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:33:27.093061  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:33:27.094587  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:33:27.094879  ---->  Arquivo testes/2019-10-03_23 fechado excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:34:14.519215  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:34:14.519522  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:34:14.520977  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:34:14.521297  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:34:17.848443  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:34:17.848749  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:34:17.850254  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:34:17.850541  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:34:32.854327  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:34:32.854575  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:34:34.491896  ---->  O cabo USB foi desconectado. Fim dos testes
+2019-10-03_|19:34:34.492200  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:40:12.718651  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:40:12.718958  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:40:12.720426  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|19:40:12.720701  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:40:21.071385  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:40:21.071726  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:40:24.666864  ---->  A linha não pôde ser lida
+2019-10-03_|19:40:24.668369  ---->  O cabo USB foi desconectado. Fim dos testes
+2019-10-03_|19:40:24.668659  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:51:29.035109  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:51:29.051977  ---->  SF: 11, TxPower: 6
+2019-10-03_|19:51:43.057186  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:51:43.065309  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:51:43.065632  ---->  SF: 11, TxPower: 7
+2019-10-03_|19:52:08.951546  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:52:08.959672  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:52:08.959992  ---->  SF: 11, TxPower: 8
+2019-10-03_|19:52:34.846904  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:52:34.855024  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:52:34.855339  ---->  SF: 11, TxPower: 9
+2019-10-03_|19:53:00.752260  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:53:00.760381  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:53:00.760695  ---->  SF: 11, TxPower: 10
+2019-10-03_|19:53:26.646659  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:53:26.654769  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:53:26.655085  ---->  SF: 11, TxPower: 11
+2019-10-03_|19:53:52.543024  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:53:52.551092  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:53:52.551416  ---->  SF: 11, TxPower: 12
+2019-10-03_|19:54:18.439403  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:54:18.446585  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:54:18.446957  ---->  SF: 11, TxPower: 13
+2019-10-03_|19:54:44.334755  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:54:44.342497  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:54:44.342760  ---->  SF: 11, TxPower: 14
+2019-10-03_|19:55:10.231156  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:55:10.239203  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:55:10.239521  ---->  SF: 11, TxPower: 15
+2019-10-03_|19:55:36.127512  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:55:36.135560  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:55:36.135886  ---->  SF: 11, TxPower: 16
+2019-10-03_|19:56:02.022675  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:56:02.030364  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:56:02.030581  ---->  SF: 11, TxPower: 17
+2019-10-03_|19:56:27.919219  ---->  Arquivo testes/2019-10-03_24 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:56:27.927306  ---->  O arquivo 'testes/2019-10-03_24' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:56:27.927621  ---->  SF: 12, TxPower: 2
+2019-10-03_|19:57:14.453876  ---->  
+Arquivo 'testes/2019-10-03_24' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|19:57:14.462042  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:57:14.462405  ---->  SF: 12, TxPower: 3
+2019-10-03_|19:57:46.527324  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:57:46.535410  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:57:46.535732  ---->  SF: 12, TxPower: 4
+2019-10-03_|19:58:18.609790  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:58:18.617915  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:58:18.618238  ---->  SF: 12, TxPower: 5
+2019-10-03_|19:58:50.684224  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:58:50.692333  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:58:50.692650  ---->  SF: 12, TxPower: 6
+2019-10-03_|19:59:22.767674  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:59:22.775788  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:59:22.776111  ---->  SF: 12, TxPower: 7
+2019-10-03_|19:59:54.841132  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|19:59:54.849352  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|19:59:54.849712  ---->  SF: 12, TxPower: 8
+2019-10-03_|20:00:26.923574  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:00:26.931680  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:00:26.931998  ---->  SF: 12, TxPower: 9
+2019-10-03_|20:00:58.997037  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:00:59.005127  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:00:59.005520  ---->  SF: 12, TxPower: 10
+2019-10-03_|20:01:31.080492  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:01:31.088599  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:01:31.088923  ---->  SF: 12, TxPower: 11
+2019-10-03_|20:02:03.155965  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:02:03.164062  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:02:03.164381  ---->  SF: 12, TxPower: 12
+2019-10-03_|20:02:35.232408  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:02:35.240492  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:02:35.240805  ---->  SF: 12, TxPower: 13
+2019-10-03_|20:03:10.136909  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:03:10.145004  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:03:10.145385  ---->  SF: 12, TxPower: 14
+2019-10-03_|20:03:39.390325  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:03:39.398496  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:03:39.398814  ---->  SF: 12, TxPower: 15
+2019-10-03_|20:04:11.475760  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:04:11.483861  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:04:11.484207  ---->  SF: 12, TxPower: 16
+2019-10-03_|20:04:43.550027  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:04:43.557713  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:04:43.557936  ---->  SF: 12, TxPower: 17
+2019-10-03_|20:05:15.625716  ---->  Arquivo testes/2019-10-03_25 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:05:15.633817  ---->  O arquivo 'testes/2019-10-03_25' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:05:15.634138  ---->  SF: 7, TxPower: 2
+2019-10-03_|20:06:00.730291  ---->  
+Arquivo 'testes/2019-10-03_25' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:06:00.738432  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:06:00.738758  ---->  SF: 7, TxPower: 3
+2019-10-03_|20:06:21.257624  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:06:21.265718  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:06:21.266033  ---->  SF: 7, TxPower: 4
+2019-10-03_|20:06:41.782856  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:06:41.791077  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:06:41.791465  ---->  SF: 7, TxPower: 5
+2019-10-03_|20:07:02.318171  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:07:02.326333  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:07:02.326646  ---->  SF: 7, TxPower: 6
+2019-10-03_|20:07:22.844437  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:07:22.852564  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:07:22.852879  ---->  SF: 7, TxPower: 7
+2019-10-03_|20:07:43.366745  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:07:43.374885  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:07:43.375207  ---->  SF: 7, TxPower: 8
+2019-10-03_|20:08:03.900007  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:08:03.908166  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:08:03.908481  ---->  SF: 7, TxPower: 9
+2019-10-03_|20:08:24.425358  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:08:24.433524  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:08:24.433895  ---->  SF: 7, TxPower: 10
+2019-10-03_|20:08:44.964612  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:08:44.972750  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:08:44.973075  ---->  SF: 7, TxPower: 11
+2019-10-03_|20:09:05.493859  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:09:05.501681  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:09:05.501939  ---->  SF: 7, TxPower: 12
+2019-10-03_|20:09:26.029215  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:09:26.037340  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:09:26.037672  ---->  SF: 7, TxPower: 13
+2019-10-03_|20:09:46.558505  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:09:46.566625  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:09:46.566975  ---->  SF: 7, TxPower: 14
+2019-10-03_|20:10:07.092611  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:10:07.100268  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:10:07.100496  ---->  SF: 7, TxPower: 15
+2019-10-03_|20:10:27.615961  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:10:27.623818  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:10:27.624074  ---->  SF: 7, TxPower: 16
+2019-10-03_|20:10:48.153405  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:10:48.161562  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:10:48.161881  ---->  SF: 7, TxPower: 17
+2019-10-03_|20:11:08.682676  ---->  Arquivo testes/2019-10-03_26 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:11:08.690792  ---->  O arquivo 'testes/2019-10-03_26' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:11:08.691110  ---->  SF: 8, TxPower: 2
+2019-10-03_|20:11:43.691140  ---->  
+Arquivo 'testes/2019-10-03_26' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:11:43.699243  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:11:43.699565  ---->  SF: 8, TxPower: 3
+2019-10-03_|20:12:04.563426  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:12:04.571578  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:12:04.571898  ---->  SF: 8, TxPower: 4
+2019-10-03_|20:12:25.436741  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:12:25.444857  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:12:25.445181  ---->  SF: 8, TxPower: 5
+2019-10-03_|20:12:46.318024  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:12:46.326241  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:12:46.326557  ---->  SF: 8, TxPower: 6
+2019-10-03_|20:13:07.191300  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:13:07.199418  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:13:07.199736  ---->  SF: 8, TxPower: 7
+2019-10-03_|20:13:28.063593  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:13:28.071735  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:13:28.072054  ---->  SF: 8, TxPower: 8
+2019-10-03_|20:13:48.946903  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:13:48.955006  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:13:48.955324  ---->  SF: 8, TxPower: 9
+2019-10-03_|20:14:09.820195  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:14:09.828336  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:14:09.828658  ---->  SF: 8, TxPower: 10
+2019-10-03_|20:14:30.702512  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:14:30.710708  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:14:30.711025  ---->  SF: 8, TxPower: 11
+2019-10-03_|20:14:51.656697  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:14:51.664545  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:14:51.664800  ---->  SF: 8, TxPower: 12
+2019-10-03_|20:15:12.612096  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:15:12.620230  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:15:12.620590  ---->  SF: 8, TxPower: 13
+2019-10-03_|20:15:33.567379  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:15:33.574935  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:15:33.575160  ---->  SF: 8, TxPower: 14
+2019-10-03_|20:15:54.520707  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:15:54.528817  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:15:54.529137  ---->  SF: 8, TxPower: 15
+2019-10-03_|20:16:15.476000  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:16:15.484106  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:16:15.484420  ---->  SF: 8, TxPower: 16
+2019-10-03_|20:16:36.421345  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:16:36.429454  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:16:36.429772  ---->  SF: 8, TxPower: 17
+2019-10-03_|20:16:57.374592  ---->  Arquivo testes/2019-10-03_27 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:16:57.382742  ---->  O arquivo 'testes/2019-10-03_27' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:16:57.383061  ---->  SF: 9, TxPower: 2
+2019-10-03_|20:17:33.145085  ---->  
+Arquivo 'testes/2019-10-03_27' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:17:33.153195  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:17:33.153565  ---->  SF: 9, TxPower: 3
+2019-10-03_|20:17:54.778361  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:17:54.786534  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:17:54.786849  ---->  SF: 9, TxPower: 4
+2019-10-03_|20:18:16.402688  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:18:16.410853  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:18:16.411171  ---->  SF: 9, TxPower: 5
+2019-10-03_|20:18:38.034985  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:18:38.043125  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:18:38.043444  ---->  SF: 9, TxPower: 6
+2019-10-03_|20:18:59.668284  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:18:59.676417  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:18:59.676739  ---->  SF: 9, TxPower: 7
+2019-10-03_|20:19:21.291593  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:19:21.299751  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:19:21.300067  ---->  SF: 9, TxPower: 8
+2019-10-03_|20:19:42.924773  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:19:42.933025  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:19:42.933383  ---->  SF: 9, TxPower: 9
+2019-10-03_|20:20:04.557197  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:20:04.565369  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:20:04.565686  ---->  SF: 9, TxPower: 10
+2019-10-03_|20:20:26.180534  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:20:26.188658  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:20:26.188978  ---->  SF: 9, TxPower: 11
+2019-10-03_|20:20:47.814831  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:20:47.823007  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:20:47.823324  ---->  SF: 9, TxPower: 12
+2019-10-03_|20:21:09.440156  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:21:09.448267  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:21:09.448588  ---->  SF: 9, TxPower: 13
+2019-10-03_|20:21:31.074451  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:21:31.082596  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:21:31.082912  ---->  SF: 9, TxPower: 14
+2019-10-03_|20:21:52.698616  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:21:52.706497  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:21:52.706760  ---->  SF: 9, TxPower: 15
+2019-10-03_|20:22:14.334078  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:22:14.342225  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:22:14.342543  ---->  SF: 9, TxPower: 16
+2019-10-03_|20:22:35.969403  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:22:35.977527  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:22:35.977845  ---->  SF: 9, TxPower: 17
+2019-10-03_|20:22:57.593719  ---->  Arquivo testes/2019-10-03_28 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:22:57.601872  ---->  O arquivo 'testes/2019-10-03_28' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:22:57.602204  ---->  SF: 10, TxPower: 2
+2019-10-03_|20:23:34.777903  ---->  
+Arquivo 'testes/2019-10-03_28' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:23:34.785300  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:23:34.785622  ---->  SF: 10, TxPower: 3
+2019-10-03_|20:23:57.831493  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:23:57.839676  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:23:57.839994  ---->  SF: 10, TxPower: 4
+2019-10-03_|20:24:20.892815  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:24:20.900971  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:24:20.901362  ---->  SF: 10, TxPower: 5
+2019-10-03_|20:24:43.939160  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:24:43.947322  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:24:43.947639  ---->  SF: 10, TxPower: 6
+2019-10-03_|20:25:07.002480  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:25:07.010668  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:25:07.010994  ---->  SF: 10, TxPower: 7
+2019-10-03_|20:25:30.056916  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:25:30.064984  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:25:30.065339  ---->  SF: 10, TxPower: 8
+2019-10-03_|20:25:53.109122  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:25:53.117322  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:25:53.117649  ---->  SF: 10, TxPower: 9
+2019-10-03_|20:26:16.162445  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:26:16.170645  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:26:16.170962  ---->  SF: 10, TxPower: 10
+2019-10-03_|20:26:39.215805  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:26:39.223925  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:26:39.224236  ---->  SF: 10, TxPower: 11
+2019-10-03_|20:27:02.281126  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:27:02.289292  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:27:02.289618  ---->  SF: 10, TxPower: 12
+2019-10-03_|20:27:25.329472  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:27:25.337644  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:27:25.337959  ---->  SF: 10, TxPower: 13
+2019-10-03_|20:27:48.393798  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:27:48.401968  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:27:48.402283  ---->  SF: 10, TxPower: 14
+2019-10-03_|20:28:11.449120  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:28:11.457272  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:28:11.457600  ---->  SF: 10, TxPower: 15
+2019-10-03_|20:28:34.504437  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:28:34.512562  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:28:34.512882  ---->  SF: 10, TxPower: 16
+2019-10-03_|20:28:57.558760  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:28:57.566915  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:28:57.567233  ---->  SF: 10, TxPower: 17
+2019-10-03_|20:29:20.624090  ---->  Arquivo testes/2019-10-03_29 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:29:20.632215  ---->  O arquivo 'testes/2019-10-03_29' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:29:20.632531  ---->  SF: 11, TxPower: 2
+2019-10-03_|20:30:00.760635  ---->  
+Arquivo 'testes/2019-10-03_29' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:30:00.768767  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:30:00.769084  ---->  SF: 11, TxPower: 3
+2019-10-03_|20:30:26.658992  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:30:26.667207  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:30:26.667524  ---->  SF: 11, TxPower: 4
+2019-10-03_|20:30:52.552349  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:30:52.560530  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:30:52.560848  ---->  SF: 11, TxPower: 5
+2019-10-03_|20:30:55.226243  ---->  A linha não pôde ser lida
+2019-10-03_|20:30:55.227562  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|20:30:55.227896  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:33:14.745630  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:33:14.745909  ---->  SF: 11, TxPower: 6
+2019-10-03_|20:33:28.077217  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:33:28.085393  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:33:28.085709  ---->  SF: 11, TxPower: 7
+2019-10-03_|20:33:53.970562  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:33:53.978860  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:33:53.979174  ---->  SF: 11, TxPower: 8
+2019-10-03_|20:34:19.864923  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:34:19.873149  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:34:19.873527  ---->  SF: 11, TxPower: 9
+2019-10-03_|20:34:27.762878  ---->  A linha não pôde ser lida
+2019-10-03_|20:34:27.764355  ---->  O cabo USB foi desconectado. Fim dos testes
+2019-10-03_|20:34:27.764717  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:35:43.442898  ---->  O arquivo 'testes/2019-10-03_30' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:35:43.443472  ---->  SF: 11, TxPower: 6
+2019-10-03_|20:35:43.445016  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|20:35:43.445394  ---->  Arquivo testes/2019-10-03_30 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:35:43.445856  ---->  Fim dos testes
+2019-10-03_|20:41:06.459950  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:41:06.460326  ---->  SF: 11, TxPower: 6
+2019-10-03_|20:41:06.462211  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|20:41:06.462564  ---->  Arquivo testes/2019-10-03_1 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:41:06.463165  ---->  Fim dos testes
+2019-10-03_|20:44:42.367607  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:44:42.368276  ---->  SF: 11, TxPower: 6
+2019-10-03_|20:44:56.901199  ---->  Arquivo testes/2019-10-03_1 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:44:56.909270  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:44:56.909618  ---->  SF: 11, TxPower: 7
+2019-10-03_|20:45:22.793609  ---->  Arquivo testes/2019-10-03_1 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:45:22.801527  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:45:22.801861  ---->  SF: 11, TxPower: 8
+2019-10-03_|20:45:48.690937  ---->  Arquivo testes/2019-10-03_1 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:45:48.699009  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:45:48.699346  ---->  SF: 11, TxPower: 9
+2019-10-03_|20:45:54.971571  ---->  A linha não pôde ser lida
+2019-10-03_|20:45:54.975497  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|20:45:54.976385  ---->  Arquivo testes/2019-10-03_1 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:45:54.978936  ---->  Fim dos testes
+2019-10-03_|20:47:31.580896  ---->  O arquivo 'testes/2019-10-03_1' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:47:31.581308  ---->  SF: 11, TxPower: 6
+2019-10-03_|20:47:37.143164  ---->  Arquivo 'testes/2019-10-03_1' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:47:37.150267  ---->  O arquivo 'testes/2019-10-03_2' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:47:37.150683  ---->  SF: 11, TxPower: 7
+2019-10-03_|20:48:03.035547  ---->  Arquivo 'testes/2019-10-03_2' foi salvo! 2 pacotes foram recebidos
+2019-10-03_|20:48:03.043975  ---->  O arquivo 'testes/2019-10-03_3' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:48:03.044738  ---->  SF: 11, TxPower: 8
+2019-10-03_|20:48:28.928902  ---->  Arquivo 'testes/2019-10-03_3' foi salvo! 2 pacotes foram recebidos
+2019-10-03_|20:48:28.937275  ---->  O arquivo 'testes/2019-10-03_4' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:48:28.937868  ---->  SF: 11, TxPower: 9
+2019-10-03_|20:48:54.826276  ---->  Arquivo 'testes/2019-10-03_4' foi salvo! 1 pacotes foram recebidos
+2019-10-03_|20:48:54.834427  ---->  O arquivo 'testes/2019-10-03_5' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:48:54.834794  ---->  SF: 11, TxPower: 10
+2019-10-03_|20:49:20.726692  ---->  Arquivo testes/2019-10-03_5 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:49:20.734651  ---->  O arquivo 'testes/2019-10-03_5' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:49:20.734997  ---->  SF: 11, TxPower: 11
+2019-10-03_|20:49:46.623021  ---->  Arquivo testes/2019-10-03_5 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:49:46.631109  ---->  O arquivo 'testes/2019-10-03_5' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:49:46.631741  ---->  SF: 11, TxPower: 12
+2019-10-03_|20:50:12.519392  ---->  Arquivo testes/2019-10-03_5 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:50:12.527433  ---->  O arquivo 'testes/2019-10-03_5' foi criado com sucesso! Gravando resultados ...
+2019-10-03_|20:50:12.527820  ---->  SF: 11, TxPower: 13
+2019-10-03_|20:50:22.810347  ---->  A linha não pôde ser lida
+2019-10-03_|20:50:22.811700  ---->  Nenhum ttyUSB encontrado
+2019-10-03_|20:50:22.812046  ---->  Arquivo testes/2019-10-03_5 fechado e excluído, em virtude de não ter recebido pacotes
+2019-10-03_|20:50:22.812582  ---->  Fim dos testes

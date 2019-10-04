@@ -1,4 +1,4 @@
-const int nPackets = 500 ;
+const int nPackets = 2 ;
 const int minTxPower = 2 ;
 const int maxTxPower = 17 ;
 const int minSf = 7 ;

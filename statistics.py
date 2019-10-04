@@ -1,6 +1,5 @@
 import glob
 import errno
-import os
 import math
 import matplotlib.pyplot as plt
 
@@ -64,9 +63,6 @@ for name in files:
 	try:
 		with open(name) as f:
 			plaintext = f.read()
-		if(len(plaintext)<1000):
-			os.remove(name)
-			continue
 		Rssi,Snr,recvPackets,nPackets, TxP,SF, dstc, vRssi, vSnr = makeStatistics(plaintext)
 	except IOError as erro:
 		if erro.errno != errno.EISDIR:
@@ -141,6 +137,7 @@ for x in nDistances:
 	plt.ylabel("Received Signal Strength Indicator")
 	plt.xlabel("Transmission Power")
 	plt.title("Distance: "+str(x)+" cms")
-	plt.legend()
-	plt.savefig(filePath+str(fileN)+".png")
+	leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure, shadow = True, fancybox = True, title = "SF")
+	leg.get_frame().set_alpha(0.5)
+	plt.savefig(filePath+str(fileN)+".png", bbox_inches="tight")
 	fileN+=1
