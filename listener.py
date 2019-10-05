@@ -39,15 +39,19 @@ def writeToFile(f, fName, msg):
 		printAndWriteToLog("Não consegui registrar a  mensagem '"+msg+"'")
 		raise
 		
-def closingFileProcedures(fileName, rcvPackages):
-	if(rcvPackages==0):
-		printAndWriteToLog("Arquivo "+fileName+" fechado e excluído, em virtude de não ter recebido pacotes")
+def closingFileProcedures(fileName, rcvPackages, deleteFile):
+	if(deleteFile==True):
+		printAndWriteToLog("Arquivo '"+fileName+"' fechado e excluído! Execução interrompida antes do recebimento da mensagem de fim de teste")
 		os.remove(fileName)
 	else:
 		printAndWriteToLog("Arquivo '"+fileName+"' foi salvo! "+str(rcvPackages)+" pacotes foram recebidos")
 	return 0
+	
+def foundBrokenPackage(n, fil):
+	fil.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" BROKEN\n")
+	return n+1
 
-rcvPackages = 0
+brkPackages=rcvPackages = 0
 keepTesting = True
 print("Qual a distância (em centímetros) entre os dispositivos? ", end = " ")
 while(True):
@@ -71,19 +75,19 @@ while(keepTesting==True):
 		printAndWriteToLog("SF: "+str(SF)+", TxPower: "+str(TxPower))
 		writeToFile(f, fileName,hoje[7:-1]+" 115200 "+dis+" "+str(SF)+" "+str(TxPower)+" "+str(constants["nPackets"])+"\n")
 		while True:
+			usbs = glob.glob('/dev/ttyUSB*')
+			usbs.sort()
+			if(len(usbs)==0):
+				printAndWriteToLog("Nenhum ttyUSB encontrado")
+				closingFileProcedures(fileName, rcvPackages, True)
+				break
 			try:
-				usbs = glob.glob('/dev/ttyUSB*')
-				usbs.sort()
-				if(len(usbs)==0):
-					printAndWriteToLog("Nenhum ttyUSB encontrado")
-					closingFileProcedures(fileName, rcvPackages)
-					break
 				with serial.Serial(usbs[0], 115200, timeout = None) as ser:
 					try:
 						x = ser.readline()
 						x = x.decode().replace("\n", "").replace("\r", "")
 					except:
-						printAndWriteToLog("A linha não pôde ser lida")
+						printAndWriteToLog("A linha não pôde ser lida "+len(x))
 						continue
 					
 					if(len(x)>3):
@@ -91,19 +95,21 @@ while(keepTesting==True):
 							aux = int(x[3:])
 							if(aux==TxPower):
 								SF,TxPower = getNextTxPower(SF, aux)
-								rcvPackages = closingFileProcedures(fileName, rcvPackages)
+								brkPackages=rcvPackages = closingFileProcedures(fileName, rcvPackages, False)
 								keepTesting = True
 								break
 						else:
 							try:
 								f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x+"\n")
-								rcvPackages+=1
+								if(len(x)>6+len(constants["validMessage"])-3 and x[:6]=="BROKEN"):
+									brkPackages+=1
+								else:
+									rcvPackages+=1
 							except:
 								printAndWriteToLog("Não consegui escrever '"+x+"' no arquivo")
 								continue
 			except:
-				printAndWriteToLog("O cabo USB foi desconectado.")
-				closingFileProcedures(fileName, rcvPackages)
-				break
+				brkPackages = foundBrokenPackage(brkPackages, f)
+				continue
 								
 printAndWriteToLog("Fim dos testes")

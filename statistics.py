@@ -31,13 +31,18 @@ def makeStatistics(pt):
 	n = 0
 	rssi = 0
 	snr = 0
+	brkPackages=0
 	for i in range(1, len(ptsplit)):
 		try:
 			lin = ptsplit[i].split(" ")
+			if(lin[1][:3]=="BRO"):
+				brkPackages+=1
+				continue
 			rssi = rssi+float(lin[2])
 			snr = snr+float(lin[4])
 			n = n+1
 		except:
+			brkPackages+=1
 			continue
 	try:
 		rssi = rssi/n
@@ -45,7 +50,7 @@ def makeStatistics(pt):
 	except:
 		rssi = snr = 0
 	vRssi, vSnr = makeVStatistics(ptsplit, rssi, snr, n)
-	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr
+	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr, brkPackages
 
 testes = []
 path = 'testes/20*'
@@ -55,6 +60,7 @@ vSnr = 0
 Rssi = 0
 vRssi = 0
 recvPackets = 0
+brkPackages = 0
 nPackets = 0
 TxP = 0
 dstc = 0
@@ -63,11 +69,11 @@ for name in files:
 	try:
 		with open(name) as f:
 			plaintext = f.read()
-		Rssi,Snr,recvPackets,nPackets, TxP,SF, dstc, vRssi, vSnr = makeStatistics(plaintext)
+		Rssi,Snr,recvPackets,nPackets, TxP,SF, dstc, vRssi, vSnr, brkPackages = makeStatistics(plaintext)
 	except IOError as erro:
 		if erro.errno != errno.EISDIR:
 			raise
-	testes.append([TxP, dstc, Rssi, Snr, recvPackets, nPackets, vRssi, vSnr, SF])
+	testes.append([TxP, dstc, Rssi, Snr, recvPackets, nPackets, vRssi, vSnr, SF, brkPackages])
 	
 i = n = 0
 testes.sort(key= lambda x:(float(x[1]),int(x[8]),int(x[0])))
@@ -78,6 +84,7 @@ while i<len(testes)-n:
 				testes[i][u] = (float(testes[i][u])*float(testes[i][5]))/(float(testes[i][5])+float(testes[i+1][5])) + (float(testes[i+1][u])*float(testes[i+1][5]))/(float(testes[i][5])+float(testes[i+1][5]))
 				testes[i][u+4] = (float(testes[i][u+4])*float(testes[i][5]))/(float(testes[i][5])+float(testes[i+1][5])) + (float(testes[i+1][u+4])*float(testes[i+1][5]))/(float(testes[i][5])+float(testes[i+1][5]))
 				testes[i][u+2] = int(testes[i][u+2]) + int(testes[i+1][u+2])
+			testes[i][9] +=testes[i+1][9]
 			testes.pop(i+1)
 			n = n+1
 		else:
@@ -115,7 +122,8 @@ for lt in testes:
 	print("Standard deviation of RSSI: "+str(math.sqrt(float(lt[6]))))
 	print("Total SNR: "+ str(lt[3]))
 	print("Standard deviation of SNR: "+str(math.sqrt(float(lt[7]))))
-	print("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)\n")
+	print("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)")
+	print("Broken packets: "+str(lt[9])+"\n")
 	
 filePath = "../TCC-II-figures/"
 files = glob.glob(filePath+"*")

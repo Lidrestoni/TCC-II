@@ -4,7 +4,6 @@ String rssi = "RSSI --";
 String snr = "SNR --";
 String aux ;
 String cTxp = String(initTxPower);
-int counter = 0;
 
 void cbk(int packetSize) {
   packet = "";
@@ -47,6 +46,7 @@ void cbk(int packetSize) {
   else {
     display.drawString(0 , 0 , "Broken! Message received:");
     display.drawStringMaxWidth(0, 15, 128, packet);
+    Serial.println("BROKEN"+packet);
   }
   display.display();
 }
