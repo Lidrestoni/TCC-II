@@ -2,6 +2,7 @@ import glob
 import errno
 import math
 import matplotlib.pyplot as plt
+from matplotlib.ticker import PercentFormatter
 
 def makeVStatistics(ptsplit, rssi, snr, n):
 	vRssi = vSnr = 0
@@ -37,10 +38,12 @@ def makeStatistics(pt):
 			lin = ptsplit[i].split(" ")
 			if(lin[1][:3]=="BRO"):
 				brkPackages+=1
+				n = n+1
 				continue
-			rssi = rssi+float(lin[2])
-			snr = snr+float(lin[4])
-			n = n+1
+			elif(lin[1][:4]=="RSSI"):
+				rssi = rssi+float(lin[2])
+				snr = snr+float(lin[4])
+				n = n+1
 		except:
 			brkPackages+=1
 			continue
@@ -48,7 +51,8 @@ def makeStatistics(pt):
 		rssi = rssi/n
 		snr = snr/n
 	except:
-		rssi = snr = 0
+		rssi = -100
+		snr = 0
 	vRssi, vSnr = makeVStatistics(ptsplit, rssi, snr, n)
 	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr, brkPackages
 
@@ -132,20 +136,27 @@ fileN = len(files)+1
 nDistances = set(item[1] for item in testes)
 SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'c', 'm', 'y']
 
+prm = [[2, "Received Signal Strength Indicator", 20],[3, "Signal to Noise Ratio", 8], [9, "Lost Packages", 20]]
 for x in nDistances:
-	plt.clf()
-	for xsf in range(7,13):
-		eixoX = []
-		eixoY = []
-		for item in testes:
-			if(item[1]==str(x) and item[8]==str(xsf)):
-				eixoX.append(item[0])
-				eixoY.append(item[2])
-		plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf))
-	plt.ylabel("Received Signal Strength Indicator")
-	plt.xlabel("Transmission Power")
-	plt.title("Distance: "+str(x)+" cms")
-	leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure, shadow = True, fancybox = True, title = "SF")
-	leg.get_frame().set_alpha(0.5)
-	plt.savefig(filePath+str(fileN)+".png", bbox_inches="tight")
-	fileN+=1
+	for tim in prm:
+		plt.clf()
+		for xsf in range(7,13):
+			eixoX = []
+			eixoY = []
+			for item in testes:
+				if(item[1]==str(x) and item[8]==str(xsf)):
+					eixoX.append(item[0])
+					if(tim[0]==9):
+						eixoY.append((((int(item[5])-int(item[4]))+(int(item[tim[0]])))/int(item[5]))*100.0)
+						plt.gca().yaxis.set_major_formatter(PercentFormatter())
+					else:
+						eixoY.append(item[tim[0]])
+					plt.locator_params(axis='y', nbins=tim[2])
+			plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf))
+		plt.ylabel(tim[1], labelpad=5)
+		plt.xlabel("Transmission Power")
+		plt.title("Distance: "+str(x)+" cms")
+		leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure, shadow = True, fancybox = True, title = "SF")
+		leg.get_frame().set_alpha(0.5)
+		plt.savefig(filePath+str(fileN)+".png", bbox_inches="tight")
+		fileN+=1
