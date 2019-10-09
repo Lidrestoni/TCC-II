@@ -16,7 +16,7 @@ TxPower = constants["initTxPower"]
 hoje = "testes/"+date.today().strftime("%Y-%m-%d_")
 
 def writeToLog(msg):
-	with open("log", "a") as f:
+	with open("../TCC-II-logs/log", "a") as f:
 		f.write(date.today().strftime("%Y-%m-%d_")+"|"+datetime.now().strftime("%H:%M:%S.%f")+"  ---->  "+msg+"\n")
 
 def printAndWriteToLog(msg):

@@ -3,6 +3,7 @@ import errno
 import math
 import matplotlib.pyplot as plt
 from matplotlib.ticker import PercentFormatter
+from datetime import date
 
 def makeVStatistics(ptsplit, rssi, snr, n):
 	vRssi = vSnr = 0
@@ -38,6 +39,11 @@ def makeStatistics(pt):
 			lin = ptsplit[i].split(" ")
 			if(lin[1][:3]=="BRO"):
 				brkPackages+=1
+				if(n==0):
+					rssi-=100.0
+				else:
+					rssi+= rssi/n
+					snr+=snr/n
 				n = n+1
 				continue
 			elif(lin[1][:4]=="RSSI"):
@@ -53,12 +59,15 @@ def makeStatistics(pt):
 	except:
 		rssi = -100
 		snr = 0
+	if(n==brkPackages):
+		rssi = -100
 	vRssi, vSnr = makeVStatistics(ptsplit, rssi, snr, n)
 	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr, brkPackages
 
 testes = []
 path = 'testes/20*'
 files = glob.glob(path)
+files = [x for x in files if date.today().strftime("%Y-%m-%d") not in x]
 Snr = 0
 vSnr = 0
 Rssi = 0
@@ -99,39 +108,41 @@ n=0
 auxDist = -1.0
 auxSf = -1
 auxTxp = -1
-for lt in testes:
-	n = n+1
-	if(auxDist!=lt[1]):
-		print("\n\n\n\n\n\n\n\n-------------------------------------------")
-		print("-------------------------------------------")
-		print("             || Distance: "+str(lt[1])+" cms ||")
-		print("-------------------------------------------")
-		print("-------------------------------------------")
-		auxDist = lt[1]
-		auxSf=-1
-		auxTxp=-1
-	if(auxSf!=lt[8]):
-		print("\n\n\n------------------------------")
-		print("     |Spreading Factor "+str(lt[8])+"|")
-		print("------------------------------")
-		auxSf=lt[8]
-	if(auxTxp!=lt[0]):
-		print("_____________________")
-		print("Tx Power: "+str(lt[0]))
-		print("_____________________")
-		auxTxp=lt[0]
+with open("../TCC-II-logs/test_output", "w+") as f:
+	for lt in testes:
+		n = n+1
+		if(auxDist!=lt[1]):
+			f.write("\n\n\n\n\n\n\n\n-------------------------------------------\n")
+			f.write("-------------------------------------------\n")
+			f.write("             || Distance: "+str(lt[1])+" cms ||\n")
+			f.write("-------------------------------------------\n")
+			f.write("-------------------------------------------\n")
+			auxDist = lt[1]
+			auxSf=-1
+			auxTxp=-1
+		if(auxSf!=lt[8]):
+			f.write("\n\n\n------------------------------\n")
+			f.write("     |Spreading Factor "+str(lt[8])+"|\n")
+			f.write("------------------------------\n")
+			auxSf=lt[8]
+		if(auxTxp!=lt[0]):
+			f.write("_____________________\n")
+			f.write("Tx Power: "+str(lt[0])+"\n")
+			f.write("_____________________\n")
+			auxTxp=lt[0]
 		
-	print("Teste nº "+str(n))
-	print("Total RSSI: "+ str(lt[2]))
-	print("Standard deviation of RSSI: "+str(math.sqrt(float(lt[6]))))
-	print("Total SNR: "+ str(lt[3]))
-	print("Standard deviation of SNR: "+str(math.sqrt(float(lt[7]))))
-	print("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)")
-	print("Broken packets: "+str(lt[9])+"\n")
+		f.write("Teste nº "+str(n)+"\n")
+		f.write("Total RSSI: "+ str(lt[2])+"\n")
+		f.write("Standard deviation of RSSI: "+str(math.sqrt(float(lt[6])))+"\n")
+		f.write("Total SNR: "+ str(lt[3])+"\n")
+		f.write("Standard deviation of SNR: "+str(math.sqrt(float(lt[7])))+"\n")
+		f.write("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)\n")
+		f.write("Broken packets: "+str(lt[9])+"\n\n")
+print("Os testes foram concluídos com sucesso! Estão escritos no arquivo de log test_output")
 	
 filePath = "../TCC-II-figures/"
 files = glob.glob(filePath+"*")
-fileN = len(files)+1
+fileN = len(files)
 
 nDistances = set(item[1] for item in testes)
 SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'c', 'm', 'y']
