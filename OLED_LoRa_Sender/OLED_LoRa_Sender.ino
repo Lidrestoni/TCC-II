@@ -8,42 +8,31 @@ void setup() {
 
 void loop() {
   clearDisplay();
-  int sf = LoRa.getSpreadingFactor();
-  sf = sf+1>maxSf? minSf : sf+1;
-  
-  if(raiseSF->waiting()){
-      display.drawString(0, 0, "Changing Spreading Factor");
-      display.drawString(0,15, " to "+String(sf));
-      display.display();
-
-      // send packet
-      LoRa.beginPacket();
-      LoRa.print("ENS"+String(sf));
-      LoRa.endPacket(); 
-      raiseSF->tickTack();
-      if(!raiseSF->waiting())
-        setTxPowerTo(TxPower+1,0);
-        
-  }
-  else if(counter>=nPackets){
-    if(counter<nPackets+endOfTestsDelay){
+      
+  if(msgCounter>=nPackets){
+    if(msgCounter<nPackets+endOfTestsDelay){
       display.drawString(0, 0, "Tests with TxPower "+String(TxPower));
       display.drawString(0, 15," have ended!");
+      if(TxPower+1>maxTxPower){
+        display.drawString(0, 30, "Changing Spreading Factor");
+        display.drawString(0, 45, " to " + String(LoRa.getSpreadingFactor()+1>maxSf? minSf: LoRa.getSpreadingFactor()+1));  
+      }
+      
       display.display();
 
       // send packet
       LoRa.beginPacket();
-      LoRa.print("END"+String(TxPower));
+      LoRa.print("END");
       LoRa.endPacket();
     }
     else
-      setTxPowerTo(TxPower+1,endOfTestsDelay); 
+      raiseTxPower();
   }
   else{
-   display.drawString(0, 0, "Sending packet: "+String(counter+1)+" / "+String(nPackets));
+   display.drawString(0, 0, "Sending packet: "+String(msgCounter+1)+" / "+String(nPackets));
    display.drawString(0, 15, "Tx Power: "+String(TxPower));
    display.drawString(0, 30, "Spreading Factor: "+String(LoRa.getSpreadingFactor()));
-   Serial.println(String(counter+1));
+   Serial.println(String(msgCounter+1));
    display.display();
 
    // send packet
@@ -52,7 +41,7 @@ void loop() {
    LoRa.endPacket();
   }
   
-  counter++;
+  msgCounter++;
   digitalWrite(2, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   digitalWrite(2, LOW);    // turn the LED off by making the voltage LOW

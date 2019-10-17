@@ -10,31 +10,22 @@
 #define DI0     26   // GPIO26 -- SX1278's IRQ(Interrupt Request)
 #define endOfTestsDelay 7
 
-class WaitingAction{
-	private:
-		unsigned int cnt;
-	public:
-		WaitingAction(){
-			this->cnt=0;
-		}
-		bool waiting(){
-			return this->cnt>0;
-		}
-		void tickTack(){
-			this->cnt-= this->cnt>0;
-		}
-		void setCounterTo(unsigned int n){
-			if(n>0)
-				this->cnt = n;
-		}
-};
-WaitingAction *raiseSF = new WaitingAction();
-
 SSD1306 display(0x3c, 21, 22);
 String packSize = "--";
 String packet ;
 unsigned int TxPower = minTxPower;
-int counter = 0;
+int msgCounter = 0;
+
+int countCorrectCharIn(String msg){
+  int cnt = 0;
+  if(msg.length()<validMessage.length()-2 or msg.length()>validMessage.length()+2)
+    return -1;
+  int sml = validMessage.length()>msg.length()? msg.length() :  validMessage.length();
+  for(int i=0; i<sml; i++)
+    if(msg[i]==validMessage[i])
+      cnt+=1;
+  return cnt;
+}
 
 void startSFandTXPat(unsigned int sf, unsigned int txp){
 	LoRa.setSpreadingFactor(sf);
@@ -48,25 +39,23 @@ void raiseSpreadingFactor(){
 		LoRa.setSpreadingFactor(sf);
 	else
 		LoRa.setSpreadingFactor(minSf);
-  counter = 0;
+  msgCounter=0;
 }
 
-void setTxPowerTo(unsigned int n, unsigned int delay){
-		if(n>=minTxPower&&TxPower!=n){
-			if(n>maxTxPower){
-				if(delay)
-					raiseSF->setCounterTo(delay);
-				else{
-					raiseSpreadingFactor();
-					TxPower = minTxPower;
-				}
-			}
-			else{
-				LoRa.setTxPower(TxPower);
-				TxPower = n;
-			}
-		}
-    counter = 0;
+int raiseTxPower(){
+  if(msgCounter>1){
+    msgCounter=0;
+    if(TxPower+1>maxTxPower){
+      raiseSpreadingFactor();
+      TxPower = minTxPower;
+      return 2;  
+    }
+    else{
+      TxPower+=1;
+      return 1;
+    }
+  }
+  return 0;  
 }
 
 void generalSetup(String nm){

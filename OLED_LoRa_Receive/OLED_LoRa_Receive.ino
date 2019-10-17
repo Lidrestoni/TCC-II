@@ -1,52 +1,47 @@
 #include "functions.h"
 
-String rssi = "RSSI --";
-String snr = "SNR --";
-String aux ;
-String cTxp = String(initTxPower);
-
 void cbk(int packetSize) {
   packet = "";
   packSize = String(packetSize, DEC);
   for (int i = 0; i < packetSize; i++) {
     packet += (char) LoRa.read();
   }
-
-  clearDisplay();
-
-  if (packet[0] == 'E' && packet[1] == 'N') {
-    aux = packet[3];
-    if (packetSize > 3)
-      aux += packet[4];
-    if (packet[2] == 'D') {
-      display.drawString(0, 0, "Tests with TxPower " + String(aux));
+  
+  if (packetSize==3) {
+    int aux = raiseTxPower();
+    if (aux==1) {
+      clearDisplay();
+      display.drawString(0, 0, "Tests with TxPower " + String(TxPower-1));
       display.drawString(0, 15, " have ended!");
-      cTxp = String(aux.toInt() + 1);
+    }
+    else if(aux==2){
+      clearDisplay();
+      display.drawString(0, 0, "Tests with TxPower " + String(maxTxPower));
+      display.drawString(0, 15, " have ended!");
+      display.drawString(0, 30, "Changing Spreading Factor");
+      display.drawString(0, 45, " to " + String(LoRa.getSpreadingFactor()));
+    }
+    Serial.println("END");
+  }
+  else{
+    clearDisplay();
+    display.drawString(0, 0, "RSSI: " + String(LoRa.packetRssi(), DEC));
+    display.drawString(0, 12, "SNR: " + String(LoRa.packetSnr(), DEC));
+    if (validMessage.equals(packet)) {
+      msgCounter += 1;
+      display.drawString(0, 24, "Received packet " + String(msgCounter) + " / " + String(nPackets));
+      display.drawString(0, 36, "TxPower: " + String(TxPower));
+      display.drawString(0, 48, "SF: " + String(LoRa.getSpreadingFactor()));
+      Serial.println(String(LoRa.packetRssi(), DEC) + " " + String(LoRa.packetSnr(), DEC));
     }
     else {
-      display.drawString(0, 0, "Changing Spreading Factor");
-      display.drawString(0, 15, " to " + String(aux));
-      LoRa.setSpreadingFactor(aux.toInt());
-      cTxp = String(minTxPower);
+      int a = countCorrectCharIn(packet);
+      if(a>=0){
+        display.drawString(0 , 24 , "Received broken message! ");
+        display.drawString(0 , 36 , "Correct char: "+String(a)+" / "+String(validMessage.length()) );
+        Serial.println("BRK "+String(a));
+      }
     }
-    counter = 0;
-    Serial.println(packet);
-  }
-  else if (validMessage.equals(packet)) {
-    counter += 1;
-    rssi = "RSSI: " + String(LoRa.packetRssi(), DEC) ;
-    snr = "SNR: " + String(LoRa.packetSnr(), DEC);
-    display.drawString(0, 0, "Recebido pacote " + String(counter) + " / " + String(nPackets));
-    display.drawString(0, 12, rssi);
-    display.drawString(0, 24, snr);
-    display.drawString(0, 36, "SF: " + String(LoRa.getSpreadingFactor()));
-    display.drawString(0, 48, "TxPower: " + cTxp);
-    Serial.println(rssi + " " + snr);
-  }
-  else {
-    display.drawString(0 , 0 , "Broken! Message received:");
-    display.drawStringMaxWidth(0, 15, 128, packet);
-    Serial.println("BROKEN"+packet);
   }
   display.display();
 }
