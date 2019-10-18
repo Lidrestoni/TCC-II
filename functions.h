@@ -10,22 +10,78 @@
 #define DI0     26   // GPIO26 -- SX1278's IRQ(Interrupt Request)
 #define endOfTestsDelay 7
 
+class ValidMessage {
+  private:
+    int validMessageCounter;
+    String validMessage = "" ;  
+    void makeValidMessageOfSize(int siz){
+      if(siz==originalMessage.length())
+        validMessage = originalMessage;
+      else if(siz<originalMessage.length())
+        validMessage = originalMessage.substring(0,siz);
+      else{
+        validMessage = "";
+        while(siz>originalMessage.length()){
+          validMessage+=originalMessage;
+          siz-=originalMessage.length();
+        }
+        validMessage+=originalMessage.substring(0,siz);
+      }
+    }
+  public:
+    ValidMessage(){
+      validMessageCounter=0;
+      if(validMessageArraySize>0)
+        makeValidMessageOfSize(validMessageArray[0]);
+    }
+    String ret(){
+      return this->validMessage;  
+    }
+    int len(){
+      return this->validMessage.length();  
+    }
+    char charat(int pos){
+      return this->validMessage[pos];  
+    }
+    void next(){
+      bool contn = false;
+      int sz;
+      do{
+        this->validMessageCounter+=1;
+        if(this->validMessageCounter<validMessageArraySize)
+          sz = validMessageArray[this->validMessageCounter];
+        else
+          sz = validMessageArray[validMessageArraySize-1]+this->validMessageCounter-validMessageArraySize+1;
+        if(sz==3)
+          contn = true;
+        else{
+          contn = false;
+          makeValidMessageOfSize(sz);
+        }
+      }while(contn);
+    }
+    bool matches(String msg2){
+      return this->validMessage.equals(msg2);  
+    }
+    int countCorrectCharIn(String msg){
+      int cnt = 0;
+      if(msg.length()!= this->validMessage.length())
+        return -1;
+      int sml = this->validMessage.length()>msg.length()? msg.length() :  this->validMessage.length();
+      for(int i=0; i<sml; i++)
+        if(msg[i]==this->validMessage[i])
+          cnt+=1;
+      return cnt;
+    }
+};
+ValidMessage *validMessage = new ValidMessage(); 
+
+
 SSD1306 display(0x3c, 21, 22);
 String packSize = "--";
 String packet ;
 unsigned int TxPower = minTxPower;
 int msgCounter = 0;
-
-int countCorrectCharIn(String msg){
-  int cnt = 0;
-  if(msg.length()<validMessage.length()-2 or msg.length()>validMessage.length()+2)
-    return -1;
-  int sml = validMessage.length()>msg.length()? msg.length() :  validMessage.length();
-  for(int i=0; i<sml; i++)
-    if(msg[i]==validMessage[i])
-      cnt+=1;
-  return cnt;
-}
 
 void startSFandTXPat(unsigned int sf, unsigned int txp){
 	LoRa.setSpreadingFactor(sf);
@@ -37,8 +93,10 @@ void raiseSpreadingFactor(){
 	unsigned int sf = LoRa.getSpreadingFactor()+1;
 	if(sf<=maxSf)
 		LoRa.setSpreadingFactor(sf);
-	else
+	else{
+    validMessage->next();
 		LoRa.setSpreadingFactor(minSf);
+	}
   msgCounter=0;
 }
 

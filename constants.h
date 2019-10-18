@@ -5,4 +5,6 @@ const int minSf = 7 ;
 const int maxSf = 12 ;
 const int initTxPower = 2 ;
 const int initSf = 7 ;
-const String validMessage = "Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...)" ;
+const int validMessageArraySize = 2 ;
+const int validMessageArray[validMessageArraySize] = {76,25, 5, 150, 230} ;
+const String originalMessage = "Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...)" ;

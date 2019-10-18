@@ -10,12 +10,54 @@ with open("constants.h") as f:
 	plaintext = f.read()
 for a in plaintext.splitlines():
 	b = a.split(' ', 4)
-	constants[str(b[2])] = (int if b[1]=="int" else str)(b[4][:-2])
+	if(all((it in b[4]) for it in ['{','}'])):
+		nm = str(b[2]).split("[")[0]
+		constants[nm] = []
+		for l in b[4][1:-3].split(","):
+			constants[nm].append((int if b[1]=="int" else str)(l))
+	else:
+		constants[str(b[2])] = ((int)(b[4][:-2])) if b[1]=="int" else ((str)(b[4][1:-3]))
 SF = constants["initSf"]
 TxPower = constants["initTxPower"]
 hoje = "testes/"+date.today().strftime("%Y-%m-%d_")
 brkPackages= 0
 rcvPackages = 0
+
+class ValidMessage:
+	__validMessageCounter=0
+	__validMessage = ""  
+	def __makeValidMessageOfSize(self, siz):
+		if(siz==len(constants["originalMessage"])):
+			self.__validMessage = constants["originalMessage"]
+		elif(siz<len(constants["originalMessage"])):
+			self.__validMessage = constants["originalMessage"][:siz]
+		else:
+			self.__validMessage = "";
+		while(siz>len(constants["originalMessage"])):
+			self.__validMessage+=constants["originalMessage"]
+			siz-=len(constants["originalMessage"])
+			self.__validMessage+=constants["originalMessage"][:siz]
+     
+	def __init__(self):
+		self.__validMessageCounter=0
+		if(constants["validMessageArraySize"]>0):
+			self.__makeValidMessageOfSize(constants["validMessageArray"][0])
+	def ret(self):
+		return self.__validMessage
+	def len(self):
+		return len(self.__validMessage)  
+	def charat(self, pos):
+		return self.__validMessage[pos]  
+	def next(self):
+		self.__validMessageCounter+=1
+		if(self.__validMessageCounter<constants["validMessageArraySize"]):
+			self.__makeValidMessageOfSize(constants["validMessageArray"][self.__validMessageCounter])
+		else:
+			self.__makeValidMessageOfSize(constants["validMessageArray"][constants["validMessageArraySize"]-1]+self.__validMessageCounter-constants["validMessageArraySize"]+1)
+	def matches(msg2):
+		return self.__validMessage==msg2  
+validMessage = ValidMessage() 
+
 
 def writeToLog(msg):
 	with open("../TCC-II-logs/log", "a") as f:
@@ -34,6 +76,7 @@ def raiseTxPower():
 		SF+=1
 		if(SF>constants["maxSf"]):
 			SF = constants["minSf"]
+			validMessage.next()
 	
 def writeToFile(f, fName, msg):
 	try:
@@ -71,8 +114,8 @@ while(keepTesting==True):
 	keepTesting = False
 	with open(fileName, "w") as f:
 		printAndWriteToLog("O arquivo '"+fileName+"' foi criado com sucesso! Gravando resultados ...")
-		printAndWriteToLog("SF: "+str(SF)+", TxPower: "+str(TxPower))
-		writeToFile(f, fileName,hoje[7:-1]+" 115200 "+dis+" "+str(SF)+" "+str(TxPower)+" "+str(constants["nPackets"])+" "+constants["validMessage"]+"\n")
+		printAndWriteToLog("SF: "+str(SF)+", TxPower: "+str(TxPower)+", Expecting message: \""+validMessage.ret()+"\"")
+		writeToFile(f, fileName,hoje[7:-1]+" 115200 "+dis+" "+str(SF)+" "+str(TxPower)+" "+str(constants["nPackets"])+" "+validMessage.ret()+"\n")
 		while True:
 			usbs = glob.glob('/dev/ttyUSB*')
 			usbs.sort()
