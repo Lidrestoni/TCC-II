@@ -39,7 +39,7 @@ void cbk(int packetSize) {
       if(a>=0){
         display.drawString(0 , 24 , "Received broken message! ");
         display.drawString(0 , 36 , "Correct char: "+String(a)+" / "+String(validMessage.length()) );
-        Serial.println("BRK "+String(a));
+        Serial.println("BRK "+String(a)+" "+String(LoRa.packetRssi(), DEC) + " " + String(LoRa.packetSnr(), DEC));
       }
     }
   }
