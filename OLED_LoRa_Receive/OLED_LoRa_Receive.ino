@@ -6,7 +6,6 @@ void cbk(int packetSize) {
   for (int i = 0; i < packetSize; i++) {
     packet += (char) LoRa.read();
   }
-  Serial.println(packet);
   if (packetSize==3) {
     int aux = raiseTxPower();
     if (aux==1) {
@@ -39,7 +38,7 @@ void cbk(int packetSize) {
       display.drawString(0 , 24 , "Received broken message! ");
       if(a>=0){
         display.drawString(0 , 36 , "Correct char: "+String(a)+" / "+String(validMessage->len()) );
-        Serial.println("BRK "+String(a)+" "+String(LoRa.packetRssi(), DEC) + " " + String(LoRa.packetSnr(), DEC));
+        Serial.println("BRK "+String(a)+" "+String(LoRa.packetRssi(), DEC) + " " + String(LoRa.packetSnr(), DEC)+" "+packet);
       }
       else{
         display.drawString(0 , 36, "Expected: "+String(validMessage->len())+" bytes");

@@ -7,28 +7,45 @@ from datetime import date
 
 def makeVStatistics(ptsplit, rssi, snr):
 	vRssiD = vRssiU = vSnrD = vSnrU = 0
-	vRssiDcount = vRssiUcount = vSnrDcount = vSnrUcount = 0
+	vRssiDcount = vRssiUcount = vSnrDcount = vSnrUcount = vRssiEcount = vSnrEcount = 0
+	firstVal = secondVal = 0
 	for i in range(1, len(ptsplit)):
 		try:
 			lin = ptsplit[i].split(" ")
-			if(float(lin[2]) < float(rssi)):
-				vRssiD += (float(lin[2])-float(rssi))**2
+			if(len(lin[1])>2 and lin[1][:3]=="BRK"):
+				firstVal = 3
+				secondVal = 4
+			else:
+				firstVal = 1
+				secondVal = 2
+			if(float(lin[firstVal]) < float(rssi)):
+				vRssiD += (float(lin[firstVal])-float(rssi))**2
 				vRssiDcount += 1
-			elif(float(lin[2]) > float(rssi)):
-				vRssiU += (float(lin[2])-float(rssi))**2
+			elif(float(lin[firstVal]) > float(rssi)):
+				vRssiU += (float(lin[firstVal])-float(rssi))**2
 				vRssiUcount+=1
-			if(float(lin[4]) < float(snr)):
-				vSnrD += (float(lin[4])-float(snr))**2
+			else:
+				vRssiEcount+=1
+			if(float(lin[secondVal]) < float(snr)):
+				vSnrD += (float(lin[secondVal])-float(snr))**2
 				vSnrDcount+=1
-			elif(float(lin[4]) > float(snr)):
-				vSnrU += (float(lin[4])-float(snr))**2
+			elif(float(lin[secondVal]) > float(snr)):
+				vSnrU += (float(lin[secondVal])-float(snr))**2
 				vSnrUcount+=1
+			else:
+				vSnrEcount+=1
 		except:
 			continue
-	vRssiD = 0 if vRssiDcount==0 else vRssiD/vRssiDcount
-	vRssiU = 0 if vRssiUcount==0 else vRssiU/vRssiUcount
-	vSnrD = 0 if vSnrDcount==0 else vSnrD/vSnrDcount
-	vSnrU = 0 if vSnrUcount==0 else vSnrU/vSnrUcount
+	if(vRssiEcount%2==1):
+		vRssiEcount+=1
+	vRssiEcount/=2
+	if(vSnrEcount%2==1):
+		vSnrEcount+=1
+	vSnrEcount/=2
+	vRssiD = 0 if vRssiDcount==0 else vRssiD/(vRssiDcount+vRssiEcount)
+	vRssiU = 0 if vRssiUcount==0 else vRssiU/(vRssiUcount+vRssiEcount)
+	vSnrD = 0 if vSnrDcount==0 else vSnrD/(vSnrDcount+vSnrEcount)
+	vSnrU = 0 if vSnrUcount==0 else vSnrU/(vSnrUcount+vSnrEcount)
 	return [vRssiD, vRssiU], [vSnrD,vSnrU]	
 
 def makeStatistics(pt):
@@ -47,18 +64,15 @@ def makeStatistics(pt):
 	for i in range(1, len(ptsplit)):
 		try:
 			lin = ptsplit[i].split(" ")
-			if(lin[1][:3]=="BRO"):
+			if(len(lin[1])>2 and lin[1][:3]=="BRK"):
 				brkPackages+=1
-				if(n==0):
-					rssi-=100.0
-				else:
-					rssi+= rssi/n
-					snr+=snr/n
 				n = n+1
-				continue
-			elif(lin[1][:4]=="RSSI"):
-				rssi = rssi+float(lin[2])
-				snr = snr+float(lin[4])
+				rssi+=float(lin[3])
+				snr+=float(lin[4])
+				
+			else:
+				rssi +=float(lin[1])
+				snr += float(lin[2])
 				n = n+1
 		except:
 			brkPackages+=1
@@ -69,8 +83,6 @@ def makeStatistics(pt):
 	except:
 		rssi = -100
 		snr = 0
-	if(n==brkPackages):
-		rssi = -100
 	vRssi, vSnr = makeVStatistics(ptsplit, rssi, snr)
 	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr, brkPackages
 
@@ -180,10 +192,17 @@ for x in nDistances:
 					else:
 						eixoY.append(item[tim[0]])
 					plt.locator_params(axis='y', nbins=tim[2])
-			plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf))
-			print(errorBars)
-			if(tim[3]!=-1):
-				plt.errorbar(eixoX, eixoY, yerr=errorBars)
+			if(len(eixoX)>0 and len(eixoY)>0):
+				plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf))
+				if(tim[3]!=-1):
+					print("\n\n")
+					print(errorBars)
+					print("\n")
+					print(eixoX)
+					print("\n")
+					print(eixoY)
+					print("\n\n")
+					plt.errorbar(eixoX, eixoY, yerr=errorBars)
 		plt.ylabel(tim[1], labelpad=5)
 		plt.xlabel("Transmission Power")
 		plt.title("Distance: "+str(x)+" cms")
