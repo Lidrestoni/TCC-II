@@ -46,6 +46,13 @@ def makeVStatistics(ptsplit, rssi, snr):
 	vRssiU = 0 if vRssiUcount==0 else vRssiU/(vRssiUcount+vRssiEcount)
 	vSnrD = 0 if vSnrDcount==0 else vSnrD/(vSnrDcount+vSnrEcount)
 	vSnrU = 0 if vSnrUcount==0 else vSnrU/(vSnrUcount+vSnrEcount)
+	
+	vRssiD = 0 if vRssiDcount==0 else math.sqrt(vRssiD)/math.sqrt(vRssiDcount)
+	vRssiU = 0 if vRssiUcount==0 else math.sqrt(vRssiU)/math.sqrt(vRssiUcount)
+	vSnrD = 0 if vSnrDcount==0 else math.sqrt(vSnrD)/math.sqrt(vSnrDcount)
+	vSnrU = 0 if vSnrUcount==0 else math.sqrt(vSnrU)/math.sqrt(vSnrUcount)
+	
+	
 	return [vRssiD, vRssiU], [vSnrD,vSnrU]	
 
 def makeStatistics(pt):
@@ -155,11 +162,11 @@ with open("../TCC-II-logs/test_output", "w+") as f:
 		
 		f.write("Teste nº "+str(n)+"\n")
 		f.write("Total RSSI: "+ str(lt[2])+"\n")
-		f.write("Standard deviation of RSSI (down): "+str(math.sqrt(float(lt[6][0])))+"\n")
-		f.write("Standard deviation of RSSI (up): "+str(math.sqrt(float(lt[6][1])))+"\n")
+		f.write("Standard error of RSSI (down): "+str(float(lt[6][0]))+"\n")
+		f.write("Standard error of RSSI (up): "+str(float(lt[6][1]))+"\n")
 		f.write("Total SNR: "+ str(lt[3])+"\n")
-		f.write("Standard deviation of SNR (down): "+str(math.sqrt(float(lt[7][0])))+"\n")
-		f.write("Standard deviation of SNR (up): "+str(math.sqrt(float(lt[7][1])))+"\n")
+		f.write("Standard error of SNR (down): "+str(float(lt[7][0]))+"\n")
+		f.write("Standard error of SNR (up): "+str(float(lt[7][1]))+"\n")
 		f.write("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)\n")
 		f.write("Broken packets: "+str(lt[9])+"\n\n")
 print("Os testes foram concluídos com sucesso! Estão escritos no arquivo de log test_output")
@@ -169,7 +176,7 @@ files = glob.glob(filePath+"*")
 fileN = len(files)
 
 nDistances = set(item[1] for item in testes)
-SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'c', 'm', 'y']
+SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'k', 'm', 'y']
 
 prm = [[2, "Received Signal Strength Indicator", 20, 6],[3, "Signal to Noise Ratio", 8, 7], [9, "Lost Packages", 20, -1]]
 for x in nDistances:
@@ -184,8 +191,8 @@ for x in nDistances:
 				if(item[1]==str(x) and item[8]==str(xsf)):
 					eixoX.append(item[0])
 					if(tim[3]!=-1):
-						errorBars[0].append(math.sqrt(float(item[tim[3]][0])))
-						errorBars[1].append(math.sqrt(float(item[tim[3]][1])))
+						errorBars[0].append(float(item[tim[3]][0]))
+						errorBars[1].append(float(item[tim[3]][1]))
 					if(tim[0]==9):
 						eixoY.append((((int(item[5])-int(item[4]))+(int(item[tim[0]])))/int(item[5]))*100.0)
 						plt.gca().yaxis.set_major_formatter(PercentFormatter())
@@ -193,7 +200,7 @@ for x in nDistances:
 						eixoY.append(item[tim[0]])
 					plt.locator_params(axis='y', nbins=tim[2])
 			if(len(eixoX)>0 and len(eixoY)>0):
-				plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf))
+				plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf), marker = "x")
 				if(tim[3]!=-1):
 					print("\n\n")
 					print(errorBars)
@@ -202,11 +209,11 @@ for x in nDistances:
 					print("\n")
 					print(eixoY)
 					print("\n\n")
-					plt.errorbar(eixoX, eixoY, yerr=errorBars)
+					plt.errorbar(eixoX, eixoY, color = SFColors[xsf], yerr=errorBars, ls="None", marker = "_", uplims=True, lolims=True)
 		plt.ylabel(tim[1], labelpad=5)
 		plt.xlabel("Transmission Power")
 		plt.title("Distance: "+str(x)+" cms")
-		leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure, shadow = True, fancybox = True, title = "SF")
+		leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure,  title = "SF")
 		leg.get_frame().set_alpha(0.5)
 		plt.savefig(filePath+str(fileN)+".png", bbox_inches="tight")
 		fileN+=1

@@ -129,7 +129,10 @@ while(keepTesting==True):
 						x = ser.readline()
 						x = x.decode().replace("\n", "").replace("\r", "")
 					except:
-						printAndWriteToLog("A linha não pôde ser lida "+str(x))
+						brkPackages+=1
+						x = str(x).replace("\n", "").replace("\r", "")
+						if(x[:2]=="b'"):
+							x = x[2:-1]
 						continue
 					if(x.strip()=="END"):
 						if(rcvPackages>0):
