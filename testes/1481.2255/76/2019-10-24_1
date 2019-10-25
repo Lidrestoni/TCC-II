@@ -1,0 +1,498 @@
+2019-10-24 115200 1481.2255 11 2 500 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...)
+10:53:59.519517 BRK 73 -88 4.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire= Latoremo; Dorime(...\xe9\r\n
+10:54:02.992361 BRK 73 -89 3.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire1 Lati\xf2emo; Dorime(...\xe9\r\n
+10:54:06.469326 BRK 75 -84 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:54:09.961377 BRK 74 -85 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; Dorime(...\xe9\r\n
+10:54:13.442475 BRK 74 -84 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; Dorime(...\xe9\r\n
+10:54:16.929528 BRK 74 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Lat\xafremo; Dorime(...\xe9\r\n
+10:54:20.406575 BRK 73 -84 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:54:23.897618 BRK 73 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:54:27.374637 BRK 73 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo;*DorYme(...)
+10:54:30.860754 BRK 71 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo;*DorYmm(...\xe9\r\n
+10:54:34.341714 BRK 74 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...)
+10:54:37.832819 BRK 70 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire7 Latoremo;*DorYke(...\xe9\r\n
+10:54:41.313811 BRK 70 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire= Latoremo;*DorY\xede(...\xe9\r\n
+10:54:44.800917 BRK 72 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Lat\xafremo;*DorYme(...\xe9\r\n
+10:54:48.281946 BRK 73 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:54:51.763016 BRK 73 -85 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:54:55.249035 BRK 73 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:54:58.736103 BRK 73 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:55:02.223160 BRK 73 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:55:05.700206 BRK 75 -85 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:55:09.191258 BRK 73 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:55:12.672311 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; Dorime(...)
+10:55:16.153307 BRK 74 -85 4.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; Dorime(...\xe9\r\n
+10:55:19.634401 BRK 74 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; Dorime(...\xe9\r\n
+10:55:23.121353 BRK 73 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:55:30.091572 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:55:33.571594 BRK 75 -85 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:55:37.058641 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:55:40.544661 BRK 74 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Lat\xa9remo; Dorime(...\xe9\r\n
+10:55:44.025703 BRK 75 -85 4.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:55:50.994819 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:55:54.473626 -85 3.7500000000
+10:55:57.965906 BRK 75 -85 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:01.449959 BRK 75 -85 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:04.924983 BRK 73 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+10:56:08.415078 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:11.896112 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:15.383178 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:18.870187 BRK 75 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:22.347338 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:25.834329 BRK 75 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:29.321324 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:32.798422 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:36.283503 BRK 75 -85 4.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:39.770519 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:43.257550 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:46.742641 BRK 75 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:50.219738 BRK 75 -85 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:53.706716 BRK 75 -84 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:56:57.193728 BRK 75 -84 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:00.670850 BRK 75 -84 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:04.157819 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:07.644830 BRK 75 -84 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:11.121977 BRK 75 -84 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:14.599755 -85 4.7500000000
+10:57:18.095073 BRK 75 -84 4.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:21.581034 BRK 75 -85 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:25.058167 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:28.545171 BRK 75 -85 4.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:32.032269 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:35.518322 BRK 75 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:38.995392 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:42.473168 -85 5.2500000000
+10:57:45.970444 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:49.454481 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:52.931566 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:56.418595 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:57:59.905601 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:03.382734 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:06.859490 -85 9.0000000000
+10:58:10.351804 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:13.835874 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:17.322928 BRK 75 -85 4.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:20.809896 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:24.286245 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:27.772998 BRK 75 -85 5.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:31.258038 BRK 75 -85 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:34.745064 BRK 75 -86 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...#
+10:58:38.222222 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:41.708277 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:45.195284 BRK 75 -85 4.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:48.682377 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:52.159375 BRK 75 -85 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:55.646422 BRK 75 -86 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:58:59.133424 BRK 75 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:02.610555 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:06.087323 -85 6.7500000000
+10:59:09.582658 BRK 75 -85 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:13.057431 -85 5.2500000000
+10:59:16.541501 -86 7.2500000000
+10:59:20.023527 -85 6.2500000000
+10:59:23.514895 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:27.000885 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:30.487949 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:33.972913 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:37.450780 -85 7.0000000000
+10:59:40.926812 -85 8.2500000000
+10:59:44.410875 -86 5.7500000000
+10:59:47.903914 -86 6.5000000000
+10:59:51.394253 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+10:59:54.872787 -85 6.7500000000
+10:59:58.364348 BRK 75 -85 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:01.848342 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:05.325360 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:08.812500 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:12.299512 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:15.785527 BRK 75 -85 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:19.262648 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:22.749601 BRK 75 -86 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...#
+11:00:26.236700 BRK 75 -85 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:29.705500 -86 6.7500000000
+11:00:33.191556 -85 6.0000000000
+11:00:36.673643 -85 7.5000000000
+11:00:40.171960 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:43.655993 BRK 75 -86 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:47.132955 BRK 75 -85 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:50.620131 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:54.107102 BRK 75 -86 7.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:00:57.574917 -86 7.0000000000
+11:01:01.068223 BRK 75 -86 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:04.552282 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:08.030047 -86 7.2500000000
+11:01:11.525294 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:15.009322 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...#
+11:01:18.487205 -85 7.2500000000
+11:01:21.971234 -85 5.5000000000
+11:01:25.453275 -86 7.7500000000
+11:01:28.936369 -85 7.5000000000
+11:01:32.418423 -85 6.0000000000
+11:01:35.909697 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:39.384489 -85 5.5000000000
+11:01:42.877794 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:46.365826 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:49.844640 -86 6.0000000000
+11:01:53.328873 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:01:56.815006 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:00.293781 -85 6.0000000000
+11:02:03.786033 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:07.261893 -85 5.5000000000
+11:02:10.745918 -85 7.5000000000
+11:02:14.236247 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:17.720268 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:21.207330 BRK 75 -86 7.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:24.676137 -85 7.5000000000
+11:02:28.162210 -85 7.5000000000
+11:02:31.649229 -85 6.2500000000
+11:02:35.131287 -86 6.5000000000
+11:02:38.613326 -86 8.0000000000
+11:02:42.113644 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:45.597622 BRK 73 -86 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Lati\xf2emo;0Dorime*...)\r\n
+11:02:49.078730 BRK 75 -86 7.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:02:52.551535 -85 7.2500000000
+11:02:56.037614 -85 6.7500000000
+11:02:59.518659 -86 6.7500000000
+11:03:02.999712 -86 6.7500000000
+11:03:06.486729 -86 7.2500000000
+11:03:09.968781 -85 7.5000000000
+11:03:13.469024 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:03:16.935870 -86 7.5000000000
+11:03:20.419933 -86 6.7500000000
+11:03:23.921135 BRK 75 -85 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:03:27.397264 BRK 75 -85 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:03:30.875060 -86 6.2500000000
+11:03:34.361124 -85 6.5000000000
+11:03:37.852422 BRK 75 -86 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:03:41.329229 -85 6.7500000000
+11:03:44.815268 -85 6.5000000000
+11:03:48.296327 -85 6.0000000000
+11:03:51.784607 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:03:55.270684 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:03:58.749453 -86 6.2500000000
+11:04:02.243760 BRK 75 -84 5.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:05.721551 -86 5.7500000000
+11:04:09.197652 -86 6.7500000000
+11:04:12.695927 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:16.166747 -85 6.5000000000
+11:04:19.652768 -86 6.5000000000
+11:04:23.134791 -85 7.2500000000
+11:04:26.626119 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:30.101899 -85 6.7500000000
+11:04:33.585963 -86 6.7500000000
+11:04:37.078005 -85 9.0000000000
+11:04:40.561044 -85 6.2500000000
+11:04:44.049329 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:47.535406 BRK 75 -86 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:51.022466 BRK 75 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:54.499480 BRK 75 -85 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:04:57.978356 -85 6.5000000000
+11:05:01.462390 -85 6.5000000000
+11:05:04.948406 -85 6.7500000000
+11:05:08.437670 BRK 75 -86 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:05:11.914512 -86 6.0000000000
+11:05:15.393575 -86 6.7500000000
+11:05:18.893801 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:05:22.368689 -85 6.7500000000
+11:05:25.844696 -85 7.0000000000
+11:05:29.345970 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:05:32.825034 BRK 75 -86 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:05:36.302838 -86 7.5000000000
+11:05:39.786889 -86 7.7500000000
+11:05:43.267928 -86 6.2500000000
+11:05:46.757977 -85 6.5000000000
+11:05:50.249228 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:05:53.724080 -86 7.0000000000
+11:05:57.208369 BRK 75 -86 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:06:00.692462 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:06:04.171228 -85 7.0000000000
+11:06:07.655275 -86 7.2500000000
+11:06:11.137330 -86 5.7500000000
+11:06:14.629380 -86 7.5000000000
+11:06:18.111437 -86 7.5000000000
+11:06:21.588510 -86 7.2500000000
+11:06:25.079523 -86 6.5000000000
+11:06:28.561601 -85 7.7500000000
+11:06:32.051884 BRK 75 -86 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:06:35.529700 -85 7.5000000000
+11:06:39.023981 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:06:42.499815 -86 7.2500000000
+11:06:45.985835 -86 6.0000000000
+11:06:49.465859 -86 7.5000000000
+11:06:52.947924 -85 7.7500000000
+11:06:56.429974 -86 7.2500000000
+11:06:59.922024 -86 6.5000000000
+11:07:03.404064 -86 8.5000000000
+11:07:06.884115 -86 6.2500000000
+11:07:10.365159 -86 7.2500000000
+11:07:13.855215 -86 7.5000000000
+11:07:17.336274 -86 7.5000000000
+11:07:20.823296 -85 7.2500000000
+11:07:24.304356 -86 7.5000000000
+11:07:27.785406 -85 7.2500000000
+11:07:31.286749 BRK 75 -85 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:07:34.770770 BRK 75 -85 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:07:38.237560 -85 7.2500000000
+11:07:41.721639 -86 6.7500000000
+11:07:45.213858 BRK 75 -86 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:07:48.688736 -86 6.7500000000
+11:07:52.172745 -85 6.2500000000
+11:07:55.674016 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:07:59.140865 -85 7.2500000000
+11:08:02.626893 -85 6.2500000000
+11:08:06.108941 -85 7.5000000000
+11:08:09.601007 -86 7.7500000000
+11:08:13.090333 BRK 75 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:08:16.576362 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:08:20.045159 -85 6.5000000000
+11:08:23.532209 -85 6.7500000000
+11:08:27.013261 -85 6.2500000000
+11:08:30.504289 -85 7.2500000000
+11:08:33.994596 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:08:37.472403 -86 7.2500000000
+11:08:40.956461 -86 7.7500000000
+11:08:44.438532 -85 6.7500000000
+11:08:47.920551 -85 7.0000000000
+11:08:51.410857 BRK 75 -85 7.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:08:54.886702 -86 8.0000000000
+11:08:58.373694 -85 7.2500000000
+11:09:01.863301 BRK 75 -84 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:05.341785 -86 6.5000000000
+11:09:08.827863 -85 6.2500000000
+11:09:12.319145 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:15.805147 BRK 75 -85 5.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:19.272997 -85 6.2500000000
+11:09:22.757045 -86 7.5000000000
+11:09:26.250347 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:29.736462 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:33.212196 -85 7.7500000000
+11:09:36.705456 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:40.191503 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:43.678607 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:47.154644 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:50.631437 -87 7.0000000000
+11:09:54.126766 BRK 75 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:09:57.603529 -86 7.2500000000
+11:10:01.098851 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:10:04.581858 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:10:08.058941 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:10:11.543985 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:10:15.022796 -85 6.7500000000
+11:10:18.508830 -86 6.2500000000
+11:10:21.991877 -85 6.5000000000
+11:10:25.472928 -86 7.7500000000
+11:10:28.955966 -86 8.7500000000
+11:10:32.438019 -86 7.7500000000
+11:10:35.930115 -86 7.0000000000
+11:10:39.411108 -86 7.0000000000
+11:10:42.898206 -85 6.5000000000
+11:10:46.382288 -86 6.5000000000
+11:10:49.863275 -86 7.5000000000
+11:10:53.345308 -85 7.0000000000
+11:10:56.836662 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:11:00.314467 -85 7.2500000000
+11:11:03.801449 -86 7.5000000000
+11:11:07.292754 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:11:10.770372 -84 6.5000000000
+11:11:14.246662 -86 6.7500000000
+11:11:17.729658 -86 7.0000000000
+11:11:21.221719 -85 5.7500000000
+11:11:24.705762 -85 6.5000000000
+11:11:28.186837 -85 6.0000000000
+11:11:31.666857 -85 7.0000000000
+11:11:38.648230 BRK 75 -86 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:11:42.125003 -85 7.0000000000
+11:11:45.610327 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:11:49.086138 -85 6.5000000000
+11:11:52.579448 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:11:56.063424 BRK 75 -85 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:11:59.549434 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:12:03.027298 -85 6.5000000000
+11:12:06.511345 -86 7.2500000000
+11:12:09.995394 -85 7.2500000000
+11:12:13.485661 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:12:16.961510 -86 7.7500000000
+11:12:20.448567 -86 7.7500000000
+11:12:23.925586 -86 7.0000000000
+11:12:27.417681 -86 8.0000000000
+11:12:30.898693 -86 7.0000000000
+11:12:34.380824 -86 7.7500000000
+11:12:37.861791 -86 7.5000000000
+11:12:41.351866 -85 6.5000000000
+11:12:44.843163 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:12:48.320932 -86 7.5000000000
+11:12:51.804992 -86 7.0000000000
+11:12:55.286036 -86 6.7500000000
+11:12:58.768073 -86 7.2500000000
+11:13:02.250164 -86 6.7500000000
+11:13:05.750457 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:13:09.226255 -86 8.2500000000
+11:13:12.710318 -86 7.7500000000
+11:13:16.200592 BRK 75 -85 7.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:13:19.678434 -85 7.2500000000
+11:13:23.162467 -86 8.0000000000
+11:13:26.644475 -86 7.5000000000
+11:13:30.133723 BRK 75 -85 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:13:33.610630 -85 7.5000000000
+11:13:37.098894 BRK 75 -85 7.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:13:40.573702 -85 7.5000000000
+11:13:44.057729 -86 7.0000000000
+11:13:47.560060 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:13:51.034826 -86 7.2500000000
+11:13:54.518904 -86 8.5000000000
+11:13:58.000934 -85 7.0000000000
+11:14:01.482989 -86 7.0000000000
+11:14:04.965041 -85 7.0000000000
+11:14:08.447056 -85 7.0000000000
+11:14:11.934140 -85 7.0000000000
+11:14:15.421157 -85 7.0000000000
+11:14:18.898241 -85 6.0000000000
+11:14:22.390289 -85 7.7500000000
+11:14:25.872308 -86 7.5000000000
+11:14:29.355356 -87 6.5000000000
+11:14:32.839420 -86 6.5000000000
+11:14:36.320481 -86 7.2500000000
+11:14:39.810789 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:14:43.288564 -86 5.7500000000
+11:14:46.774640 -86 6.2500000000
+11:14:50.255649 -87 7.0000000000
+11:14:53.738752 -87 7.0000000000
+11:14:57.233948 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:15:00.711841 -86 7.0000000000
+11:15:04.195856 -86 6.5000000000
+11:15:07.677936 -86 6.7500000000
+11:15:11.159715 -86 7.0000000000
+11:15:14.652005 -86 6.5000000000
+11:15:18.133065 -86 7.5000000000
+11:15:21.614790 -86 7.0000000000
+11:15:25.096145 -89 7.2500000000
+11:15:28.587197 -88 6.5000000000
+11:15:32.069254 -89 6.0000000000
+11:15:35.552303 -86 6.5000000000
+11:15:39.034373 -86 6.2500000000
+11:15:42.524629 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:15:45.999437 -87 7.5000000000
+11:15:49.485496 -86 7.0000000000
+11:15:52.968553 -86 7.0000000000
+11:15:56.455596 -86 7.5000000000
+11:15:59.936644 -86 7.5000000000
+11:16:03.423692 -86 6.5000000000
+11:16:06.904756 -86 6.7500000000
+11:16:10.395783 -86 7.0000000000
+11:16:13.877860 -86 6.5000000000
+11:16:17.359900 -86 7.2500000000
+11:16:20.841963 -86 8.0000000000
+11:16:24.323998 -86 7.2500000000
+11:16:27.806027 -86 6.5000000000
+11:16:31.297093 -86 8.0000000000
+11:16:34.779146 -86 8.2500000000
+11:16:38.260191 -86 7.0000000000
+11:16:41.751222 -86 6.5000000000
+11:16:45.233289 -86 6.7500000000
+11:16:48.714355 -86 6.7500000000
+11:16:52.201395 -87 6.5000000000
+11:16:55.684443 -86 6.5000000000
+11:16:59.166513 -86 7.2500000000
+11:17:02.648531 -86 7.2500000000
+11:17:06.143833 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:17:09.619631 -86 7.0000000000
+11:17:13.111975 BRK 71 -86 6.2500000000 Dori me interimo; Adapare; Dori,mm; Amenox2x); Latire7 Lat\xafremo; Dorime(...)\r\n
+11:17:16.587584 -86 7.0000000000
+11:17:20.071810 -86 7.5000000000
+11:17:23.551826 -86 6.2500000000
+11:17:27.043888 -87 7.0000000000
+11:17:30.527927 -86 7.0000000000
+11:17:34.009996 -86 7.7500000000
+11:17:37.491033 -86 6.7500000000
+11:17:40.973072 -86 6.5000000000
+11:17:44.455115 -86 6.7500000000
+11:17:47.944165 -87 7.7500000000
+11:17:51.428227 -86 7.2500000000
+11:17:54.911110 -85 6.0000000000
+11:17:58.393324 -86 6.7500000000
+11:18:01.876132 -86 7.0000000000
+11:18:05.367661 BRK 75 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:18:08.844464 -86 7.0000000000
+11:18:12.340764 BRK 74 -86 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Lati\xf2emo;0Dorime(...)\r\n
+11:18:15.815564 -86 6.0000000000
+11:18:19.299610 -86 6.5000000000
+11:18:22.781662 -86 7.0000000000
+11:18:26.263755 -85 7.5000000000
+11:18:29.764019 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:18:33.230852 -86 8.2500000000
+11:18:36.714858 -86 6.7500000000
+11:18:40.206927 -87 7.0000000000
+11:18:43.688966 -86 5.7500000000
+11:18:47.172031 -87 6.7500000000
+11:18:50.656054 -86 6.7500000000
+11:18:54.138131 -87 8.0000000000
+11:18:57.622193 -87 7.0000000000
+11:19:01.104218 -86 6.2500000000
+11:19:04.588264 -86 6.7500000000
+11:19:08.078325 -86 7.0000000000
+11:19:11.560349 -86 8.0000000000
+11:19:15.042461 -85 7.7500000000
+11:19:18.524453 -86 7.2500000000
+11:19:22.007501 -85 7.7500000000
+11:19:25.508791 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:19:28.984818 BRK 75 -86 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:19:32.461668 -86 7.0000000000
+11:19:35.950699 -86 7.7500000000
+11:19:39.431771 -85 8.0000000000
+11:19:42.915804 -85 7.0000000000
+11:19:46.397880 -86 7.0000000000
+11:19:49.888889 -85 5.5000000000
+11:19:53.371959 -86 7.5000000000
+11:19:56.855993 -86 7.0000000000
+11:20:00.336108 -85 7.5000000000
+11:20:03.817087 -86 7.7500000000
+11:20:07.300126 -86 6.7500000000
+11:20:10.792036 -86 6.5000000000
+11:20:14.273238 -86 7.0000000000
+11:20:17.755283 -86 8.2500000000
+11:20:21.237328 -86 6.7500000000
+11:20:24.728388 -86 7.0000000000
+11:20:28.210463 -86 7.2500000000
+11:20:31.691472 -86 7.0000000000
+11:20:35.171533 -86 7.2500000000
+11:20:38.662613 -85 7.7500000000
+11:20:42.145626 -85 7.5000000000
+11:20:45.634941 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:20:49.112722 -85 7.5000000000
+11:20:52.608026 BRK 75 -85 7.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:20:56.083842 -85 6.7500000000
+11:20:59.567913 -86 6.0000000000
+11:21:03.050933 -85 7.2500000000
+11:21:06.532991 -85 6.0000000000
+11:21:10.015031 -86 6.2500000000
+11:21:13.506392 BRK 75 -85 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:21:16.992367 BRK 75 -86 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:21:20.470766 -85 6.7500000000
+11:21:23.956494 BRK 75 -85 7.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:21:27.432262 -86 7.2500000000
+11:21:30.919335 -85 7.0000000000
+11:21:34.402411 -85 7.2500000000
+11:21:37.893425 -85 7.2500000000
+11:21:41.370515 -86 6.5000000000
+11:21:44.854562 -86 7.7500000000
+11:21:48.336564 -86 7.5000000000
+11:21:51.834897 BRK 75 -86 7.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:21:55.305671 -86 7.5000000000
+11:21:58.793711 -85 6.7500000000
+11:22:02.287008 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:22:05.763847 -85 7.2500000000
+11:22:09.240866 -86 7.0000000000
+11:22:12.731925 -85 7.0000000000
+11:22:16.213968 -85 7.0000000000
+11:22:19.700268 BRK 75 -85 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:22:23.184300 BRK 75 -85 6.0000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:22:26.662142 -85 7.5000000000
+11:22:30.146181 -85 7.7500000000
+11:22:33.637389 BRK 75 -86 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:22:37.114299 -86 7.7500000000
+11:22:40.598328 -86 7.0000000000
+11:22:44.096589 BRK 75 -86 6.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+11:22:47.572413 -85 7.2500000000
+11:22:51.049450 -86 7.5000000000
+11:22:54.532504 -86 7.7500000000
+11:22:58.022614 -86 7.5000000000

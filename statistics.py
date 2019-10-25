@@ -6,8 +6,7 @@ from matplotlib.ticker import PercentFormatter
 from datetime import date
 
 def makeVStatistics(ptsplit, rssi, snr):
-	vRssiD = vRssiU = vSnrD = vSnrU = 0
-	vRssiDcount = vRssiUcount = vSnrDcount = vSnrUcount = vRssiEcount = vSnrEcount = 0
+	vRssi = vSnr = vRssiCount = vSnrCount = 0
 	firstVal = secondVal = 0
 	for i in range(1, len(ptsplit)):
 		try:
@@ -18,42 +17,19 @@ def makeVStatistics(ptsplit, rssi, snr):
 			else:
 				firstVal = 1
 				secondVal = 2
-			if(float(lin[firstVal]) < float(rssi)):
-				vRssiD += (float(lin[firstVal])-float(rssi))**2
-				vRssiDcount += 1
-			elif(float(lin[firstVal]) > float(rssi)):
-				vRssiU += (float(lin[firstVal])-float(rssi))**2
-				vRssiUcount+=1
-			else:
-				vRssiEcount+=1
-			if(float(lin[secondVal]) < float(snr)):
-				vSnrD += (float(lin[secondVal])-float(snr))**2
-				vSnrDcount+=1
-			elif(float(lin[secondVal]) > float(snr)):
-				vSnrU += (float(lin[secondVal])-float(snr))**2
-				vSnrUcount+=1
-			else:
-				vSnrEcount+=1
+			vRssi += (float(lin[firstVal])-float(rssi))**2
+			vRssiCount += 1
+			vSnr += (float(lin[secondVal])-float(snr))**2
+			vSnrCount+=1
 		except:
 			continue
-	if(vRssiEcount%2==1):
-		vRssiEcount+=1
-	vRssiEcount/=2
-	if(vSnrEcount%2==1):
-		vSnrEcount+=1
-	vSnrEcount/=2
-	vRssiD = 0 if vRssiDcount==0 else vRssiD/(vRssiDcount+vRssiEcount)
-	vRssiU = 0 if vRssiUcount==0 else vRssiU/(vRssiUcount+vRssiEcount)
-	vSnrD = 0 if vSnrDcount==0 else vSnrD/(vSnrDcount+vSnrEcount)
-	vSnrU = 0 if vSnrUcount==0 else vSnrU/(vSnrUcount+vSnrEcount)
+	vRssi = 0 if vRssiCount==0 else vRssi/vRssiCount
+	vSnr = 0 if vSnrCount==0 else vSnr/vSnrCount
+		
+	vRssi = 0 if vRssiCount==0 else math.sqrt(vRssi)/math.sqrt(vRssiCount)
+	vSnrD = 0 if vSnrCount==0 else math.sqrt(vSnr)/math.sqrt(vSnrCount)
 	
-	vRssiD = 0 if vRssiDcount==0 else math.sqrt(vRssiD)/math.sqrt(vRssiDcount)
-	vRssiU = 0 if vRssiUcount==0 else math.sqrt(vRssiU)/math.sqrt(vRssiUcount)
-	vSnrD = 0 if vSnrDcount==0 else math.sqrt(vSnrD)/math.sqrt(vSnrDcount)
-	vSnrU = 0 if vSnrUcount==0 else math.sqrt(vSnrU)/math.sqrt(vSnrUcount)
-	
-	
-	return [vRssiD, vRssiU], [vSnrD,vSnrU]	
+	return vRssi, vSnr	
 
 def makeStatistics(pt):
 	ptsplit = pt.splitlines()
@@ -162,11 +138,9 @@ with open("../TCC-II-logs/test_output", "w+") as f:
 		
 		f.write("Teste nº "+str(n)+"\n")
 		f.write("Total RSSI: "+ str(lt[2])+"\n")
-		f.write("Standard error of RSSI (down): "+str(float(lt[6][0]))+"\n")
-		f.write("Standard error of RSSI (up): "+str(float(lt[6][1]))+"\n")
+		f.write("Standard error of RSSI: "+str(float(lt[6]))+"\n")
 		f.write("Total SNR: "+ str(lt[3])+"\n")
-		f.write("Standard error of SNR (down): "+str(float(lt[7][0]))+"\n")
-		f.write("Standard error of SNR (up): "+str(float(lt[7][1]))+"\n")
+		f.write("Standard error of SNR: "+str(float(lt[7]))+"\n")
 		f.write("Number of packets received: "+str(lt[4]) +"/"+str(lt[5])+" ("+str(round(int(lt[4])/int(lt[5])*100, 3))+"%)\n")
 		f.write("Broken packets: "+str(lt[9])+"\n\n")
 print("Os testes foram concluídos com sucesso! Estão escritos no arquivo de log test_output")
@@ -178,23 +152,22 @@ fileN = len(files)
 nDistances = set(item[1] for item in testes)
 SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'k', 'm', 'y']
 
-prm = [[2, "Received Signal Strength Indicator", 20, 6],[3, "Signal to Noise Ratio", 8, 7], [9, "Lost Packages", 20, -1]]
+prm = [[2, "Received Signal Strength Indicator", 20, 6],[3, "Signal to Noise Ratio", 8, 7], [9, "Packet Delivery Ratio", 20, -1]]
 for x in nDistances:
 	for tim in prm:
 		plt.clf()
 		for xsf in range(7,13):
 			eixoX = []
 			eixoY = []
-			errorBars = [[],[]]
+			errorBars = []
 			fds = []
 			for item in testes:
 				if(item[1]==str(x) and item[8]==str(xsf)):
 					eixoX.append(item[0])
 					if(tim[3]!=-1):
-						errorBars[0].append(float(item[tim[3]][0]))
-						errorBars[1].append(float(item[tim[3]][1]))
+						errorBars.append(float(item[tim[3]])/2)
 					if(tim[0]==9):
-						eixoY.append((((int(item[5])-int(item[4]))+(int(item[tim[0]])))/int(item[5]))*100.0)
+						eixoY.append(100.0-(((int(item[5])-int(item[4]))+(int(item[tim[0]])))/int(item[5]))*100.0)
 						plt.gca().yaxis.set_major_formatter(PercentFormatter())
 					else:
 						eixoY.append(item[tim[0]])
@@ -202,13 +175,6 @@ for x in nDistances:
 			if(len(eixoX)>0 and len(eixoY)>0):
 				plt.plot(eixoX, eixoY, color = SFColors[xsf], label = str(xsf), marker = "x")
 				if(tim[3]!=-1):
-					print("\n\n")
-					print(errorBars)
-					print("\n")
-					print(eixoX)
-					print("\n")
-					print(eixoY)
-					print("\n\n")
 					plt.errorbar(eixoX, eixoY, color = SFColors[xsf], yerr=errorBars, ls="None", marker = "_", uplims=True, lolims=True)
 		plt.ylabel(tim[1], labelpad=5)
 		plt.xlabel("Transmission Power")

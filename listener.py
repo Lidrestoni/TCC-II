@@ -131,9 +131,11 @@ while(keepTesting==True):
 					except:
 						brkPackages+=1
 						x = str(x).replace("\n", "").replace("\r", "")
-						if(x[:2]=="b'"):
+						if(len(x)>3 and x[:2]=="b'"):
 							x = x[2:-1]
+						f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x+"\n")
 						continue
+						
 					if(x.strip()=="END"):
 						if(rcvPackages>0):
 							closingFileProcedures(fileName, False)
