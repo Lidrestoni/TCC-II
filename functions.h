@@ -30,7 +30,7 @@ class ValidMessage {
     }
   public:
     ValidMessage(){
-      validMessageCounter=0;
+      validMessageCounter=initIndexValidMessageArray;
       if(validMessageArraySize>0)
         makeValidMessageOfSize(validMessageArray[0]);
     }

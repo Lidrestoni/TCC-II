@@ -12,6 +12,7 @@ void cbk(int packetSize) {
       clearDisplay();
       display.drawString(0, 0, "Tests with TxPower " + String(TxPower-1));
       display.drawString(0, 15, " have ended!");
+      Serial.println("END");
     }
     else if(aux==2){
       clearDisplay();
@@ -19,8 +20,10 @@ void cbk(int packetSize) {
       display.drawString(0, 15, " have ended!");
       display.drawString(0, 30, "Changing Spreading Factor");
       display.drawString(0, 45, " to " + String(LoRa.getSpreadingFactor()));
+      Serial.println("FEN");
     }
-    Serial.println("END");
+    else
+      Serial.println("FIM");
   }
   else{
     clearDisplay();

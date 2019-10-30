@@ -39,7 +39,7 @@ class ValidMessage:
 			self.__validMessage+=constants["originalMessage"][:siz]
      
 	def __init__(self):
-		self.__validMessageCounter=0
+		self.__validMessageCounter=constants["initIndexValidMessageArray"]
 		if(constants["validMessageArraySize"]>0):
 			self.__makeValidMessageOfSize(constants["validMessageArray"][0])
 	def ret(self):
@@ -136,7 +136,8 @@ while(keepTesting==True):
 						f.write(str(datetime.now().strftime("%H:%M:%S.%f"))+" "+x+"\n")
 						continue
 						
-					if(x.strip()=="END"):
+					if(x.strip()=="END" or x.strip()=="FIM" or x.strip()=="FEN"):
+						printAndWriteToLog(x)
 						if(rcvPackages>0):
 							closingFileProcedures(fileName, False)
 							raiseTxPower()

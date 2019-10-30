@@ -1,0 +1,923 @@
+
+
+
+
+
+
+
+
+-------------------------------------------
+-------------------------------------------
+             || Distance: 8065.5 cms ||
+-------------------------------------------
+-------------------------------------------
+
+
+
+------------------------------
+     |Spreading Factor 7|
+------------------------------
+_____________________
+Tx Power: 2
+_____________________
+Teste nº 1
+Total RSSI: -109.76
+Standard error of RSSI: 0.03191394679446593
+Total SNR: 7.7425
+Standard error of SNR: 0.3880687499999993
+Number of packets received: 400/500 (80.0%)
+Broken packets: 5
+
+_____________________
+Tx Power: 3
+_____________________
+Teste nº 2
+Total RSSI: -110.08208955223881
+Standard error of RSSI: 0.03265166252911103
+Total SNR: 7.6200248756218905
+Standard error of SNR: 0.1859982580876708
+Number of packets received: 402/500 (80.4%)
+Broken packets: 1
+
+_____________________
+Tx Power: 4
+_____________________
+Teste nº 3
+Total RSSI: -110.10144927536231
+Standard error of RSSI: 0.03613022214430945
+Total SNR: 7.481280193236715
+Standard error of SNR: 0.6495589891246
+Number of packets received: 414/500 (82.8%)
+Broken packets: 10
+
+_____________________
+Tx Power: 5
+_____________________
+Teste nº 4
+Total RSSI: -110.02544529262086
+Standard error of RSSI: 0.042861955096533136
+Total SNR: 7.541348600508906
+Standard error of SNR: 0.7198233721163618
+Number of packets received: 393/500 (78.6%)
+Broken packets: 6
+
+_____________________
+Tx Power: 6
+_____________________
+Teste nº 5
+Total RSSI: -110.67179487179487
+Standard error of RSSI: 0.06078544323332085
+Total SNR: 7.172435897435897
+Standard error of SNR: 1.7069645792241928
+Number of packets received: 390/500 (78.0%)
+Broken packets: 5
+
+_____________________
+Tx Power: 7
+_____________________
+Teste nº 6
+Total RSSI: -109.45255474452554
+Standard error of RSSI: 0.04227033128054794
+Total SNR: 7.833333333333333
+Standard error of SNR: 0.5701540957015416
+Number of packets received: 411/500 (82.2%)
+Broken packets: 5
+
+_____________________
+Tx Power: 8
+_____________________
+Teste nº 7
+Total RSSI: -109.63316582914572
+Standard error of RSSI: 0.03797564032302119
+Total SNR: 7.714824120603015
+Standard error of SNR: 0.8621420544935748
+Number of packets received: 398/500 (79.6%)
+Broken packets: 9
+
+_____________________
+Tx Power: 9
+_____________________
+Teste nº 8
+Total RSSI: -108.91346153846153
+Standard error of RSSI: 0.04438235777564189
+Total SNR: 8.000600961538462
+Standard error of SNR: 1.3772532446144532
+Number of packets received: 416/500 (83.2%)
+Broken packets: 6
+
+_____________________
+Tx Power: 10
+_____________________
+Teste nº 9
+Total RSSI: -108.8681592039801
+Standard error of RSSI: 0.036220514647955254
+Total SNR: 8.068407960199005
+Standard error of SNR: 0.22852930620529202
+Number of packets received: 402/500 (80.4%)
+Broken packets: 2
+
+_____________________
+Tx Power: 11
+_____________________
+Teste nº 10
+Total RSSI: -109.03768844221105
+Standard error of RSSI: 0.0523695892959442
+Total SNR: 7.9704773869346734
+Standard error of SNR: 1.5319487670765854
+Number of packets received: 398/500 (79.6%)
+Broken packets: 7
+
+_____________________
+Tx Power: 12
+_____________________
+Teste nº 11
+Total RSSI: -108.49397590361446
+Standard error of RSSI: 0.0405889963728902
+Total SNR: 8.243975903614459
+Standard error of SNR: 0.3547829873711728
+Number of packets received: 415/500 (83.0%)
+Broken packets: 3
+
+_____________________
+Tx Power: 13
+_____________________
+Teste nº 12
+Total RSSI: -108.11407766990291
+Standard error of RSSI: 0.029888719435622893
+Total SNR: 8.380461165048544
+Standard error of SNR: 0.49405391354039174
+Number of packets received: 412/500 (82.4%)
+Broken packets: 5
+
+_____________________
+Tx Power: 14
+_____________________
+Teste nº 13
+Total RSSI: -108.66502463054188
+Standard error of RSSI: 0.031776582663437976
+Total SNR: 8.117610837438423
+Standard error of SNR: 0.137491582542648
+Number of packets received: 406/500 (81.2%)
+Broken packets: 1
+
+_____________________
+Tx Power: 15
+_____________________
+Teste nº 14
+Total RSSI: -108.7860824742268
+Standard error of RSSI: 0.03619687730405973
+Total SNR: 8.076675257731958
+Standard error of SNR: 0.36348301825379975
+Number of packets received: 388/500 (77.6%)
+Broken packets: 5
+
+_____________________
+Tx Power: 16
+_____________________
+Teste nº 15
+Total RSSI: -108.36117936117937
+Standard error of RSSI: 0.026904640690990356
+Total SNR: 8.195945945945946
+Standard error of SNR: 0.2624344245965867
+Number of packets received: 407/500 (81.4%)
+Broken packets: 3
+
+_____________________
+Tx Power: 17
+_____________________
+Teste nº 16
+Total RSSI: -107.75980392156863
+Standard error of RSSI: 0.02842088890489777
+Total SNR: 8.504901960784315
+Standard error of SNR: 0.3281009707804696
+Number of packets received: 408/500 (81.6%)
+Broken packets: 3
+
+
+
+
+------------------------------
+     |Spreading Factor 8|
+------------------------------
+_____________________
+Tx Power: 2
+_____________________
+Teste nº 17
+Total RSSI: -107.45180722891567
+Standard error of RSSI: 0.02453938282743405
+Total SNR: 10.432730923694779
+Standard error of SNR: 0.111689730810794
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 3
+_____________________
+Teste nº 18
+Total RSSI: -107.41129032258064
+Standard error of RSSI: 0.025826665957862392
+Total SNR: 10.412298387096774
+Standard error of SNR: 0.11982858838449544
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 4
+_____________________
+Teste nº 19
+Total RSSI: -107.93386773547094
+Standard error of RSSI: 0.0283988254732842
+Total SNR: 9.976452905811623
+Standard error of SNR: 0.30167499327311953
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 5
+_____________________
+Teste nº 20
+Total RSSI: -108.29258517034069
+Standard error of RSSI: 0.020949559450009415
+Total SNR: 9.599699398797595
+Standard error of SNR: 0.15476443869703385
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 6
+_____________________
+Teste nº 21
+Total RSSI: -108.39078156312625
+Standard error of RSSI: 0.022566019694219428
+Total SNR: 9.513527054108216
+Standard error of SNR: 0.19207653784522838
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 7
+_____________________
+Teste nº 22
+Total RSSI: -108.62173038229376
+Standard error of RSSI: 0.023194344388890554
+Total SNR: 9.168008048289739
+Standard error of SNR: 0.3648819476213419
+Number of packets received: 497/500 (99.4%)
+Broken packets: 0
+
+_____________________
+Tx Power: 8
+_____________________
+Teste nº 23
+Total RSSI: -108.20883534136546
+Standard error of RSSI: 0.018867075417399883
+Total SNR: 9.715863453815262
+Standard error of SNR: 0.153704174126223
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 9
+_____________________
+Teste nº 24
+Total RSSI: -108.36746987951807
+Standard error of RSSI: 0.02287332924371205
+Total SNR: 9.48293172690763
+Standard error of SNR: 0.3666765455395874
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 10
+_____________________
+Teste nº 25
+Total RSSI: -108.6372745490982
+Standard error of RSSI: 0.021892968382501876
+Total SNR: 9.242985971943888
+Standard error of SNR: 0.20486062304970762
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 11
+_____________________
+Teste nº 26
+Total RSSI: -108.4629258517034
+Standard error of RSSI: 0.02250065790889157
+Total SNR: 9.413827655310621
+Standard error of SNR: 0.16341601037746847
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 12
+_____________________
+Teste nº 27
+Total RSSI: -108.47695390781563
+Standard error of RSSI: 0.024583630363871435
+Total SNR: 9.409819639278558
+Standard error of SNR: 0.3478294263878455
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 13
+_____________________
+Teste nº 28
+Total RSSI: -108.00601202404809
+Standard error of RSSI: 0.015390724669005876
+Total SNR: 9.953406813627254
+Standard error of SNR: 0.10742326336038795
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 14
+_____________________
+Teste nº 29
+Total RSSI: -108.2244488977956
+Standard error of RSSI: 0.023444472019809995
+Total SNR: 9.680360721442886
+Standard error of SNR: 0.264063196533348
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 15
+_____________________
+Teste nº 30
+Total RSSI: -108.23847695390782
+Standard error of RSSI: 0.02069289833061094
+Total SNR: 9.622745490981965
+Standard error of SNR: 0.1791970714977053
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 16
+_____________________
+Teste nº 31
+Total RSSI: -108.30722891566265
+Standard error of RSSI: 0.021626606323261383
+Total SNR: 9.512550200803213
+Standard error of SNR: 0.19048004266060206
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 17
+_____________________
+Teste nº 32
+Total RSSI: -108.00801603206413
+Standard error of RSSI: 0.019631908955486974
+Total SNR: 9.884769539078157
+Standard error of SNR: 0.18737324348094916
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+
+
+
+------------------------------
+     |Spreading Factor 9|
+------------------------------
+_____________________
+Tx Power: 2
+_____________________
+Teste nº 33
+Total RSSI: -107.15959595959596
+Standard error of RSSI: 0.02198142440431562
+Total SNR: 8.662626262626263
+Standard error of SNR: 0.3884516886032017
+Number of packets received: 495/500 (99.0%)
+Broken packets: 5
+
+_____________________
+Tx Power: 3
+_____________________
+Teste nº 34
+Total RSSI: -107.49193548387096
+Standard error of RSSI: 0.023160728538776848
+Total SNR: 8.538810483870968
+Standard error of SNR: 0.10320644795460392
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 4
+_____________________
+Teste nº 35
+Total RSSI: -107.24089068825911
+Standard error of RSSI: 0.02067692711357189
+Total SNR: 8.543016194331983
+Standard error of SNR: 0.10100891876608364
+Number of packets received: 494/500 (98.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 5
+_____________________
+Teste nº 36
+Total RSSI: -106.98192771084338
+Standard error of RSSI: 0.013142620044268177
+Total SNR: 8.84789156626506
+Standard error of SNR: 0.18230981153529738
+Number of packets received: 498/500 (99.6%)
+Broken packets: 1
+
+_____________________
+Tx Power: 6
+_____________________
+Teste nº 37
+Total RSSI: -106.72289156626506
+Standard error of RSSI: 0.021974793530753794
+Total SNR: 9.289156626506024
+Standard error of SNR: 0.41237238109062724
+Number of packets received: 498/500 (99.6%)
+Broken packets: 1
+
+_____________________
+Tx Power: 7
+_____________________
+Teste nº 38
+Total RSSI: -106.8762677484787
+Standard error of RSSI: 0.02496267164161815
+Total SNR: 9.117139959432048
+Standard error of SNR: 0.39538066398133737
+Number of packets received: 493/500 (98.6%)
+Broken packets: 2
+
+_____________________
+Tx Power: 8
+_____________________
+Teste nº 39
+Total RSSI: -106.81541582150102
+Standard error of RSSI: 0.019687250992806254
+Total SNR: 9.073529411764707
+Standard error of SNR: 0.5228642166805888
+Number of packets received: 493/500 (98.6%)
+Broken packets: 3
+
+_____________________
+Tx Power: 9
+_____________________
+Teste nº 40
+Total RSSI: -106.42338709677419
+Standard error of RSSI: 0.022549004841263997
+Total SNR: 9.64516129032258
+Standard error of SNR: 0.3430915062434974
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 10
+_____________________
+Teste nº 41
+Total RSSI: -106.51209677419355
+Standard error of RSSI: 0.023505628034082036
+Total SNR: 9.54233870967742
+Standard error of SNR: 0.40370138527575455
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 11
+_____________________
+Teste nº 42
+Total RSSI: -106.98192771084338
+Standard error of RSSI: 0.016900587754396228
+Total SNR: 8.741465863453815
+Standard error of SNR: 0.4109462448186327
+Number of packets received: 498/500 (99.6%)
+Broken packets: 7
+
+_____________________
+Tx Power: 12
+_____________________
+Teste nº 43
+Total RSSI: -107.09638554216868
+Standard error of RSSI: 0.026133247439450058
+Total SNR: 8.825803212851406
+Standard error of SNR: 0.44392756770052094
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 13
+_____________________
+Teste nº 44
+Total RSSI: -106.1623246492986
+Standard error of RSSI: 0.026574967626113097
+Total SNR: 10.305110220440882
+Standard error of SNR: 0.950870679234217
+Number of packets received: 499/500 (99.8%)
+Broken packets: 1
+
+_____________________
+Tx Power: 14
+_____________________
+Teste nº 45
+Total RSSI: -106.13306451612904
+Standard error of RSSI: 0.026687467476856793
+Total SNR: 10.32358870967742
+Standard error of SNR: 1.222911314711237
+Number of packets received: 496/500 (99.2%)
+Broken packets: 6
+
+_____________________
+Tx Power: 15
+_____________________
+Teste nº 46
+Total RSSI: -106.00202429149797
+Standard error of RSSI: 0.030228981264416376
+Total SNR: 10.615384615384615
+Standard error of SNR: 0.8690244472127061
+Number of packets received: 494/500 (98.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 16
+_____________________
+Teste nº 47
+Total RSSI: -106.21887550200803
+Standard error of RSSI: 0.024357899050985135
+Total SNR: 10.26355421686747
+Standard error of SNR: 1.0049618655344255
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 17
+_____________________
+Teste nº 48
+Total RSSI: -106.22690763052209
+Standard error of RSSI: 0.021567371669854514
+Total SNR: 10.153112449799197
+Standard error of SNR: 0.5946539672747214
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+
+
+
+------------------------------
+     |Spreading Factor 10|
+------------------------------
+_____________________
+Tx Power: 2
+_____________________
+Teste nº 49
+Total RSSI: -107.08232931726907
+Standard error of RSSI: 0.039940384862468266
+Total SNR: 7.748493975903615
+Standard error of SNR: 1.1406854828954485
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 3
+_____________________
+Teste nº 50
+Total RSSI: -108.80885311871228
+Standard error of RSSI: 0.025833086162096355
+Total SNR: 7.75804828973843
+Standard error of SNR: 0.2368567542073369
+Number of packets received: 497/500 (99.4%)
+Broken packets: 0
+
+_____________________
+Tx Power: 4
+_____________________
+Teste nº 51
+Total RSSI: -108.48582995951416
+Standard error of RSSI: 0.025557496657226116
+Total SNR: 7.492914979757085
+Standard error of SNR: 0.1778344178727733
+Number of packets received: 494/500 (98.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 5
+_____________________
+Teste nº 52
+Total RSSI: -108.64056224899599
+Standard error of RSSI: 0.0274344991167609
+Total SNR: 7.5758032128514055
+Standard error of SNR: 0.2717388126804405
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 6
+_____________________
+Teste nº 53
+Total RSSI: -108.4969696969697
+Standard error of RSSI: 0.02911793459488048
+Total SNR: 7.269191919191919
+Standard error of SNR: 0.7046821752882362
+Number of packets received: 495/500 (99.0%)
+Broken packets: 5
+
+_____________________
+Tx Power: 7
+_____________________
+Teste nº 54
+Total RSSI: -108.89314516129032
+Standard error of RSSI: 0.032342171951629875
+Total SNR: 7.225302419354839
+Standard error of SNR: 1.1086390214457587
+Number of packets received: 496/500 (99.2%)
+Broken packets: 11
+
+_____________________
+Tx Power: 8
+_____________________
+Teste nº 55
+Total RSSI: -108.84475806451613
+Standard error of RSSI: 0.030245051651801334
+Total SNR: 7.317036290322581
+Standard error of SNR: 1.8434144019088172
+Number of packets received: 496/500 (99.2%)
+Broken packets: 10
+
+_____________________
+Tx Power: 9
+_____________________
+Teste nº 56
+Total RSSI: -108.74899598393574
+Standard error of RSSI: 0.02521056131913064
+Total SNR: 7.6741967871485945
+Standard error of SNR: 0.23860628255995797
+Number of packets received: 498/500 (99.6%)
+Broken packets: 2
+
+_____________________
+Tx Power: 10
+_____________________
+Teste nº 57
+Total RSSI: -108.68072289156626
+Standard error of RSSI: 0.02108289723127663
+Total SNR: 7.585843373493976
+Standard error of SNR: 0.1918026019741622
+Number of packets received: 498/500 (99.6%)
+Broken packets: 0
+
+_____________________
+Tx Power: 11
+_____________________
+Teste nº 58
+Total RSSI: -108.80040322580645
+Standard error of RSSI: 0.01883111134270884
+Total SNR: 7.718245967741935
+Standard error of SNR: 0.17426889917728877
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 12
+_____________________
+Teste nº 59
+Total RSSI: -108.70481927710843
+Standard error of RSSI: 0.022143818071670138
+Total SNR: 7.626004016064257
+Standard error of SNR: 0.2096500963694141
+Number of packets received: 498/500 (99.6%)
+Broken packets: 2
+
+_____________________
+Tx Power: 13
+_____________________
+Teste nº 60
+Total RSSI: -108.4274193548387
+Standard error of RSSI: 0.02275522025101972
+Total SNR: 7.401209677419355
+Standard error of SNR: 0.11675256893860551
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 14
+_____________________
+Teste nº 61
+Total RSSI: -108.62173038229376
+Standard error of RSSI: 0.02230455686198182
+Total SNR: 7.544265593561368
+Standard error of SNR: 0.1673061507880281
+Number of packets received: 497/500 (99.4%)
+Broken packets: 0
+
+_____________________
+Tx Power: 15
+_____________________
+Teste nº 62
+Total RSSI: -108.60282258064517
+Standard error of RSSI: 0.021970816278933207
+Total SNR: 7.45866935483871
+Standard error of SNR: 0.1313562938995838
+Number of packets received: 496/500 (99.2%)
+Broken packets: 0
+
+_____________________
+Tx Power: 16
+_____________________
+Teste nº 63
+Total RSSI: -108.53507014028057
+Standard error of RSSI: 0.023891967506281253
+Total SNR: 7.37625250501002
+Standard error of SNR: 0.4384691226139645
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+_____________________
+Tx Power: 17
+_____________________
+Teste nº 64
+Total RSSI: -109.00400801603206
+Standard error of RSSI: 0.016031060084784284
+Total SNR: 8.004509018036073
+Standard error of SNR: 0.15316103148180168
+Number of packets received: 499/500 (99.8%)
+Broken packets: 0
+
+
+
+
+------------------------------
+     |Spreading Factor 11|
+------------------------------
+_____________________
+Tx Power: 2
+_____________________
+Teste nº 65
+Total RSSI: -108.64185110663983
+Standard error of RSSI: 0.022246779570340765
+Total SNR: 4.620221327967807
+Standard error of SNR: 0.2688717819998465
+Number of packets received: 497/500 (99.4%)
+Broken packets: 495
+
+_____________________
+Tx Power: 3
+_____________________
+Teste nº 66
+Total RSSI: -108.57515030060121
+Standard error of RSSI: 0.025184558080793465
+Total SNR: 4.5551102204408815
+Standard error of SNR: 0.3581853084927374
+Number of packets received: 499/500 (99.8%)
+Broken packets: 495
+
+_____________________
+Tx Power: 4
+_____________________
+Teste nº 67
+Total RSSI: -108.21285140562249
+Standard error of RSSI: 0.02176078309613016
+Total SNR: 4.344377510040161
+Standard error of SNR: 0.5603699940323528
+Number of packets received: 498/500 (99.6%)
+Broken packets: 498
+
+_____________________
+Tx Power: 5
+_____________________
+Teste nº 68
+Total RSSI: -108.16867469879519
+Standard error of RSSI: 0.018164792854453125
+Total SNR: 4.625
+Standard error of SNR: 0.4734563253012048
+Number of packets received: 498/500 (99.6%)
+Broken packets: 497
+
+_____________________
+Tx Power: 6
+_____________________
+Teste nº 69
+Total RSSI: -108.1144578313253
+Standard error of RSSI: 0.015871827337888167
+Total SNR: 4.568775100401607
+Standard error of SNR: 0.7019717927936651
+Number of packets received: 498/500 (99.6%)
+Broken packets: 497
+
+_____________________
+Tx Power: 7
+_____________________
+Teste nº 70
+Total RSSI: -107.96184738955823
+Standard error of RSSI: 0.010293020775235742
+Total SNR: 3.8755020080321283
+Standard error of SNR: 0.44634763955420054
+Number of packets received: 498/500 (99.6%)
+Broken packets: 496
+
+_____________________
+Tx Power: 8
+_____________________
+Teste nº 71
+Total RSSI: -108.33867735470942
+Standard error of RSSI: 0.021561815697047855
+Total SNR: 4.675350701402806
+Standard error of SNR: 0.49004371468387226
+Number of packets received: 499/500 (99.8%)
+Broken packets: 497
+
+_____________________
+Tx Power: 9
+_____________________
+Teste nº 72
+Total RSSI: -108.1851106639839
+Standard error of RSSI: 0.01742155202548101
+Total SNR: 4.571428571428571
+Standard error of SNR: 0.5854412187410167
+Number of packets received: 497/500 (99.4%)
+Broken packets: 494
+
+_____________________
+Tx Power: 10
+_____________________
+Teste nº 73
+Total RSSI: -108.11847389558233
+Standard error of RSSI: 0.01555545131503544
+Total SNR: 4.571787148594377
+Standard error of SNR: 0.6937672880276118
+Number of packets received: 498/500 (99.6%)
+Broken packets: 498
+
+_____________________
+Tx Power: 11
+_____________________
+Teste nº 74
+Total RSSI: -108.17469879518072
+Standard error of RSSI: 0.017711845633116414
+Total SNR: 4.559738955823293
+Standard error of SNR: 0.6860647912936861
+Number of packets received: 498/500 (99.6%)
+Broken packets: 494
+
+_____________________
+Tx Power: 12
+_____________________
+Teste nº 75
+Total RSSI: -108.14028056112224
+Standard error of RSSI: 0.015802509968155683
+Total SNR: 4.68436873747495
+Standard error of SNR: 0.6829420363773638
+Number of packets received: 499/500 (99.8%)
+Broken packets: 498
+
+_____________________
+Tx Power: 13
+_____________________
+Teste nº 76
+Total RSSI: -108.14829659318637
+Standard error of RSSI: 0.01664968310084236
+Total SNR: 4.6497995991983965
+Standard error of SNR: 0.7279358315830045
+Number of packets received: 499/500 (99.8%)
+Broken packets: 498
+
+_____________________
+Tx Power: 14
+_____________________
+Teste nº 77
+Total RSSI: -108.13855421686748
+Standard error of RSSI: 0.015993791112683755
+Total SNR: 4.567771084337349
+Standard error of SNR: 0.6574301724972186
+Number of packets received: 498/500 (99.6%)
+Broken packets: 498
+
+_____________________
+Tx Power: 15
+_____________________
+Teste nº 78
+Total RSSI: -108.10441767068274
+Standard error of RSSI: 0.013994454222076541
+Total SNR: 4.546686746987952
+Standard error of SNR: 0.6400141227560828
+Number of packets received: 498/500 (99.6%)
+Broken packets: 494
+
+_____________________
+Tx Power: 16
+_____________________
+Teste nº 79
+Total RSSI: -108.17102615694165
+Standard error of RSSI: 0.01736253861410995
+Total SNR: 4.46327967806841
+Standard error of SNR: 0.5578820002510022
+Number of packets received: 497/500 (99.4%)
+Broken packets: 494
+
+_____________________
+Tx Power: 17
+_____________________
+Teste nº 80
+Total RSSI: -108.36418511066398
+Standard error of RSSI: 0.021771562345627417
+Total SNR: 4.621227364185111
+Standard error of SNR: 0.8770292782854049
+Number of packets received: 497/500 (99.4%)
+Broken packets: 491
+
