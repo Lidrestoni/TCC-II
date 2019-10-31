@@ -41,9 +41,11 @@ class ValidMessage:
 	def __init__(self):
 		self.__validMessageCounter=constants["initIndexValidMessageArray"]
 		if(constants["validMessageArraySize"]>0):
-			self.__makeValidMessageOfSize(constants["validMessageArray"][0])
+			self.__makeValidMessageOfSize(constants["validMessageArray"][self.__validMessageCounter])
 	def ret(self):
 		return self.__validMessage
+	def retCounter(self):
+		return self.__validMessageCounter
 	def len(self):
 		return len(self.__validMessage)  
 	def charat(self, pos):
@@ -114,7 +116,7 @@ while(keepTesting==True):
 	keepTesting = False
 	with open(fileName, "w") as f:
 		printAndWriteToLog("O arquivo '"+fileName+"' foi criado com sucesso! Gravando resultados ...")
-		printAndWriteToLog("SF: "+str(SF)+", TxPower: "+str(TxPower)+", Expecting message: \""+validMessage.ret()+"\"")
+		printAndWriteToLog("SF: "+str(SF)+", TxPower: "+str(TxPower)+", Expecting message: \""+validMessage.ret()+"\" ("+str(validMessage.retCounter())+")")
 		writeToFile(f, fileName,hoje[7:-1]+" 115200 "+dis+" "+str(SF)+" "+str(TxPower)+" "+str(constants["nPackets"])+" "+validMessage.ret()+"\n")
 		while True:
 			usbs = glob.glob('/dev/ttyUSB*')

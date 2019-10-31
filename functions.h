@@ -32,7 +32,7 @@ class ValidMessage {
     ValidMessage(){
       validMessageCounter=initIndexValidMessageArray;
       if(validMessageArraySize>0)
-        makeValidMessageOfSize(validMessageArray[0]);
+        makeValidMessageOfSize(validMessageArray[validMessageCounter]);
     }
     String ret(){
       return this->validMessage;  
@@ -42,6 +42,9 @@ class ValidMessage {
     }
     char charat(int pos){
       return this->validMessage[pos];  
+    }
+    int retCounter(){
+      return this->validMessageCounter;
     }
     void next(){
       bool contn = false;

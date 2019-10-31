@@ -32,7 +32,7 @@ void loop() {
    display.drawString(0, 0, "Sending packet: "+String(msgCounter+1)+" / "+String(nPackets));
    display.drawString(0, 15, "Tx Power: "+String(TxPower));
    display.drawString(0, 30, "Spreading Factor: "+String(LoRa.getSpreadingFactor()));
-   display.drawString(0, 45, "Packets of : "+String(validMessage->len())+" bytes");
+   display.drawString(0, 45, "Packets of : "+String(validMessage->len())+" bytes ("+validMessage->retCounter()+")");
    Serial.println(String(msgCounter+1));
    display.display();
 

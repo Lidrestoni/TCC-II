@@ -33,7 +33,7 @@ void cbk(int packetSize) {
       msgCounter += 1;
       display.drawString(0, 24, "Received packet " + String(msgCounter) + " / " + String(nPackets));
       display.drawString(0, 36, "TxP: " + String(TxPower)+" | SF: " + String(LoRa.getSpreadingFactor()));
-      display.drawString(0, 48, "Packet of "+String(packetSize)+" bytes");
+      display.drawString(0, 48, "Packet of "+String(packetSize)+" bytes ("+validMessage->retCounter()+")");
       Serial.println(String(LoRa.packetRssi(), DEC) + " " + String(LoRa.packetSnr(), DEC));
     }
     else {
