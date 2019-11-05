@@ -85,6 +85,7 @@ String packSize = "--";
 String packet ;
 unsigned int TxPower = minTxPower;
 int msgCounter = 0;
+int brkMsgCounter = 0;
 
 void startSFandTXPat(unsigned int sf, unsigned int txp){
 	LoRa.setSpreadingFactor(sf);
@@ -100,12 +101,12 @@ void raiseSpreadingFactor(){
     validMessage->next();
 		LoRa.setSpreadingFactor(minSf);
 	}
-  msgCounter=0;
+  brkMsgCounter=msgCounter=0;
 }
 
 int raiseTxPower(){
   if(msgCounter>1){
-    msgCounter=0;
+    brkMsgCounter=msgCounter=0;
     if(TxPower+1>maxTxPower){
       raiseSpreadingFactor();
       TxPower = minTxPower;

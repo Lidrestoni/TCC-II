@@ -93,7 +93,7 @@ def closingFileProcedures(fileName, deleteFile):
 		printAndWriteToLog("Arquivo '"+fileName+"' fechado e excluído! Execução interrompida antes do recebimento da mensagem de fim de teste")
 		os.remove(fileName)
 	else:
-		printAndWriteToLog("Arquivo '"+fileName+"' foi salvo! "+str(rcvPackages)+" pacotes foram recebidos. Destes, "+str(brkPackages)+" foram vieram corrompidos")
+		printAndWriteToLog("Arquivo '"+fileName+"' foi salvo! "+str(rcvPackages)+" pacotes foram recebidos. Destes, "+str(brkPackages)+" vieram corrompidos")
 	brkPackages=rcvPackages=0
 
 keepTesting = True
@@ -131,6 +131,7 @@ while(keepTesting==True):
 						x = ser.readline()
 						x = x.decode().replace("\n", "").replace("\r", "")
 					except:
+						rcvPackages+=1
 						brkPackages+=1
 						x = str(x).replace("\n", "").replace("\r", "")
 						if(len(x)>3 and x[:2]=="b'"):
