@@ -1,0 +1,498 @@
+2019-11-27 115200 70 11 7 500 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...)
+18:31:13.349448 BRK 73 -55 5.5000000000 Dori me interimo; Adapare; Dori me; Amenox2x); Latire; Latoremo;`Dorime(...)
+18:31:16.840546 BRK 62 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x05; Latozemo;zDorYke(..-\xe9\r\n
+18:31:20.321616 BRK 59 -56 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89!tir\x057 LatozemohjEorY\xabe(..-\xe9\r\n
+18:31:23.803691 BRK 64 -55 5.7500000000 Dori me interimo; Adapare; Dori,me; AmenoHrx); \x89atire7 Latozemo;jDorY\xabe(..-\xe9\r\n
+18:31:27.285710 BRK 69 -55 7.2500000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); Latire7 Lat\xafremo;zDorYme(...\xe9\r\n
+18:31:30.776697 BRK 62 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; AmenoHrx);\x10\x8catire; Latozemo8jLorY\xabe(..-\xe9\r\n
+18:31:34.257815 BRK 56 -55 8.2500000000 Dori me interimo; Adapare7 Dori,mm; \xe1meno\x18rp); \x8cqtir\x057 LaDozemoXjDorY\xabe(..Mi\r\n
+18:31:37.737775 BRK 72 -55 7.5000000000 Dori me interimo; Adapare; Dori me; Amenox2x); Latire; Latoremo;pDorYme(...)
+18:31:41.228874 BRK 70 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire; Latoremo;pDorime(...)\r\n
+18:31:44.709978 BRK 57 -55 9.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cAtir\x057 LaDozemoX\xeaDorY\xabd(.\x1eMi\r\n
+18:31:48.191024 BRK 59 -55 9.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8catir\x057 Latozemoh\xeaDorY\xabm8..Mi\r\n
+18:31:51.681027 BRK 69 -55 9.2500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire; Lat\xafremo;zDorYhe(...\xe9\r\n
+18:31:55.160140 BRK 68 -55 9.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); Latire; Lat\xafremo;zDorYke(...\xe9\r\n
+18:31:58.650176 BRK 67 -55 9.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menox2x); Latire; Lat\xafremo;\xeaDorYhe(...\xe9\r\n
+18:32:02.129178 BRK 70 -55 9.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire; Latoremo;zDorYme(...\xe9\r\n
+18:32:05.609229 BRK 69 -56 8.0000000000 Dori me interimo; Adapare; Dori0mm;\x10Amenox2x); Latire= Lat\xafremo; DorYme(...)\r\n
+18:32:09.100325 BRK 55 -55 8.7500000000 Dori me interimo; Adapare7 Dori,mm; \xe1meno\x18rx);\x10\x8cqtiB\x057"Latozemo8\xeaDorY\xabm(...\xe9\r\n
+18:32:12.581324 BRK 66 -55 9.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire= Lat\xafremo;zDorYme(..(\xe9\r\n
+18:32:16.061375 BRK 64 -55 8.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menox2x); \x8catire; Latozemo;jDorY\xabe(..-\xe9\r\n
+18:32:19.552462 BRK 59 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x057 LatozemoXjForY\xabe(..Me\r\n
+18:32:23.032512 BRK 57 -55 9.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cati"\x057(LatozemohjEorY\xabe(..Mi\r\n
+18:32:26.513564 BRK 59 -55 6.2500000000 Dori me interimo; Adapare; Dori me; \xe1menoHrx);\x10\x89qtire7"LatozemoX\xeaLorY\xabe(..M\xe9\r\n
+18:32:30.003593 BRK 62 -56 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catir\x057 Latozemo;jDorY\xabe(...\xe9\r\n
+18:32:33.486022 BRK 63 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x8catire7 Latozemo;*DorYke(.~.\xe9\r\n
+18:32:36.966734 BRK 58 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 La}ozemoX\xeaDorY\xabm(.\xbeM\xe9\r\n
+18:32:40.456713 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x182x); \x8catib\x057 Latozemo8jDorY\xabe(..-\xe9\r\n
+18:32:43.937784 BRK 56 -55 9.2500000000 Dori me interimo; Adapare7 Dori me; \xe1meno\x18rx); \x8cqtir\x057 LaDozem_XjLorY\xabd(..Mi\r\n
+18:32:47.418881 BRK 67 -55 9.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); Latire7 Latoremo;jDorYke(...\xe9\r\n
+18:32:50.908869 BRK 67 -55 8.7500000000 Dori me interimo; Adapare1 Dori,me; \xe1menox2x); Latire; Lat\xafremo;\xeaDorYke(...\xe9\r\n
+18:32:54.385952 BRK 68 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire= Lat\xafremo;\xeaDorYme(...)\r\n
+18:32:57.876947 BRK 65 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire; Lauozemo;*DorYke(..-\xe9\r\n
+18:33:01.358076 BRK 70 -56 7.7500000000 Dori me interimo; Adapare; Dori0mm; Amenox2x); Latire= Lat\xafremo; DorYme(...)\r\n
+18:33:04.840127 BRK 58 -56 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x182x); \x8catiB\x057"LaDozemo8jForY\xabe(..-\xe9\r\n
+18:33:08.331194 BRK 69 -56 9.7500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire= Lat\xafremo;*DorYme(...\xe9\r\n
+18:33:11.812207 BRK 66 -55 8.5000000000 Dori me interimo; Adapare1 Dori,me; \xe1menox2x); Latire7 Lat\xafremo;*DorYhe(...\xe9\r\n
+18:33:15.294246 BRK 60 -56 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catir\x057 LatozemoXjDorY\xaba(.\x1eM\xe9\r\n
+18:33:18.776301 BRK 59 -56 9.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoH2x); \x8catib\x057 Latozemo8\xeaDorY\xabd(..Mi\r\n
+18:33:22.267349 BRK 58 -56 9.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoxrx); \x8catir\x057"LatozemoX\xeaLorY\xabm(..M\xe9\r\n
+18:33:25.747446 BRK 58 -55 10.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoxrx); \x8catiB\x057 Latozemo8\xeaDorY\xaba(..Me\r\n
+18:33:29.228444 BRK 55 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x89!tir\x057"Lat\xcfzemoX\xeaForY\xabd(.~M\xa5\r\n
+18:33:32.712034 BRK 58 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057!Latozemo8jLorY\xaba(..-\xe9\r\n
+18:33:36.201519 BRK 63 -56 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catire7 Latozemo;*DorY\xabe(...\xe9\r\n
+18:33:39.682598 BRK 59 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; Ameno\x18rx); \x89atir\x057 LaDozemoX\xeaLorY\xabe(.~Mi\r\n
+18:33:43.163657 BRK 68 -55 9.2500000000 Dori me interimo; Adapare; Dori,mm; Amenox2x); Latire= Lat\xafremo;zDorYme(...\xe9\r\n
+18:33:46.654731 BRK 57 -56 9.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x8c!tir\x057 LaDozemo8j@orY\xabm(..Mi\r\n
+18:33:50.135756 BRK 64 -55 8.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire= Lat\xafzemo;jDorY\xade(..-\xe9\r\n
+18:33:53.617761 BRK 66 -55 8.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x);\x10\x8catire; Latoremo;*DorYke(...\xe9\r\n
+18:33:57.097797 BRK 63 -56 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8catire7 Latozemo;*DorY\xabe(..-\xe9\r\n
+18:34:00.589925 BRK 60 -55 9.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtire7 LatozemoX\xeaDorY\xaba(..Mi\r\n
+18:34:04.071922 BRK 60 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89atir\x057 Latozemo8jDorY\xabm(.~M\xe5\r\n
+18:34:07.559025 BRK 62 -55 9.0000000000 Dori me interimo; Adapare7 Dori,mm; \xe1menoHrx); \x8fatire; Laqozemo;jDorY\xabe(...\xe9\r\n
+18:34:11.040070 BRK 57 -55 9.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8cqtir\x057(LaDozemoXjDorY\xabd(.\x1eMi\r\n
+18:34:14.520121 BRK 67 -55 9.7500000000 Dori me interimo; Adapare7 Dori,mm; Amenox2x); Latire; Latoremo;zDorYke(...\xe9\r\n
+18:34:18.009131 BRK 71 -56 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire; Latoremo; Dorime(...)\r\n
+18:34:21.491205 BRK 71 -56 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); Latire; Lat\xafremo; DorYme(...)\r\n
+18:34:24.976228 BRK 60 -55 8.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menox2x); \x8catire7 LatozemoX\xeaForY\xabe(.\x1eMc\r\n
+18:34:28.457250 BRK 63 -55 9.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8fatire7 Latozemo;*DorY\xabe(...\xe9\r\n
+18:34:31.938503 BRK 41 -55 8.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\n
+18:34:35.429324 BRK 58 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x89atiB\x057 LatozemoXjLorY\xabe(..-\xe9\r\n
+18:34:38.909391 BRK 70 -56 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire; Lat\xafremo; DorYme(...)\r\n
+18:34:42.391521 BRK 69 -56 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire= Latoremo; DorYme(...)\r\n
+18:34:45.877499 BRK 61 -56 9.5000000000 Dori me interimo; Adapare; Dori me; Ameno\x182x); \x8c!tir\x057 Latovemo8jLorY\xaba(..M\xe5\r\n
+18:34:49.367370 BRK 68 -56 9.5000000000 Dori me interimo; Adapare7 Dori,me; \xe1menox2x); Latire; Latoremo;zDorYme(...\xe9\r\n
+18:34:52.844611 BRK 71 -56 8.2500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire= Lat\xafremo; DorYme(...)\r\n
+18:34:56.335669 BRK 62 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire7 LatozemoXjDorY\xabg(.~M\xe9\r\n
+18:34:59.817678 BRK 54 -55 8.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menox2x);\x10\x8cati\xe2\x057(LaDozemohjEorY\xabm(.\x1eM\xc3\r\n
+18:35:03.297732 BRK 61 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp);\x10\x8catire7 Latozemo;\xeaLorY\xabe(...\xe9\r\n
+18:35:06.777792 BRK 59 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8fAtire7 LatozemoXjLorY\xabm(..-\xe9\r\n
+18:35:10.268848 BRK 58 -56 9.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057 LaDovem\x7fX\xeaLorY\xabe(..M\xe9\r\n
+18:35:13.750221 BRK 55 -55 8.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8cAtiB\x057"Latozemo8jForY\xabg(..-\xe9\r\n
+18:35:17.232971 BRK 66 -55 10.0000000000 Dori me interimo; Adapare7 Dori,mm; Amenox2x); Latire= Lat\xafremo;zDorYke(...\xe9\r\n
+18:35:20.716986 BRK 58 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x);\x10\x8catir\x057"LaDozemoX\xeaLorY\xabe(..-\xe9\r\n
+18:35:24.201069 BRK 69 -55 9.7500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire7 Lat\xafremo;zDorYme(...\xe9\r\n
+18:35:27.692133 BRK 68 -55 8.5000000000 Dori me interimo; Adapare7 Dori,me; Amenox2x); Latire= Lat\xafremo; DorYme(..-\xe9\r\n
+18:35:31.172471 BRK 61 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catibe; Latozemo;jDorYkm(..-\xe9\r\n
+18:35:34.654220 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori me; \xe1menoHrx); \x8cqtir\x057!LaDozemoX\xeaEorY\xabe(.>M\xe9\r\n
+18:35:38.144261 BRK 57 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x89!tir\x057 LaDozemoXjLorY\xabe(..Mc\r\n
+18:35:41.621266 BRK 61 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtire7 Latozemo;jDorY\xabe(..M\xe9\r\n
+18:35:45.112354 BRK 56 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe4meno\x18rp);\x10\x8cqtir\x057!LaDozemoXjDorY\xabe(.\x1eMi\r\n
+18:35:48.593382 BRK 59 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtir\x057!LatozemoXjDorY\xabe(..M\xe9\r\n
+18:35:52.074480 BRK 59 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8catib\x057 LatozemoXjLorY\xabe(..M\xe9\r\n
+18:35:55.560522 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057!LaDozemo\xf8jDorY\xabe(.\x1eMi\r\n
+18:35:59.040558 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89atir\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:36:02.531624 BRK 72 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); Latire; Lat\xafremo; Dorime(...)\r\n
+18:36:06.011686 BRK 58 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89atir\x057 LatozemohjEorY\xabe(..-\xe9\r\n
+18:36:09.491715 BRK 57 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoxrx); \x8catib\x057 Latozemo8j@orY\xaba(..-\xe9\r\n
+18:36:12.982813 BRK 66 -55 10.0000000000 Dori me interimo; Adapare1 Dori0mm; Amenox2x); Latire= Lat\xafremo;zDorYke(...\xe9\r\n
+18:36:16.466837 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtir\x057 LatozemoXjEorY\xabe(.\xbeMi\r\n
+18:36:19.950879 BRK 58 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x057 LaDozemoXjDorY\xaba(..-\xe9\r\n
+18:36:23.427912 BRK 65 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); \x8catire; Latozemo;\xeaDorYke(..-\xe9\r\n
+18:36:26.918944 BRK 61 -56 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atibe7 Latozemo;jDorYkm(.\x1e.\xe9\r\n
+18:36:30.401018 BRK 59 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x);\x10\x8catir\x057 LaDozem\x7fXjDorY\xabe(..Mi\r\n
+18:36:33.883048 BRK 68 -56 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire= Latoremo;pDorYme(...)\r\n
+18:36:37.364117 BRK 65 -55 10.5000000000 Dori me interimo; Adapare7 Dori,mm; \xe1menox2x); Latire= Lat\xafremo;zDorYhe(...\xe9\r\n
+18:36:40.848141 BRK 57 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rp); \x8catibe7 Latozemo8jDorY\xabm(.~(\xe9\r\n
+18:36:44.332207 BRK 65 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8fatire7 Latozemo;\xeaLorYke(...\xe9\r\n
+18:36:47.823265 BRK 60 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catire7 LatozemoXjLorY\xabe(..-\xe9\r\n
+18:36:51.304280 BRK 57 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8fati\xe2\x057(LaDozemoX\xeaForY\xabe(..Mi\r\n
+18:36:54.785404 BRK 57 -55 9.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8fAtir\x057 LaDovemohjDorY\xaba(.~M\xa9\r\n
+18:36:58.272395 BRK 67 -55 8.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); Latire; Lat\xafremo;\xeaDorYhe(...\xe9\r\n
+18:37:01.762461 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtir\x057 LatozemoXjDorY\xabe(.\x1eMc\r\n
+18:37:05.242524 BRK 58 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catir\x057 LaDozemoX\xeaEorY\xabe(..Mi\r\n
+18:37:08.723553 BRK 58 -55 9.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8catir\x057 LaDovemoX\xeaDorY\xabd(.\x1eMi\r\n
+18:37:12.210634 BRK 58 -55 9.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catir\x057 LatozemoX\xeaDorY\xabd(.\x1eM\xc5\r\n
+18:37:15.697622 BRK 65 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); \x89atire; Lawozemo;*DorY\xabe(...\xe9\r\n
+18:37:19.179283 BRK 61 -55 7.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x182x);\x10\x89atire7 Latozemo;*DorY\xabm(.\x1e.\xe9\r\n
+18:37:22.659771 BRK 56 -55 9.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx);\x10\x8cqtir\x057 LaDozemoX\xeaDorY\xabm(..Mi\r\n
+18:37:26.150798 BRK 54 -55 9.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx);\x10\x8cqtib\x057 LaDovemoX\xeaDorY\xabd(.\x1eMc\r\n
+18:37:29.626870 BRK 61 -56 8.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8catire7 Lauozemo;jDorY\xabm(...\xe9\r\n
+18:37:33.118886 BRK 55 -55 8.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx);\x10\x89atir\x057 LaDozemoXjEorY\xabm(.\x1eM\xc3\r\n
+18:37:36.599928 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x);@\x89atire7(Lauozemo8jForY\xabe(..-\xe9\r\n
+18:37:40.079965 BRK 62 -55 8.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8fatire7 Latozemo;\xeaLorY\xabe(...\xe9\r\n
+18:37:43.571057 BRK 64 -55 9.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catire; Lauozemo;*DorY\xabe(..-\xe9\r\n
+18:37:47.052076 BRK 56 -55 9.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8fAti\xe2\x057(LaDozemohjDorY\xabe(..Mi\r\n
+18:37:50.532137 BRK 62 -55 8.0000000000 Dori me interimo; Adapare7 Dori,mm; \xe1menoH2x); \x8cqtire; Lawozemo;*DorY\xabe(...\xe9\r\n
+18:37:54.023160 BRK 60 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8cqtir\x057 Latozemo8jDorY\xabm(..M\xe9\r\n
+18:37:57.504248 BRK 59 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtire7 Latozemo8\xeaLorY\xaba(...\xe9\r\n
+18:38:00.985226 BRK 58 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrp);\x10\x8catir\x057 LaDovemoXjDorY\xabe(..-\xe9\r\n
+18:38:04.470339 BRK 57 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtib\x057 LaDozemoXjDorY\xabe(.~M\xe9\r\n
+18:38:07.951404 BRK 59 -55 5.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8catir\x057!LatozemoXjDorY\xabe(..M\xe9\r\n
+18:38:11.442461 BRK 56 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89\xe1tire7"LaDozemoX\xeaLorY\xabe(.~M\xe9\r\n
+18:38:14.923492 BRK 58 -54 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtir\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:38:18.403535 BRK 57 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x89!tir\x057 LaDozemo8jDorY\xaba(..-\xe9\r\n
+18:38:21.885513 BRK 60 -54 6.5000000000 Dori me interimo; Adapare7 Dori,mm; \xe1meno\x18rx); \x89atire7 Latozemo;*LorY\xabe(..-\xe9\r\n
+18:38:25.376631 BRK 54 -54 5.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtir\x057!LaDozemo8jLorY\xaba(..-\xe9\r\n
+18:38:28.857649 BRK 59 -54 5.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LaDozemo8\xeaLorY\xabe(..-\xe9\r\n
+18:38:32.343716 BRK 56 -54 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x85\xe1tib\x057 LaDozemo8\xeaLorY\xabe(..-\xe9\r\n
+18:38:35.824059 BRK 63 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catire; Latozemo;*LorY\xabe(..-\xe9\r\n
+18:38:39.305771 BRK 61 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x89!tire; Latozemo;*DorYkm(.~.\xe9\r\n
+18:38:42.795889 BRK 66 -54 5.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x182x); \x8catire; Latozemo;jDorY\xabe(...\xe9\r\n
+18:38:46.277948 BRK 63 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8catir\x05; Latozemo;jDorYke(...\xe9\r\n
+18:38:49.759944 BRK 57 -54 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tir\x057!LaDozemoXjLorY\xabe(..Mi\r\n
+18:38:53.242019 BRK 57 -54 5.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89atir\x057!LaDovemoXjLorY\xaba(..-\xe9\r\n
+18:38:56.729041 BRK 55 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89qtiB\x057(LaDozemoXjLorY\xabm(..M\xe9\r\n
+18:39:00.211107 BRK 57 -54 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtir\x057 LaDozemoXjDorY\xabm(.\x1eM\xe9\r\n
+18:39:03.702175 BRK 60 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catib\x057 LaDozemo8jDorY\xabe(...\xe9\r\n
+18:39:07.183209 BRK 56 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x057 LaDozemoXjLorY\xabe(.~M\xe9\r\n
+18:39:10.663260 BRK 55 -55 7.7500000000 Dori me interimo; Adapare; Dori me; \xe1meno\x18rx); \x8cqtir\x057!LaDozemo8j@orY\xaba\xa8.>M\xe3\r\n
+18:39:14.153274 BRK 62 -54 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catire7 LatozemoXjLorY\xabe(..Mi\r\n
+18:39:17.635415 BRK 58 -54 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catib\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:39:21.116407 BRK 64 -54 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89qtire; Latozemo;jDorYkm(...\xe9\r\n
+18:39:24.607471 BRK 57 -55 6.0000000000 Dori me interimo; Adapare; Dori me; \xe4menoH2x); \x8fqtir\x057!LaDozemo8jLorY\xaba(.>,\xe9\r\n
+18:39:28.089485 BRK 60 -55 8.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x89atire7 LatozemohjEorY\xabe(..Mc\r\n
+18:39:31.569340 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx);\x10\x89!tir\x05; Latozemo;jDorYke(..-\xe9\r\n
+18:39:35.057570 BRK 58 -54 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8catir\x057 Latozemo8\xeaLorY\xabm(.>,\xe9\r\n
+18:39:38.537435 BRK 57 -54 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x89atib\x057 LatozemoXjLorY\xaba(.~Mi\r\n
+18:39:42.019687 BRK 62 -54 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8catir\x057 Latozemo8jDorY\xabe(...\xe9\r\n
+18:39:45.510759 BRK 59 -54 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x89atir\x057 LatozemoXjLorY\xabe(.\x1eM\xe9\r\n
+18:39:48.991810 BRK 57 -54 7.5000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rp); \x8catir\x057 Latozemo8*@orY\xabe(.~M\xe9\r\n
+18:39:52.471860 BRK 57 -54 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x89!tir\x057 LaDozemo8j@orY\xaba(..M\xe9\r\n
+18:39:55.957912 BRK 58 -54 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x182x); \x89!tib\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:39:59.439016 BRK 61 -54 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catir\x057 LatozemoXjLorY\xabe(..-\xe9\r\n
+18:40:02.928998 BRK 56 -54 8.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8catir\x057!LaDozemoXjLorY\xabe(.~M\xa5\r\n
+18:40:06.410095 BRK 57 -55 6.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8catir\x057!LaDozemoX\xeaEorY\xabe(..-\xe9\r\n
+18:40:09.892123 BRK 53 -54 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89qtir\x057!LaDozemoXjEorY\xaba(.>M\xe9\r\n
+18:40:13.374172 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp); \x89atir\x057 LaDozemoXjDorY\xabe(.\x1eMc\r\n
+18:40:16.864205 BRK 65 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x182x); \x8cqtire; Latozemo;*DorY\xabe(...\xe9\r\n
+18:40:20.345229 BRK 55 -55 5.7500000000 Dori me interimo; Adapare7 Dori,mm; \xe1menoHrp); \x89!tir\x057!LaDozemo8jDorY\xabe(..M\xe9\r\n
+18:40:23.835501 BRK 59 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrp); \x8c!tire7 Latozemo;jDorY\xabm(..-\xe9\r\n
+18:40:27.316340 BRK 62 -54 7.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoH2x); \x8catire7 Latozemo;\xeaLorYke(..-\xe9\r\n
+18:40:30.798388 BRK 60 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8fatib\x057 LatozemoXjDorY\xabe(..Mi\r\n
+18:40:34.279441 BRK 61 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89!tir\x057 LatozemoXjDorY\xabe(..M\xe9\r\n
+18:40:37.770498 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catire7 Latozemo;jEorY\xaba(.\x1e.\xe9\r\n
+18:40:41.250553 BRK 56 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp); \x8cqtir\x057!LaDozemoXjEorY\xabe(..Mi\r\n
+18:40:44.730598 BRK 60 -54 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8fatire7 LatozemoXjEorY\xabe(..M\xe9\r\n
+18:40:48.220639 BRK 54 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rp); \x8fqtir\x057!LaDozemo8j@orY\xabe(.~Mi\r\n
+18:40:51.701650 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89qtir\x057 LatozemoXjEorY\xabe(..Mi\r\n
+18:40:55.191752 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x057!LaDozemoXjDorY\xabe(..Mi\r\n
+18:40:58.668762 BRK 62 -54 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89!tire7 Latozemo;*LorY\xabe(...\xe9\r\n
+18:41:02.150848 BRK 58 -54 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89atib\x057 LaDozemoXjLorY\xabe(.>M\xe3\r\n
+18:41:05.641925 BRK 58 -54 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8cqtir\x057 LaDozemoXjLorY\xabe(..Mi\r\n
+18:41:09.125969 BRK 56 -54 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atib\x057 LaDozemo8j@orY\xaba(.~M\xe5\r\n
+18:41:12.607006 BRK 59 -54 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8fatir\x057 LaDozemoXjLorY\xabe(..M\xe9\r\n
+18:41:16.088058 BRK 60 -54 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x89atir\x057 LaDozemo8\xeaLorY\xabe(...\xe9\r\n
+18:41:19.578117 BRK 58 -54 5.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89atib\x057 LaDozemo\xf8\xeaLorY\xabe(.>-\xe9\r\n
+18:41:23.059126 BRK 57 -54 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tib\x057 LaDozemo8jLorY\xabe(..M\xe9\r\n
+18:41:26.540220 BRK 58 -54 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057!LaDozemoXjLorY\xabe(..M\xa5\r\n
+18:41:30.031250 BRK 58 -54 5.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8cqtib\x057 LaDovemo8jLorY\xabe(..-\xe9\r\n
+18:41:33.507285 BRK 73 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire; Lat\xafremo; Dorime(...)\r\n
+18:41:36.998323 BRK 60 -54 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtire7 Latozemo;\xeaLorY\xfbe(..-\xe9\r\n
+18:41:40.479386 BRK 56 -54 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tib\x057 LatozemohjEorY\xabm(..-\xe9\r\n
+18:41:43.966435 BRK 63 -54 7.5000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x182x); \x89atire7 Latozemo;jDorY\xada(...\xe9\r\n
+18:41:47.447491 BRK 58 -54 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89atib\x057 LaDozemo8j@orY\xabe(.~Mi\r\n
+18:41:50.935341 BRK 61 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89!tire7 Latozemo;*LorYkm(...\xe9\r\n
+18:41:54.418585 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtire7 Latozemo;jEorY\xabm(..-\xe9\r\n
+18:41:57.898625 BRK 64 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x);\x10\x8catire; Latozemo;jDorYke(..-\xe9\r\n
+18:42:01.379704 BRK 60 -54 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tir\x057 Latozemo;*DorYkm(..-\xe9\r\n
+18:42:04.871798 BRK 60 -54 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atir\x057 LatozemoXjDorY\xabe(..M\xe9\r\n
+18:42:08.347803 BRK 59 -54 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x05; Latozemo;\xeaLorYkm(..-\xe9\r\n
+18:42:11.837795 BRK 60 -54 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89qtir\x057 Latozemo;\xeaLorY\xabe(.~Mi\r\n
+18:42:15.318868 BRK 56 -54 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8fatir\x057 LaDozemo8jLorY\xaba(.>-\xe9\r\n
+18:42:18.799197 BRK 60 -54 6.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8cqtir\x057 LatozemoXjLorY\xabe(.>-\xe9\r\n
+18:42:22.290178 BRK 60 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8fqtir\x057 Latozem\x7fX\xeaDorY\xabe(..M\xe1\r\n
+18:42:25.776331 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtir\x05; Latozemo;jLorYkm(..-\xe9\r\n
+18:42:29.254091 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catire7 LatozemoXjLorY\xabe(..M\xe9\r\n
+18:42:32.741484 BRK 57 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tir\x057!LaDozemoXjDorY\xaba(..Mi\r\n
+18:42:36.221444 BRK 60 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057 LaDozemoXjDorY\xabe(..Mi\r\n
+18:42:39.708191 BRK 59 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89qtir\x057 LatozemoXjDorY\xabe(..M\xe9\r\n
+18:42:43.189248 BRK 59 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrp);\x10\x8cqtibe7 Latozemo;jDorYke(..-\xe9\r\n
+18:42:46.675337 BRK 54 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89qtiB\x057"LaDozem?8j@orY\xabe(.\x1eMi\r\n
+18:42:50.156379 BRK 60 -55 5.5000000000 Dori me interimo; Adapare; Dori me; \xe4ieno\x18rp); \x8catir\x057 Latozemo;\xeaLorY\xabe(..-\xe9\r\n
+18:42:53.647434 BRK 61 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tire; Latozemo;\xeaLorYkm(..-\xe9\r\n
+18:42:57.128472 BRK 62 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtire7 Latozemo;jForYke(...\xe9\r\n
+18:43:00.609481 BRK 63 -55 7.0000000000 Dori me interimo; Adapare; Dori me; \xe1menoH2x); \x89!tire; Latozemo;jDorYkm(.>,\xe9\r\n
+18:43:04.100549 BRK 56 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x);\x10\x89qtir\x057!LaDozemoXjDorY\xabe(.~Mi\r\n
+18:43:07.580613 BRK 64 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x8catire; Latozemo;jDorYkm(...\xe9\r\n
+18:43:11.060658 BRK 54 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tiB\x057"LaDozemoXjEorY\xaba(..Mi\r\n
+18:43:14.549678 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8f\xe1tir\x057 LaDozemoXjDorY\xabe(.\x1eM\xa3\r\n
+18:43:18.035088 BRK 54 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rp);\x10\x89!tib\x057 LatozemoXjForY\xabe(.>-\xe9\r\n
+18:43:21.516781 BRK 58 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtib\x057 Latozemo8j@orY\xabe(..M\xa3\r\n
+18:43:24.997919 BRK 64 -55 6.7500000000 Dori me interimo; Adapare; Dori me; \xe1meno\x182x); \x8cqtire; Latoremo;*LorYkm(..-\xe9\r\n
+18:43:28.488871 BRK 64 -55 6.5000000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); \x8catire; Lawozemo;jLorY\xabm(...\xe9\r\n
+18:43:31.966090 BRK 59 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tibe7 Latozemo;jDorYkm(..-\xe9\r\n
+18:43:35.456962 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x);\x10\x8cqtir\x057 LaDozemoXjEorY\xabe(..M\xa5\r\n
+18:43:38.937016 BRK 72 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire; Lat\xafremo; DorYme(...)\r\n
+18:43:42.418139 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe1meno\x18rx); \x89atib\x057 LaDozemoXjLorY\xabe(.~Mi\r\n
+18:43:45.908147 BRK 56 -55 6.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x89!tir\x057!LaDovemoXjLorY\xabe(..-\xe9\r\n
+18:43:49.389163 BRK 73 -55 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; DorYme(...\xe9\r\n
+18:43:52.870261 BRK 63 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89atire; Latozemo;jDorYkm(..-\xe9\r\n
+18:43:56.360348 BRK 62 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catire7 Latozemo;\xeaLorY\xabe(..M\xe9\r\n
+18:43:59.841295 BRK 55 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x89!tir\x057!LaDozemo8jLorY\xabd(..-\xe9\r\n
+18:44:03.321442 BRK 55 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x057!LaDozemoXjLorY\xabe(.\x1eM\xe3\r\n
+18:44:06.807462 BRK 56 -55 7.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8fatir\x057!LaDovemoXjLorY\xabe(.~Mi\r\n
+18:44:10.296476 BRK 62 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catir\x05; Latozemo;jDorYke(..-\xe9\r\n
+18:44:13.777516 BRK 55 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx);\x10\x8cqtir\x057 LaDozemoXjEorY\xaba(..Mc\r\n
+18:44:17.258631 BRK 62 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8cqtire; Laqozemo;jDorYke(...\xe9\r\n
+18:44:20.749614 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8cqtibe7 Latozemo;jDorYkm(..-\xe9\r\n
+18:44:24.230712 BRK 60 -55 5.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8fatire7 LatozemoXjEorY\xabe(..-\xe9\r\n
+18:44:27.711761 BRK 56 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8fatiB\x057"LaDozemoXjDorY\xaba(.\x1eM\xa3\r\n
+18:44:31.192745 BRK 58 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8f\xe1tir\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:44:34.683838 BRK 60 -55 8.2500000000 Dori me interimo; Adapare; Dori me; \xe1meno\x18rx); \x8catir\x057!LaDozemoXjDorY\xabe(..Mi\r\n
+18:44:38.164850 BRK 61 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89qtir\x05; Latozemo;jDorYkm(...\xe9\r\n
+18:44:41.645944 BRK 58 -55 7.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoH2x); \x8catir\x057!LatozemoXjDorY\xabm8..Mi\r\n
+18:44:45.135995 BRK 59 -55 6.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx);\x10\x8cqtire7 Latozemo8jDorY\xabm(...\xe9\r\n
+18:44:48.616994 BRK 61 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8cqtir\x057 LatozemoXjForY\xabe(...\xe9\r\n
+18:44:52.097082 BRK 62 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtire; Latozemo;\xeaLorYkm(...\xe9\r\n
+18:44:55.588136 BRK 56 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe4ieno\x18rp); \x8cqtir\x057!La}ozemo8jEorY\xabe(..Mi\r\n
+18:44:59.069159 BRK 57 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x89atir\x057 LaDozemo8jLorY\xabd(..-\xe9\r\n
+18:45:02.550245 BRK 56 -55 6.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x89!tir\x057!LaDozemo8jDorY\xaba(.>.\xe9\r\n
+18:45:06.036311 BRK 62 -55 7.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8cqtire; Latozemo;jDorYkm(...\xe9\r\n
+18:45:09.517303 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori me; \xe1meno\x18rp);\x10\x8catir\x057!LaDozemoXjDorY\xabe(.\x1eM\xe9\r\n
+18:45:13.007380 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrp); \x8fatire7 LatozemoX\xeaLorY\xabe(..M\xe9\r\n
+18:45:16.488444 BRK 59 -55 8.2500000000 Dori me interimo; Adapare; Dori me; Ameno\x18rx); \x8catir\x057!Latozem?8j@orY\xabe(.~M\xa5\r\n
+18:45:19.978501 BRK 60 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tire7 Latozemo;*LorY\xfbm(...\xe9\r\n
+18:45:23.459529 BRK 65 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menox2x); \x8catire; Latozemo;*DorY\xabe(...\xe9\r\n
+18:45:26.945550 BRK 56 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057!LaDozemoXjDorY\xaba\xa8.~Mi\r\n
+18:45:30.425978 BRK 57 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tib\x057 LatozemoXjEorY\xabe(..M\xe3\r\n
+18:45:33.907671 BRK 56 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x057!LaDozemo8j@orY\xabe(..M\xe9\r\n
+18:45:37.398746 BRK 56 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89qtir\x057 LaDozemoXjLorY\xabe(.~M\xe5\r\n
+18:45:40.873744 BRK 55 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtir\x057!LaDozemo8jLorY\xaba(..-\xe9\r\n
+18:45:44.364803 BRK 59 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8cqtire7 LatozemoXjDorY\xabe(.>-\xe9\r\n
+18:45:47.844840 BRK 64 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catire; Latozemo;*LorY\xabe(...\xe9\r\n
+18:45:51.324905 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8fatir\x057 LatozemoXjForY\xabe(.~M\xe5\r\n
+18:45:54.815972 BRK 56 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x057 LaDozemoXjDorY\xabm(.\x1eMc\r\n
+18:45:58.296023 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrp);\x10\x89!tire7 Latozemo;*LorY\xabe(..-\xe9\r\n
+18:46:01.777018 BRK 59 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtire7 LatozemoXjForY\xabe(..M\xe9\r\n
+18:46:05.264168 BRK 59 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8cqtire7 Latozemo;jForY\xabm(.>-\xe9\r\n
+18:46:08.750179 BRK 61 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89qtir\x05; Latozemo;*DorYke(..-\xe9\r\n
+18:46:12.230239 BRK 63 -55 6.5000000000 Dori me interimo; Adapare; Dori me; DmenoH2x);\x10\x89!tire; Latozemo;*LorY\xabe(.\x1e.\xe9\r\n
+18:46:15.720281 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtir\x05; Latozemo;*LorYkm(..-\xe9\r\n
+18:46:19.200370 BRK 71 -55 5.7500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire= Latoremo;pDorime(...)
+18:46:22.681365 BRK 57 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catir\x057 LaDozemo8j@orY\xabm(..M\xe9\r\n
+18:46:26.172420 BRK 56 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrp); \x89!tir\x057!LatozemoXjLorY\xabe(.~Mi\r\n
+18:46:29.653459 BRK 58 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tir\x057 LaDozemoXjDorY\xabe(.~M\xa5\r\n
+18:46:33.134536 BRK 58 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtir\x057 LatozemoXjLorY\xabe(..M\xe9\r\n
+18:46:36.621525 BRK 56 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89qtir\x057 LatozemoXjEorY\xabe(.\x1eM\xe3\r\n
+18:46:40.102631 BRK 59 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtir\x057 LatozemoXjDorY\xabe(.~Mi\r\n
+18:46:43.588642 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtir\x05; Latozemo;*LorYkm(...\xe9\r\n
+18:46:47.079738 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; Amenoxrx); \x89!tire; Latozemo;*LorYkm(..-\xe9\r\n
+18:46:50.560733 BRK 61 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catir\x057 LatozemoXjEorY\xabe(..M\xe9\r\n
+18:46:54.041895 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catire7 LatozemoXjLorY\xabe(.~M\xe5\r\n
+18:46:57.522864 BRK 58 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atir\x057 LatozemoXjEorY\xabm(..-\xe9\r\n
+18:47:01.013945 BRK 55 -55 8.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrp);\x10\x8cqtir\x057!LatozemoXjDorY\xaba(..M\xa9\r\n
+18:47:04.493997 BRK 62 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x85atibe; Latozemo;*DorY\xabm(..-\xe9\r\n
+18:47:07.975004 BRK 62 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2p); \x8catibe7 Latozemo;*LorY\xabe(...\xe9\r\n
+18:47:11.461038 BRK 62 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x182x); \x8cqtire; Law\xcfrem_;jDorYkm(..-\xe9\r\n
+18:47:14.947108 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catib\x057 LaDozemoXjEorY\xaba(..Me\r\n
+18:47:18.428146 BRK 57 -55 6.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx);\x10\x89qtir\x057 Latozemo8jDorY\xabd(..-\xe9\r\n
+18:47:21.918228 BRK 58 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8datir\x057!LaDozemoXjDorY\xabe(.~M\xa3\r\n
+18:47:25.399258 BRK 62 -55 5.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x182x); \x8datire; Latozemo;\xeaLorY\xabm(..-\xe9\r\n
+18:47:28.880326 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057!LaDozemo8\xea@orY\xabe(..M\xe5\r\n
+18:47:32.361319 BRK 74 -55 5.2500000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latoremo; Dorime(...\xe9\r\n
+18:47:35.852441 BRK 54 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rp);\x10\x8catiB\x057"LaDozemoXjDorY\xabe(.\x1eM\xa3\r\n
+18:47:39.332449 BRK 64 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x182x); \x8cqtire; Latozemo;*DorY\xabd(...\xe9\r\n
+18:47:42.822549 BRK 56 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x89!tir\x057!LaDozemo8j@orY\xabe(..Mi\r\n
+18:47:46.303536 BRK 58 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8fqtir\x057 LaDozemoX\xeaForY\xaba(..M\xa5\r\n
+18:47:49.784554 BRK 60 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8fatir\x057!LatozemoXjDorY\xabe(..Mi\r\n
+18:47:53.265598 BRK 55 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtiB\x057"LaDozemoXjDorY\xabe(.~Mi\r\n
+18:47:56.755705 BRK 61 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8datir\x057 Latozemo;jDorYkm(..-\xe9\r\n
+18:48:00.236697 BRK 56 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89qtir\x057!LaDozemoXjLorY\xabm(..M\xe5\r\n
+18:48:03.727823 BRK 61 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8catire7 LatozemoXjEorY\xabe(..M\xe9\r\n
+18:48:07.208815 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8catir\x057!Latozem?8j@orY\xabe(..M\xa5\r\n
+18:48:10.688725 BRK 62 -54 6.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire7 Latozemo8jLorY\xabd(..-\xe9\r\n
+18:48:14.171230 BRK 59 -55 5.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057!LaDozemo8jDorY\xaba(...\xe9\r\n
+18:48:17.663987 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8datir\x057 Latozemo;\xeaLorYkm(..-\xe9\r\n
+18:48:21.140036 BRK 55 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89qtir\x057!LaDozemoXjDorY\xabe(.\x1eMi\r\n
+18:48:24.631362 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catib\x057 LaDozemoXjDorY\xabe(..M\xe3\r\n
+18:48:28.112174 BRK 61 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tir\x05; Latozemo;jDorYkm(..-\xe9\r\n
+18:48:31.598194 BRK 58 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:48:35.085185 BRK 60 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1eenoHrp); \x8fatire7 Latozemo;jLorY\xabe(..M\xe9\r\n
+18:48:38.565250 BRK 63 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x182x); \x8catire; Lauorem_;jLorYkm(...\xe9\r\n
+18:48:42.045268 BRK 58 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057 LaDozemo8jLorY\xabd(..-\xe9\r\n
+18:48:45.535397 BRK 60 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrp); \x8cqtire; Latozemo;jDorY\xabd(..-\xe9\r\n
+18:48:49.014720 BRK 56 -55 7.5000000000 Dori me interimo; Adapare; Dori me; \xe1menoHrx);\x10\x89!tib\x057 LaDozemoXjLorY\xabe(.\x1eM\xe9\r\n
+18:48:52.496474 BRK 61 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8cqtir\x057 LaDozemo8jDorY\xabe(...\xe9\r\n
+18:48:55.987522 BRK 58 -55 5.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x89!tir\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:48:59.468551 BRK 55 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89!tib\x057 LaDozemoXjDorY\xabe(.\x1eMi\r\n
+18:49:02.949580 BRK 59 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catib\x057 LatozemoXjDorY\xabe(..M\xe9\r\n
+18:49:06.440657 BRK 61 -55 7.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8catire7 Latozemo;jDorYkm(..-\xe9\r\n
+18:49:09.920987 BRK 56 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8cqtib\x057 LatozemoXjLorY\xabe(.~M\xa9\r\n
+18:49:13.401784 BRK 55 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp);\x10\x89!tib\x057 LaDozemoXjDorY\xabe(.~Mi\r\n
+18:49:16.891855 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtire; Latozemo;jDorYkm(...\xe9\r\n
+18:49:20.371210 BRK 56 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x057 LaDozemoXjEorY\xaba(..M\xa5\r\n
+18:49:23.851937 BRK 61 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x85\xe1tir\x05; Latozemo;jLorYkm(...\xe9\r\n
+18:49:27.344003 BRK 61 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tire7 LatozemoXjDorY\xabe(...\xe9\r\n
+18:49:30.820036 BRK 57 -54 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtir\x057!LaDozemo8jEorY\xabe(..-\xe9\r\n
+18:49:34.310089 BRK 64 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8fatire; Latozemo;*DorY\xabe(..-\xe9\r\n
+18:49:37.790081 BRK 59 -54 6.5000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x89!tibe7 Latozemo;\xeaLorY\xabe(..-\xe9\r\n
+18:49:41.281144 BRK 56 -55 8.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8catir\x057!LaDozem?8j@orZ\xabe(..M\xa5\r\n
+18:49:44.763225 BRK 56 -55 5.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x89!tir\x057!Latozemo8jLorY\xaba(..-\xe9\r\n
+18:49:48.240295 BRK 57 -55 6.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrp); \x8cqtire7 Latozemo;*LorY\xabm(.>,\xe9\r\n
+18:49:51.731323 BRK 57 -54 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89qtir\x057 LaDozemoX\xeaLorY\xabe(..-\xe9\r\n
+18:49:55.208362 BRK 58 -54 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89!tir\x057 LaDozemoXjDorY\xabe(.~Mi\r\n
+18:49:58.699417 BRK 56 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89qtir\x057!LaDozemoXjDorY\xabe(..Mi\r\n
+18:50:02.179462 BRK 60 -55 7.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrp); \x8catire7 Lauoremo;jDorYkm(..-\xe9\r\n
+18:50:05.669461 BRK 57 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtir\x057 LaDozemoXjDorY\xabe(..M\xe9\r\n
+18:50:09.150584 BRK 56 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8cqtib\x057 LaDozemoXjEorY\xaba(..-\xe9\r\n
+18:50:12.635619 BRK 60 -54 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x05; Latozemo;*DorYkm(..-\xe9\r\n
+18:50:16.116632 BRK 59 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8cqtire7 Latozemo;*LorY\xabm(..-\xe9\r\n
+18:50:19.596688 BRK 57 -55 8.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8cqtiB\x057"LatozemoXjDorY\xabe(..Mi\r\n
+18:50:23.087776 BRK 58 -56 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x8fatib\x057 LaDozemoXjDorY\xabe(.~M\xe5\r\n
+18:50:26.569797 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LaDozemoXjLorY\xabe(.~M\xa5\r\n
+18:50:30.056831 BRK 61 -55 6.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8catire7 Latozemo;jDorY\xaba(..-\xe9\r\n
+18:50:33.537912 BRK 62 -55 6.0000000000 Dori me interimo; Adapare7 Dori,me; Amenox2x); \x8catire7 LatozemoXjLorY\xabe(..M\xe9\r\n
+18:50:37.017955 BRK 63 -55 7.5000000000 Dori me interimo; Adapare7 Dori,me; Amenoxrx); \x8fatire7 Latozemo;jLorY\xabe(...\xe9\r\n
+18:50:40.508953 BRK 59 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057"LatozemoXjLorY\xabe(..Mc\r\n
+18:50:43.989040 BRK 59 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catir\x057"LatozemoX\xeaDorY\xabe(..M\xe3\r\n
+18:50:47.476107 BRK 62 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catire7 Latozemo;jDorY\xabe(..M\xe9\r\n
+18:50:50.957117 BRK 61 -55 8.2500000000 Dori me interimo; Adapare; Dori me; Ameno\x18rx); \x8fatir\x057!LaDozemoX\xeaDorY\xabe(..Mi\r\n
+18:50:54.438209 BRK 65 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x89atire; Latozemo;jDorY\xfbe(...\xe9\r\n
+18:50:57.929218 BRK 57 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp); \x89atir\x057!Latozemoh\xeaEorY\xaba(..Mi\r\n
+18:51:01.410321 BRK 63 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x89atire7 Latozemo8*@orY\xabe(..-\xe9\r\n
+18:51:04.891361 BRK 59 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtibe7 LatozemoXjLorY\xabe(..-\xe9\r\n
+18:51:08.380744 BRK 62 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8catir\x05; Lauozemo;*DorYke(...\xe9\r\n
+18:51:11.862470 BRK 62 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtire; Latozemo;jDorYke(..-\xe9\r\n
+18:51:15.348504 BRK 59 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8c\xe1tibe7 Latozemo;*@orY\xabm(..-\xe9\r\n
+18:51:18.829497 BRK 58 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8cqtir\x057 Latozemo\xf8jDorY\xaba(..M\xe9\r\n
+18:51:22.309557 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori me; AmenoHrp);\x10\x8catir\x057!LatozemoX\xeaDorY\xab\xe5(.~M\xa9\r\n
+18:51:25.796620 BRK 62 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; Amenox2x); \x8catire7 LatozemoX\xeaLorY\xabe(..-\xe9\r\n
+18:51:29.277643 BRK 64 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); \x8catirf7!Latozemo;jDorYke(...\xe9\r\n
+18:51:32.768699 BRK 64 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catir\x05; Latozemo;*LorYke(...\xe9\r\n
+18:51:36.245778 BRK 55 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x057 LaDozem\xff8\xeaLorY\xaba(.~(\xe9\r\n
+18:51:39.736823 BRK 54 -55 7.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx);\x10\x8cqtiB\x057"LaDozemoX\xeaEorY\xabe(..Mi\r\n
+18:51:43.216871 BRK 61 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catire7 LatozemoXjLorY\xabe(..M\xe5\r\n
+18:51:46.697949 BRK 59 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8catir\x057 LatozemohjEorY\xabe(.\x1eMi\r\n
+18:51:50.188947 BRK 59 -55 8.2500000000 Dori me interimo; Adapare; Dori me; \xe4meno\x18rp);\x10\x89atir\x057!LatozemoXjDorY\xabe(..Mi\r\n
+18:51:53.666067 BRK 65 -55 7.0000000000 Dori me interimo; Adapare; Dori me; \xe1ienoHrx); \x8catire; Latozemo;*DorY\xabe(...\xe9\r\n
+18:51:57.157056 BRK 57 -55 8.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catir\x057 LaDozemoXjEorY\xabe(..Mc\r\n
+18:52:00.638149 BRK 56 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8fatir\x057!LaDozemoX\xeaDorY\xabm\xa8..Mi\r\n
+18:52:04.118185 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89!tire7 Latozemo;*DorY\xabe(..-\xe9\r\n
+18:52:07.609218 BRK 57 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89!tir\x057 LaDozemo8\xeaLorY\xaba(.\x1e.\xe9\r\n
+18:52:11.090282 BRK 54 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x);\x10\x8cqtir\x057"LaDozemoXjEorY\xabm\xa8.~M\xe9\r\n
+18:52:14.571366 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8cqtir\x05; Latozemo;\xeaDorY\xabe(...\xe9\r\n
+18:52:18.060656 BRK 60 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x89atire7 Latozemo8jDorY\xabm(..-\xe9\r\n
+18:52:21.542422 BRK 65 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x89atire7 Latozemo;jDorY\xabm(...\xe9\r\n
+18:52:25.022474 BRK 62 -55 7.0000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx); \x8catire7 Latozemo;*DorY\xabe(.\x1e.\xe9\r\n
+18:52:28.513491 BRK 57 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catib\x057 LaDozemoXjDorY\xabe(..-\xe9\r\n
+18:52:31.994587 BRK 56 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtiB\x057"LatozemoX\xeaDorY\xabe(.~Mi\r\n
+18:52:35.475656 BRK 61 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89qtire7 Latozemo;*ForY\xabe(..-\xe9\r\n
+18:52:38.956638 BRK 64 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire7 Latozemo;\xeaLorY\xabe(..-\xe9\r\n
+18:52:42.446745 BRK 65 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x89atire;"Laworemo;jDorYke(..-\xe9\r\n
+18:52:45.927797 BRK 57 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atib\x057 LaDozemoXjDorY\xabe(.\xbeMi\r\n
+18:52:49.417811 BRK 61 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8fatir\x05;"Latozemo;*DorY\xfbe(..-\xe9\r\n
+18:52:52.897884 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catir\x057 LaDozemoXjEorY\xabe(..M\xa9\r\n
+18:52:56.378930 BRK 62 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); \x8catire7 Latozemo;*ForY\xaba(..-\xe9\r\n
+18:52:59.869984 BRK 54 -55 8.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtiB\x057"LaDozemoXjForY\xabe(..Mi\r\n
+18:53:03.351049 BRK 57 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtib\x057 LatozemoXjLorY\xabd(..-\xe9\r\n
+18:53:06.831086 BRK 59 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catire7 LaDozemoX\xeaLorY\xabe(..-\xe9\r\n
+18:53:10.321091 BRK 63 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire7 Latozemo;*@orY\xabm(..-\xe9\r\n
+18:53:13.800223 BRK 66 -55 7.7500000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); Latire7 Latozemo;zDorYke(.~.\xe9\r\n
+18:53:17.281209 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catir\x057!LatozemoX\xeaDorY\xaba(..Mi\r\n
+18:53:20.771578 BRK 56 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtir\x057!LaDozemoXjDorY\xabe(..-\xe9\r\n
+18:53:24.253296 BRK 58 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057!LaDozemoXjDorY\xabm(..Mi\r\n
+18:53:27.734360 BRK 69 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); Latire; Lat\xafremo;\xeaDorYme(..-\xe9\r\n
+18:53:31.226046 BRK 58 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x85atir\x057!LaDozemoXjDorY\xabm(.~Mi\r\n
+18:53:34.705734 BRK 60 -55 8.0000000000 Dori me interimo; Adapare; Dori me; AmenoHrx); \x89qtib\x057 LatozemohjEorY\xabe(..Mi\r\n
+18:53:38.187537 BRK 58 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8f\xe1tib\x057 Latozemo;\xeaLorY\xabd(..-\xe9\r\n
+18:53:41.677520 BRK 55 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catiB\x057"LaDozemoXjDorY\xabm(.~Me\r\n
+18:53:45.158604 BRK 59 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x89atire7 LatozemoX\xeaLorY\xaba(..M\xe9\r\n
+18:53:48.639677 BRK 64 -55 6.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoH2x); \x8cqtire; Latozemo;jDorY\xabe(...\xe9\r\n
+18:53:52.126701 BRK 62 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catire7 Latozemo;*EorY\xabe(...\xe9\r\n
+18:53:55.612766 BRK 62 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x89!tire7 LatozemoXjForY\xaba(...\xe9\r\n
+18:53:59.089766 BRK 64 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89atire; Latozemo;\xeaDorY\xabe(..-\xe9\r\n
+18:54:02.579904 BRK 67 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire= Lat\xafremo;zDorYhe(.~.\xe9\r\n
+18:54:06.060867 BRK 63 -55 6.7500000000 Dori me interimo; Adapare; Dori me; Ameno\x18rx); \x8catibe7 Latozemo;\xeaLorY\xaba(...\xe9\r\n
+18:54:09.541977 BRK 63 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; Amenox2x);\x10\x8cqtir\x05; Latozemo;jDorYkm(...\xe9\r\n
+18:54:13.028976 BRK 58 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atir\x057 LaDozemoX\xeaEorY\xabe(..Mi\r\n
+18:54:16.518076 BRK 65 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire; Latozemo;jDorY\xaba(..-\xe9\r\n
+18:54:19.999145 BRK 65 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catire; Latozemo;*DorYkm(...\xe9\r\n
+18:54:23.486196 BRK 62 -56 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atire; Latozemo;*ForY\xabe(..-\xe9\r\n
+18:54:26.968348 BRK 58 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89qtir\x057 LatozemohjEorY\xabe(.~Mi\r\n
+18:54:30.450591 BRK 58 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catiB\x057"LaDozemoX\xeaLorY\xabe(..Mi\r\n
+18:54:33.937260 BRK 62 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catibe7 Latozemo8jDorY\xabe(.\xbeM\xe9\r\n
+18:54:37.418346 BRK 62 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x89atir\x057 Latozemo;jDorYke(...\xe9\r\n
+18:54:40.904382 BRK 60 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89atir\x057 LaDozemoh\xeaEorY\xabe(..-\xe9\r\n
+18:54:44.385427 BRK 64 -55 6.5000000000 Dori me interimo; Adapare; Dori me; Ameno\x18rx); \x8datibe; Latozemo;*LorY\xabe(..-\xe9\r\n
+18:54:47.870524 BRK 60 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8catir\x057 Latozemoh\xeaEorY\xabe(..Mi\r\n
+18:54:51.351546 BRK 66 -55 8.2500000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); Latire= Latozemo;zDorYke(..-\xe9\r\n
+18:54:54.837573 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LaDozemoX\xeaLorY\xabm(.~Mi\r\n
+18:54:58.318643 BRK 64 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x89atire; Latozemo;\xeaDorYkm(...\xe9\r\n
+18:55:01.808672 BRK 59 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catir\x057!LatozemoX\xeaDorY\xabe(..Mi\r\n
+18:55:05.289720 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x);\x10\x8catir\x057 LaDozemohjEorY\xabe(.~Mi\r\n
+18:55:08.770789 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x89!tir\x057 LatozemoX\xeaDorY\xaba(..M\xe9\r\n
+18:55:12.261812 BRK 60 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x89atire7 Latozemo8jLorY\xabd(..-\xe9\r\n
+18:55:15.742894 BRK 65 -55 6.7500000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); \x89atire7 Latozemo;jDorY\xabe(..-\xe9\r\n
+18:55:19.222925 BRK 58 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LaDozemoX\xeaLorY\xabe(.~M\xe9\r\n
+18:55:22.714021 BRK 63 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8catibe; Latozemo;*DorY\xfbe(...\xe9\r\n
+18:55:26.192354 BRK 60 -55 6.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catire7 Latozemo;*@orY\xabe(..-\xe9\r\n
+18:55:29.684112 BRK 59 -55 8.2500000000 Dori me interimo; Adapare; Dori me; Deeno\x18rx); \x89atir\x057!LatozemohjEorY\xabe(..Mc\r\n
+18:55:33.165140 BRK 67 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); Latire= Lat\xafremo;zDorYie(...\xe9\r\n
+18:55:36.652210 BRK 63 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x89atir\x05; Latozemo;jDorYkm(...\xe9\r\n
+18:55:40.133185 BRK 54 -55 8.2500000000 Dori me interimo; Adapare; Dor\t me; Deeno\x18rp);\x10\x89atib\x057 Latozemoh\xeaEorY\xabah..Mi\r\n
+18:55:43.614316 BRK 60 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LatozemohjEorY\xabe(..M\xe3\r\n
+18:55:47.095397 BRK 60 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x);\x10\x8catib\x057 Latozemo8*LorY\xabe(...\xe9\r\n
+18:55:50.582399 BRK 59 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atire7 Latozemo8*@orY\xaba(..M\xe9\r\n
+18:55:54.072429 BRK 59 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LaDozemoX\xeaDorY\xabe(.\x1eM\xe9\r\n
+18:55:57.548729 BRK 60 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x89atir\x057 LatozemoX\xeaLorY\xabm(..-\xe9\r\n
+18:56:01.040536 BRK 68 -55 8.5000000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire7 Latoremo;zDorYke(...\xe9\r\n
+18:56:04.520593 BRK 57 -55 8.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx); \x8fatir\x057 LaDozemoXjEorY\xabe(.\x1eMi\r\n
+18:56:08.000612 BRK 65 -55 7.5000000000 Dori me interimo; Adapare7 Dori me; Ameno\x18rx); \x8catire; Latozemo;*DorY\xabe(..-\xe9\r\n
+18:56:11.491692 BRK 57 -55 8.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catir\x057 LaDozemoX\xeaEorY\xaba(..M\xa5\r\n
+18:56:14.972702 BRK 57 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x89atir\x057 LaDozemohjEorY\xabm(.\x1eM\xe3\r\n
+18:56:18.458792 BRK 70 -55 6.5000000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); Latire= Lat\xafremo;pDorYme(...)\r\n
+18:56:21.939823 BRK 58 -55 6.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8fAtibe7 LatozemoXjDorY\xaba(..-\xe9\r\n
+18:56:25.419911 BRK 67 -55 7.0000000000 Dori me interimo; Adapare; Dori me; Amenox2x); \x8catire; Latozemo;*DorY\xabd(...\xe9\r\n
+18:56:28.910946 BRK 61 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x8catire7!Latozemo;*DorYkm(..-\xe9\r\n
+18:56:32.390965 BRK 65 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x8catire; Latozemo;\xeaLorYke(..-\xe9\r\n
+18:56:35.876982 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057 LatozemoXjDorY\xabe(.\xbeM\xe9\r\n
+18:56:39.357029 BRK 70 -55 5.7500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); Latire= Lat\xafremo;\xe0Dorime(...\xe9\r\n
+18:56:42.847147 BRK 62 -56 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catire7 LatozemoXjDorY\xabe(..-\xe9\r\n
+18:56:46.329124 BRK 64 -55 6.7500000000 Dori me interimo; Adapare; Dori me; \xe1menoH2p);\x10\x8catire; Latozemo;*DorY\xabe(..-\xe9\r\n
+18:56:49.810227 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; Amenoxrx); \x8c\xe1tire; Lawozemo;*DorY\xabe(..-\xe9\r\n
+18:56:56.781293 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atire; Latozemo;jDorYkm(..-\xe9\r\n
+18:57:00.266380 BRK 61 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtire; Latozemo;\xeaLorY\xabm(..-\xe9\r\n
+18:57:03.747408 BRK 64 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; Amenox2x); \x89!tibe; Latozemo;*DorY\xaba(...\xe9\r\n
+18:57:10.716780 BRK 60 -55 5.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89atir\x057!Latozemo;jDorY\xaba(..M\xe9\r\n
+18:57:14.198587 BRK 60 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89!tir\x05; Latozemo;jDorYkm(..-\xe9\r\n
+18:57:17.685587 BRK 60 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8catib\x057 LatozemoXjLorY\xabe(..-\xe9\r\n
+18:57:21.172663 BRK 62 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8catir\x057 Latozemo;\xeaLorYke(...\xe9\r\n
+18:57:24.653685 BRK 63 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catire; Latozemo;jDorYke(..-\xe9\r\n
+18:57:28.133740 BRK 61 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1menoH2x); \x8fatir\x057 LatozemoXjEorY\xabe(..-\xe9\r\n
+18:57:31.624777 BRK 57 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtir\x057"LatozemoXjDorY\xabe(..M\xe9\r\n
+18:57:35.105873 BRK 58 -55 7.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8datir\x057 LaDozemoXjDorY\xabe(.\x1eM\xe3\r\n
+18:57:38.585903 BRK 54 -55 8.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catib\x057 LaDozemoXjLorY\xabm(.~Mc\r\n
+18:57:42.076908 BRK 62 -55 6.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x89atire7 Latozemo;*DorY\xabm(..-\xe9\r\n
+18:57:45.558024 BRK 57 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp); \x85atib\x057 LaDozemoXjLorY\xabe(..M\xa3\r\n
+18:57:49.038045 BRK 59 -55 8.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoH2x); \x8catir\x057!LatozemoXjLorY\xabe(..Mi\r\n
+18:57:52.528111 BRK 59 -55 8.2500000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx);\x10\x8catir\x057 LatozemoXjDorY\xabe(..M\xa3\r\n
+18:57:56.003162 BRK 60 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x05; Lauozemo;*DorYkm(..-\xe9\r\n
+18:57:59.493475 BRK 54 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp);\x10\x8catiB\x057(LaDozemoX\xeaEorY\xabe(.~M\xa9\r\n
+18:58:02.974281 BRK 56 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catir\x057 LaDozemoXjLorY\xabm(..M\xe9\r\n
+18:58:06.463613 BRK 62 -55 6.0000000000 Dori me interimo; Adapare; Dori me; \xe4meno\x18rx); \x8fatir\x057!Latozemo;jDorY\xabe(..-\xe9\r\n
+18:58:09.945307 BRK 69 -55 7.5000000000 Dori me interimo; Adapare; Dori me; \xe1menox2x); Latire= Lat\xafremo;pDorYme(...\xe9\r\n
+18:58:13.426405 BRK 59 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catibe7 Latozemo;*ForY\xaba(..-\xe9\r\n
+18:58:16.916454 BRK 61 -55 6.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8catire7 LatozemoX\xeaLorY\xabe(..-\xe9\r\n
+18:58:20.396518 BRK 57 -55 7.7500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x89qtir\x057 LaDozemoX\xeaDorY\xabm(..M\xe9\r\n
+18:58:23.877495 BRK 75 -55 4.5000000000 Dori me interimo; Adapare; Dori me; Ameno(2x); Latire; Latiremo; Dorime(...\xe9\r\n
+18:58:27.368590 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menoH2x); \x8catibe7 Latozemo;*DorY\xabe(.\x1e.\xe9\r\n
+18:58:30.849629 BRK 59 -55 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catire7 LaDovemoXjDorY\xaba(..-\xe9\r\n
+18:58:34.330719 BRK 60 -56 6.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8cqtir\x057 LatozemoXjDorY\xabe(..M\xe5\r\n
+18:58:37.820705 BRK 56 -55 6.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x89!tir\x057 LaDozemo8jLorY\xabd(..-\xe9\r\n
+18:58:41.301774 BRK 64 -56 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1menox2x); \x8catire; Latozemo;jDorYke(.\xbe.\xe9\r\n
+18:58:44.783861 BRK 63 -55 6.5000000000 Dori me interimo; Adapare; Dori me; \xe1menoHrx); \x8catibe7 Latozemo;*DorY\xabe(..-\xe9\r\n
+18:58:48.265898 BRK 60 -55 6.7500000000 Dori me interimo; Adapare7 Dori,me; \xe1menoHrx);\x10\x8catire7 Latozemo;*LorY\xabe(..-\xe9\r\n
+18:58:51.755967 BRK 57 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe4ieno\x18rp);@\x89!tir\x057!LatozemoXjDorY\xabe(..Mi\r\n
+18:58:55.236941 BRK 54 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x89!tib\x057 LaDozemoX\xeaEorY\xabe(.~M\xe5\r\n
+18:58:58.718047 BRK 58 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1menoHrx); \x8fatir\x057 LaDozemoXjDorY\xabe(.~Mi\r\n
+18:59:02.204113 BRK 55 -55 7.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx); \x8cqtiB\x057"LaDozemoX\xeaLorY\xabe(.\x1eM\xa3\r\n
+18:59:05.684159 BRK 64 -55 7.0000000000 Dori me interimo; Adapare7 Dori,me; Amenox2x); \x8datir\x05; Latozemo;*DorYke(..-\xe9\r\n
+18:59:09.174210 BRK 59 -55 6.5000000000 Dori me interimo; Adapare7 Dori,me; \xe1meno\x18rx);\x10\x89qtire7 Latozemo;\xeaLorY\xabe(..M\xe9\r\n
+18:59:12.655269 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catire7 Latozemo8jDorY\xabd(...\xe9\r\n
+18:59:16.145259 BRK 57 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtir\x057!LaDozemoX\xeaDorY\xabe(..M\xe5\r\n
+18:59:19.625310 BRK 58 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catire7!LatozemoX\xeaLorY\xabe(.~M\xe9\r\n
+18:59:23.105374 BRK 55 -55 8.2500000000 Dori me interimo; Adapare7 Dori,mm; \xe1meno\x18rx);\x10\x8fatir\x057 LaDozemoXjDorY\xabm\x08..Mi\r\n
+18:59:26.596436 BRK 63 -55 7.2500000000 Dori me interimo; Adapare; Dori,me; \xe1menox2x); \x8c!tire; Latozemo;jLorYke(.\x1e.\xe9\r\n
+18:59:30.077921 BRK 58 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8cqtire7 LatozemoXjForY\xabe(..M\xe9\r\n
+18:59:33.557495 BRK 58 -55 8.2500000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8catir\x057 LaDozemoXjEorY\xabe(..Mc\r\n
+18:59:37.043572 BRK 54 -55 7.5000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx);\x10\x8catir\x057!LaDozemoXjLorY\xaba(.~Mi\r\n
+18:59:40.524631 BRK 61 -55 7.0000000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atir\x05; Latozemo;*DorYkm(..-\xe9\r\n
+18:59:44.014697 BRK 64 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx); \x8fatire; Latozemo;jDorYke(..-\xe9\r\n
+18:59:47.500677 BRK 56 -55 7.7500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x8catib\x057 LaDozemoX\xeaDorY\xabm(.~M\xa3\r\n
+18:59:50.980748 BRK 56 -55 5.5000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rx);\x10\x8cqtir\x057!LaDozemoX\xeaLorY\xabe(..M\xe9\r\n
+18:59:54.467836 BRK 60 -55 6.2500000000 Dori me interimo; Adapare; Dori,mm; \xe1meno\x18rx); \x89atire7!LaDozemoXjDorY\xabe(...\xe9\r\n
+18:59:57.948835 BRK 62 -55 7.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrx);\x10\x8catir\x05; Latozemo;jDorYke(..-\xe9\r\n
+19:00:01.429977 BRK 57 -55 8.0000000000 Dori me interimo; Adapare; Dori me; \xe4ieno\x18rp);\x10\x8catir\x057 LatozemoXjDorY\xaba(.~M\xa5\r\n
+19:00:04.920951 BRK 56 -55 8.0000000000 Dori me interimo; Adapare; Dori,me; \xe1menoHrp); \x8fqtir\x057!LaDozemoX\xeaDorY\xaba(..M\xa5\r\n
+19:00:08.397005 BRK 56 -55 6.0000000000 Dori me interimo; Adapare; Dori,me; \xe1meno\x18rp);\x10\x8catir\x057!LaDozemoXjLorY\xaba(...\xe9\r\n
