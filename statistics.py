@@ -119,7 +119,7 @@ with open("../TCC-II-logs/test_output", "w+") as f:
 		if(auxDist!=lt[1]):
 			f.write("\n\n\n\n\n\n\n\n-------------------------------------------\n")
 			f.write("-------------------------------------------\n")
-			f.write("             || Distance: "+str(lt[1])+" cms ||\n")
+			f.write("             || Distance: "+str(lt[1])+" cm ||\n")
 			f.write("-------------------------------------------\n")
 			f.write("-------------------------------------------\n")
 			auxDist = lt[1]
@@ -178,7 +178,7 @@ for x in nDistances:
 					plt.errorbar(eixoX, eixoY, color = SFColors[xsf], yerr=errorBars, ls="None", marker = "_", uplims=True, lolims=True)
 		plt.ylabel(tim[1], labelpad=5)
 		plt.xlabel("Transmission Power")
-		plt.title("Distance: "+str(x)+" cms")
+		plt.title("Distance: "+str(x)+" cm")
 		leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure,  title = "SF")
 		leg.get_frame().set_alpha(0.5)
 		plt.savefig(filePath+str(fileN)+".png", bbox_inches="tight")
