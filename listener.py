@@ -60,7 +60,9 @@ class ValidMessage:
 		return self.__validMessage==msg2  
 validMessage = ValidMessage() 
 
-
+if not os.path.exists('../TCC-II-logs'):
+    os.makedirs('../TCC-II-logs')
+    
 def writeToLog(msg):
 	with open("../TCC-II-logs/log", "a") as f:
 		f.write(date.today().strftime("%Y-%m-%d_")+"|"+datetime.now().strftime("%H:%M:%S.%f")+"  ---->  "+msg+"\n")
