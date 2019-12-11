@@ -70,8 +70,28 @@ def makeStatistics(pt):
 	vRssi, vSnr = makeVStatistics(ptsplit, rssi, snr)
 	return rssi, snr, n, nPackets, tx,sf, distance, vRssi, vSnr, brkPackages
 
+class ValsByDistance:
+	__valsByDist = {"RSSI":None, "SNR":None, "PDR":None}
+	def add(self, rsp, dist, sf, val):
+		sf-=7
+		if(rsp=="RSSI" or rsp=="SNR" or rsp=="PDR"):
+			if(self.__valsByDist[rsp]==None):
+				self.__valsByDist[rsp]={}
+			if(dist not in self.__valsByDist[rsp]):
+				self.__valsByDist[rsp][dist]=[[0.0,0],[0.0,0],[0.0,0],[0.0,0],[0.0,0],[0.0,0]]
+			self.__valsByDist[rsp][dist][sf][1]+=1
+			self.__valsByDist[rsp][dist][sf][0]+=float(val)
+	def getPlotCopy(self):
+		return self.__valsByDist
+		cpSelf = {"RSSI":{}, "SNR":{}, "PDR":{}}
+		for ks in self.__valsByDist.keys():
+			for ds in self.__valsByDist[ks]:
+				cpSelf[ks][ds]=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+				for rn in range(0,7):
+					cpSelf[ks][ds][rn] = 0.0 if self.__valsByDist[ks][ds][rn][1]==0 else self.__valsByDist[ks][ds][rn][0]/self.__valsByDist[ks][ds][rn][1]
+		return cpSelf
 
-
+valsByDist = ValsByDistance()
 directoryList = []
 for i,j,y in os.walk('testes'):
 	if(str(i).count('/')==2):
@@ -167,6 +187,8 @@ for pth in directoryList:
 	SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'k', 'm', 'y']
 
 	prm = [[2, "Received Signal Strength Indicator", 20, 6,-130.0, 0.0, "RSSI"],[3, "Signal to Noise Ratio", 8, 7,-15, 15, "SNR"], [9, "Packet Delivery Ratio", 20, -1,0, 100, "PDR"]]
+	
+	
 	for x in nDistances:
 		for tim in prm:
 			plt.clf()
@@ -178,6 +200,7 @@ for pth in directoryList:
 				for item in testes:
 					if(item[1]==str(x) and item[8]==str(xsf)):
 						eixoX.append(item[0])
+						valsByDist.add(tim[6],x,xsf, float(item[tim[0]]))
 						if(tim[3]!=-1):
 							errorBars.append(float(item[tim[3]])/2)
 						if(tim[0]==9):
@@ -198,3 +221,6 @@ for pth in directoryList:
 			leg.get_frame().set_alpha(0.5)
 			plt.savefig(filePath+str(pth[1]).replace(".", ",")+"("+str(pth[2])+")"+tim[6]+".png", bbox_inches="tight")
 			fileN+=1
+
+print(valsByDist.getPlotCopy())
+
