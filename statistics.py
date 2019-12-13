@@ -6,6 +6,11 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import PercentFormatter
 from datetime import date
 
+
+SFColors = ["y","m","k","r","g","b","NULL", 'b', 'g', 'r', 'k', 'm', 'y']
+prm = [[2, "Received Signal Strength Indicator (dBm)", 20, 6,-130.0, 0.0, "RSSI"],[3, "Signal to Noise Ratio (dB)", 8, 7,-15, 15, "SNR"], [9, "Packet Delivery Ratio (%)", 20, -1,0, 100, "PDR"]]
+
+
 def makeVStatistics(ptsplit, rssi, snr):
 	vRssi = vSnr = vRssiCount = vSnrCount = 0
 	firstVal = secondVal = 0
@@ -82,12 +87,11 @@ class ValsByDistance:
 			self.__valsByDist[rsp][dist][sf][1]+=1
 			self.__valsByDist[rsp][dist][sf][0]+=float(val)
 	def getPlotCopy(self):
-		return self.__valsByDist
 		cpSelf = {"RSSI":{}, "SNR":{}, "PDR":{}}
 		for ks in self.__valsByDist.keys():
 			for ds in self.__valsByDist[ks]:
 				cpSelf[ks][ds]=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-				for rn in range(0,7):
+				for rn in range(0,6):
 					cpSelf[ks][ds][rn] = 0.0 if self.__valsByDist[ks][ds][rn][1]==0 else self.__valsByDist[ks][ds][rn][0]/self.__valsByDist[ks][ds][rn][1]
 		return cpSelf
 
@@ -184,11 +188,7 @@ for pth in directoryList:
 	fileN = len(files)
 
 	nDistances = set(item[1] for item in testes)
-	SFColors = ["NULL","NULL","NULL","NULL","NULL","NULL","NULL", 'b', 'g', 'r', 'k', 'm', 'y']
-
-	prm = [[2, "Received Signal Strength Indicator", 20, 6,-130.0, 0.0, "RSSI"],[3, "Signal to Noise Ratio", 8, 7,-15, 15, "SNR"], [9, "Packet Delivery Ratio", 20, -1,0, 100, "PDR"]]
-	
-	
+		
 	for x in nDistances:
 		for tim in prm:
 			plt.clf()
@@ -200,13 +200,14 @@ for pth in directoryList:
 				for item in testes:
 					if(item[1]==str(x) and item[8]==str(xsf)):
 						eixoX.append(item[0])
-						valsByDist.add(tim[6],x,xsf, float(item[tim[0]]))
 						if(tim[3]!=-1):
 							errorBars.append(float(item[tim[3]])/2)
 						if(tim[0]==9):
 							eixoY.append(100.0-(((int(item[5])-int(item[4]))+(int(item[tim[0]])))/int(item[5]))*100.0)
+							valsByDist.add(tim[6],x,xsf, float(100.0-(((int(item[5])-int(item[4]))+(int(item[tim[0]])))/int(item[5]))*100.0))
 							plt.gca().yaxis.set_major_formatter(PercentFormatter())
 						else:
+							valsByDist.add(tim[6],x,xsf, float(item[tim[0]]))
 							eixoY.append(item[tim[0]])
 						plt.locator_params(axis='y', nbins=tim[2])
 				if(len(eixoX)>0 and len(eixoY)>0):
@@ -215,12 +216,27 @@ for pth in directoryList:
 						plt.errorbar(eixoX, eixoY, color = SFColors[xsf], yerr=errorBars, ls="None", marker = "_", uplims=True, lolims=True)
 			plt.ylabel(tim[1], labelpad=5)
 			plt.ylim(tim[4], tim[5])
-			plt.xlabel("Transmission Power")
+			plt.xlabel("Transmission Power (dBm)")
 			plt.title("Distance: "+str(float(x)/100.0)+" m")
 			leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure,  title = "SF")
 			leg.get_frame().set_alpha(0.5)
 			plt.savefig(filePath+str(pth[1]).replace(".", ",")+"("+str(pth[2])+")"+tim[6]+".png", bbox_inches="tight")
 			fileN+=1
 
-print(valsByDist.getPlotCopy())
+valsDist = valsByDist.getPlotCopy()
+for tim in prm:
+	plt.clf()
+	for xt in range(0,6):
+		vals = []
+		for it in valsDist[tim[6]].keys():
+			vals.append((float(it)/100.0,float(valsDist[tim[6]][it][xt])))
+		vals.sort(key=lambda tup: tup[0]) 
+		plt.plot([i[0] for i in vals], [j[1] for j in vals], color = SFColors[xt], label = str(xt+7), marker = "x")
+	plt.ylabel(tim[1])
+	plt.xlabel("Distance (m)")
+	plt.title(tim[6]+" values by distance")
+	leg = plt.legend(bbox_to_anchor = (1.05, 0.5),bbox_transform = plt.gcf().transFigure,  title = "SF")
+	leg.get_frame().set_alpha(0.5)
+	plt.savefig("../TCC-II-figures/"+tim[6]+".png", bbox_inches="tight")
+
 
